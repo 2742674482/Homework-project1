@@ -1,0 +1,1955 @@
+2021-05-20 18:20:36 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 18:20:38 INFO  StartController:45 - The player1 name is set to {1}, loading game scene
+2021-05-20 18:20:38 INFO  StartController:46 - The player2 name is set to {2}, loading game scene
+2021-05-20 18:20:39 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 18:20:39 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:20:39 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:20:39 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 18:20:40 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 18:20:40 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 18:20:40 INFO  GameController:175 - Moving piece 5 UP
+2021-05-20 18:20:40 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-20 18:20:41 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 18:20:42 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:20:42 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 18:20:42 INFO  GameController:249 - Move: (4,3) -> (3,3)
+2021-05-20 18:20:42 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:20:42 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:20:42 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:20:42 INFO  GameController:249 - Move: (3,3) -> (3,2)
+2021-05-20 18:20:43 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:20:43 INFO  GameController:159 - Click on square (2,2)
+2021-05-20 18:20:43 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 18:20:43 INFO  GameController:249 - Move: (3,2) -> (2,2)
+2021-05-20 18:20:44 INFO  GameController:159 - Click on square (2,2)
+2021-05-20 18:20:44 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 18:20:44 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:20:44 INFO  GameController:249 - Move: (2,2) -> (2,1)
+2021-05-20 18:21:00 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 18:21:02 INFO  StartController:45 - The player1 name is set to {1}, loading game scene
+2021-05-20 18:21:02 INFO  StartController:46 - The player2 name is set to {2}, loading game scene
+2021-05-20 18:21:03 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 18:21:03 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:21:03 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:21:03 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 18:21:04 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:21:04 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 18:21:04 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:21:04 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-20 18:21:05 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 18:21:05 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:21:05 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 18:21:05 INFO  GameController:249 - Move: (4,3) -> (3,3)
+2021-05-20 18:21:05 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:21:06 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 18:21:06 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:21:06 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:21:06 INFO  GameController:249 - Move: (3,3) -> (3,2)
+2021-05-20 18:21:07 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:21:07 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 18:21:07 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:21:07 INFO  GameController:249 - Move: (3,2) -> (3,1)
+2021-05-20 18:21:38 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 18:21:42 INFO  StartController:45 - The player1 name is set to {1}, loading game scene
+2021-05-20 18:21:42 INFO  StartController:46 - The player2 name is set to {2}, loading game scene
+2021-05-20 18:21:43 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 18:21:43 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:21:43 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:21:43 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 18:21:44 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 18:21:44 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 18:21:44 INFO  GameController:175 - Moving piece 5 UP
+2021-05-20 18:21:44 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-20 18:21:45 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 18:21:45 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:21:45 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 18:21:45 INFO  GameController:249 - Move: (4,3) -> (3,3)
+2021-05-20 18:21:45 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:21:46 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:21:46 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:21:46 INFO  GameController:249 - Move: (3,3) -> (3,2)
+2021-05-20 18:21:46 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:21:46 INFO  GameController:159 - Click on square (2,2)
+2021-05-20 18:21:46 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 18:21:46 INFO  GameController:249 - Move: (3,2) -> (2,2)
+2021-05-20 18:21:47 INFO  GameController:159 - Click on square (2,2)
+2021-05-20 18:21:47 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 18:21:47 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:21:47 INFO  GameController:249 - Move: (2,2) -> (2,1)
+2021-05-20 18:22:47 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 18:22:51 INFO  StartController:45 - The player1 name is set to {12}, loading game scene
+2021-05-20 18:22:51 INFO  StartController:46 - The player2 name is set to {1231231}, loading game scene
+2021-05-20 18:22:52 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 18:22:52 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:22:52 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:22:52 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 18:22:53 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 18:22:53 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 18:22:53 INFO  GameController:175 - Moving piece 5 UP
+2021-05-20 18:22:53 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-20 18:22:53 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 18:22:54 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:22:54 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 18:22:54 INFO  GameController:249 - Move: (4,3) -> (3,3)
+2021-05-20 18:22:54 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:22:54 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:22:54 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:22:54 INFO  GameController:249 - Move: (3,3) -> (3,2)
+2021-05-20 18:22:55 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:22:55 INFO  GameController:159 - Click on square (2,2)
+2021-05-20 18:22:55 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 18:22:55 INFO  GameController:249 - Move: (3,2) -> (2,2)
+2021-05-20 18:22:56 INFO  GameController:159 - Click on square (2,2)
+2021-05-20 18:22:56 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 18:22:56 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:22:56 INFO  GameController:249 - Move: (2,2) -> (2,1)
+2021-05-20 18:23:33 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 18:23:37 INFO  StartController:45 - The player1 name is set to {123132}, loading game scene
+2021-05-20 18:23:37 INFO  StartController:46 - The player2 name is set to {1231321}, loading game scene
+2021-05-20 18:23:38 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 18:23:38 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:23:38 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:23:38 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 18:23:39 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 18:23:40 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:23:40 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 18:23:42 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 18:23:42 INFO  GameController:175 - Moving piece 5 UP
+2021-05-20 18:23:42 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-20 18:23:46 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 18:23:46 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:23:46 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 18:23:46 INFO  GameController:249 - Move: (4,3) -> (3,3)
+2021-05-20 18:23:47 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:23:47 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:23:47 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:23:47 INFO  GameController:249 - Move: (3,3) -> (3,2)
+2021-05-20 18:23:48 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:23:48 INFO  GameController:159 - Click on square (2,2)
+2021-05-20 18:23:48 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 18:23:48 INFO  GameController:249 - Move: (3,2) -> (2,2)
+2021-05-20 18:23:49 INFO  GameController:159 - Click on square (2,2)
+2021-05-20 18:23:49 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 18:23:49 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:23:49 INFO  GameController:249 - Move: (2,2) -> (2,1)
+2021-05-20 18:24:19 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 18:24:23 INFO  StartController:45 - The player1 name is set to {1231}, loading game scene
+2021-05-20 18:24:23 INFO  StartController:46 - The player2 name is set to {1231321}, loading game scene
+2021-05-20 18:24:24 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 18:24:24 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:24:24 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:24:24 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 18:24:25 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 18:24:26 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:24:26 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 18:24:26 INFO  GameController:249 - Move: (4,3) -> (3,3)
+2021-05-20 18:24:26 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:24:27 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:24:27 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:24:27 INFO  GameController:249 - Move: (3,3) -> (3,2)
+2021-05-20 18:24:27 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:24:27 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 18:24:27 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:24:27 INFO  GameController:249 - Move: (3,2) -> (3,1)
+2021-05-20 18:24:28 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:24:28 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 18:24:28 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:24:28 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-20 18:25:22 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 18:25:26 INFO  StartController:45 - The player1 name is set to {123414}, loading game scene
+2021-05-20 18:25:26 INFO  StartController:46 - The player2 name is set to {2134241}, loading game scene
+2021-05-20 18:25:27 INFO  GameController:159 - Click on square (0,2)
+2021-05-20 18:25:28 INFO  GameController:159 - Click on square (1,2)
+2021-05-20 18:25:28 INFO  GameController:175 - Moving piece 2 DOWN
+2021-05-20 18:25:28 INFO  GameController:249 - Move: (0,2) -> (1,2)
+2021-05-20 18:25:28 INFO  GameController:159 - Click on square (1,2)
+2021-05-20 18:25:29 INFO  GameController:159 - Click on square (2,2)
+2021-05-20 18:25:29 INFO  GameController:175 - Moving piece 2 DOWN
+2021-05-20 18:25:29 INFO  GameController:249 - Move: (1,2) -> (2,2)
+2021-05-20 18:25:29 INFO  GameController:159 - Click on square (4,0)
+2021-05-20 18:25:30 INFO  GameController:159 - Click on square (3,0)
+2021-05-20 18:25:30 INFO  GameController:175 - Moving piece 4 UP
+2021-05-20 18:25:30 INFO  GameController:249 - Move: (4,0) -> (3,0)
+2021-05-20 18:25:30 INFO  GameController:159 - Click on square (3,0)
+2021-05-20 18:25:31 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 18:25:31 INFO  GameController:175 - Moving piece 4 RIGHT
+2021-05-20 18:25:31 INFO  GameController:249 - Move: (3,0) -> (3,1)
+2021-05-20 18:25:31 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 18:25:32 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:25:32 INFO  GameController:175 - Moving piece 4 RIGHT
+2021-05-20 18:25:32 INFO  GameController:249 - Move: (3,1) -> (3,2)
+2021-05-20 18:25:35 INFO  GameController:276 - java.lang.NullPointerException: Cannot invoke "java.net.URL.toString()" because "in" is null
+2021-05-20 18:26:14 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 18:26:17 INFO  StartController:45 - The player1 name is set to {123}, loading game scene
+2021-05-20 18:26:17 INFO  StartController:46 - The player2 name is set to {1231}, loading game scene
+2021-05-20 18:26:18 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 18:26:18 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:26:18 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:26:18 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 18:26:20 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:26:20 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 18:26:20 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:26:20 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-20 18:26:20 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 18:26:21 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:26:21 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 18:26:21 INFO  GameController:249 - Move: (4,3) -> (3,3)
+2021-05-20 18:26:21 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:26:21 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:26:21 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:26:21 INFO  GameController:249 - Move: (3,3) -> (3,2)
+2021-05-20 18:26:22 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:26:22 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 18:26:22 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:26:22 INFO  GameController:249 - Move: (3,2) -> (3,1)
+2021-05-20 18:26:24 INFO  GameController:276 - java.lang.NullPointerException: Cannot invoke "java.net.URL.toString()" because "in" is null
+2021-05-20 18:27:18 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 18:27:22 INFO  StartController:45 - The player1 name is set to {4321}, loading game scene
+2021-05-20 18:27:22 INFO  StartController:46 - The player2 name is set to {123}, loading game scene
+2021-05-20 18:27:23 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 18:27:23 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:27:23 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:27:23 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 18:27:24 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:27:24 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 18:27:24 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:27:24 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-20 18:27:25 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 18:27:25 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:27:25 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 18:27:25 INFO  GameController:249 - Move: (4,3) -> (3,3)
+2021-05-20 18:27:26 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:27:26 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:27:26 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:27:26 INFO  GameController:249 - Move: (3,3) -> (3,2)
+2021-05-20 18:27:26 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:27:26 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 18:27:26 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:27:26 INFO  GameController:249 - Move: (3,2) -> (3,1)
+2021-05-20 18:27:27 INFO  GameController:276 - java.lang.NullPointerException: Cannot invoke "java.net.URL.toString()" because "in" is null
+2021-05-20 18:28:27 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 18:28:30 INFO  StartController:45 - The player1 name is set to {123414}, loading game scene
+2021-05-20 18:28:30 INFO  StartController:46 - The player2 name is set to {2134342}, loading game scene
+2021-05-20 18:28:31 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 18:28:32 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:28:32 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:28:32 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 18:28:33 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:28:33 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 18:28:33 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:28:33 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-20 18:28:34 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 18:28:34 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:28:34 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 18:28:34 INFO  GameController:249 - Move: (4,3) -> (3,3)
+2021-05-20 18:28:34 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:28:35 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:28:35 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:28:35 INFO  GameController:249 - Move: (3,3) -> (3,2)
+2021-05-20 18:28:35 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:28:36 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 18:28:36 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:28:36 INFO  GameController:249 - Move: (3,2) -> (3,1)
+2021-05-20 18:29:09 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 18:29:13 INFO  StartController:45 - The player1 name is set to {12313}, loading game scene
+2021-05-20 18:29:13 INFO  StartController:46 - The player2 name is set to {123131321}, loading game scene
+2021-05-20 18:29:14 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 18:29:14 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:29:14 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:29:14 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 18:29:14 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:29:15 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 18:29:15 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:29:15 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-20 18:29:15 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 18:29:15 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:29:15 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 18:29:15 INFO  GameController:249 - Move: (4,3) -> (3,3)
+2021-05-20 18:29:16 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:29:16 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:29:16 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:29:16 INFO  GameController:249 - Move: (3,3) -> (3,2)
+2021-05-20 18:29:17 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:29:17 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 18:29:17 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:29:17 INFO  GameController:249 - Move: (3,2) -> (3,1)
+2021-05-20 18:31:22 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 18:31:26 INFO  StartController:45 - The player1 name is set to {41213}, loading game scene
+2021-05-20 18:31:26 INFO  StartController:46 - The player2 name is set to {21312}, loading game scene
+2021-05-20 18:31:27 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 18:31:27 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:31:27 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:31:27 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 18:31:27 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:31:28 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 18:31:28 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:31:28 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-20 18:31:28 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 18:31:28 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:31:28 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 18:31:28 INFO  GameController:249 - Move: (4,3) -> (3,3)
+2021-05-20 18:31:29 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:31:29 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:31:29 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:31:29 INFO  GameController:249 - Move: (3,3) -> (3,2)
+2021-05-20 18:31:29 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:31:30 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 18:31:30 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:31:30 INFO  GameController:249 - Move: (3,2) -> (3,1)
+2021-05-20 18:38:11 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 18:38:14 INFO  StartController:45 - The player1 name is set to {123131}, loading game scene
+2021-05-20 18:38:14 INFO  StartController:46 - The player2 name is set to {12313}, loading game scene
+2021-05-20 18:38:15 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 18:38:15 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:38:15 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:38:15 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 18:38:16 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:38:16 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 18:38:16 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:38:16 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-20 18:38:17 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 18:38:17 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:38:17 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 18:38:17 INFO  GameController:249 - Move: (4,3) -> (3,3)
+2021-05-20 18:38:17 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:38:17 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:38:17 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:38:17 INFO  GameController:249 - Move: (3,3) -> (3,2)
+2021-05-20 18:38:18 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:38:18 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 18:38:18 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:38:18 INFO  GameController:249 - Move: (3,2) -> (3,1)
+2021-05-20 18:39:10 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 18:39:14 INFO  StartController:45 - The player1 name is set to {2314}, loading game scene
+2021-05-20 18:39:14 INFO  StartController:46 - The player2 name is set to {54353425}, loading game scene
+2021-05-20 18:39:15 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 18:39:15 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:39:15 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:39:15 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 18:39:15 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 18:39:16 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 18:39:16 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 18:39:16 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-20 18:39:16 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 18:39:16 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:39:16 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 18:39:16 INFO  GameController:249 - Move: (4,3) -> (3,3)
+2021-05-20 18:39:17 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 18:39:17 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:39:17 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:39:17 INFO  GameController:249 - Move: (3,3) -> (3,2)
+2021-05-20 18:39:18 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 18:39:18 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 18:39:18 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 18:39:18 INFO  GameController:249 - Move: (3,2) -> (3,1)
+2021-05-20 19:04:35 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 19:04:38 INFO  StartController:45 - The player1 name is set to {1231}, loading game scene
+2021-05-20 19:04:38 INFO  StartController:46 - The player2 name is set to {1231321}, loading game scene
+2021-05-20 19:04:39 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 19:04:39 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 19:04:39 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 19:04:39 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 19:04:40 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 19:04:42 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 19:04:43 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 19:04:43 INFO  GameController:175 - Moving piece 5 UP
+2021-05-20 19:04:43 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-20 19:04:44 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 19:04:44 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 19:04:44 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 19:04:44 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-20 19:04:45 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 19:04:45 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 19:04:45 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 19:04:45 INFO  GameController:249 - Move: (4,3) -> (3,3)
+2021-05-20 19:04:47 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 19:04:47 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 19:04:47 INFO  GameController:175 - Moving piece 1 UP
+2021-05-20 19:04:47 INFO  GameController:249 - Move: (2,1) -> (1,1)
+2021-05-20 19:04:48 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 19:04:48 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 19:04:48 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 19:04:48 INFO  GameController:249 - Move: (3,3) -> (3,2)
+2021-05-20 19:04:49 INFO  GameController:159 - Click on square (2,2)
+2021-05-20 19:04:49 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 19:04:49 INFO  GameController:159 - Click on square (2,2)
+2021-05-20 19:04:49 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 19:04:49 INFO  GameController:249 - Move: (3,2) -> (2,2)
+2021-05-20 19:04:50 INFO  GameController:159 - Click on square (2,2)
+2021-05-20 19:04:50 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 19:04:50 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 19:04:50 INFO  GameController:249 - Move: (2,2) -> (2,1)
+2021-05-20 19:07:20 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 19:07:23 INFO  StartController:45 - The player1 name is set to {123}, loading game scene
+2021-05-20 19:07:23 INFO  StartController:46 - The player2 name is set to {4121}, loading game scene
+2021-05-20 19:07:24 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 19:07:24 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 19:07:24 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 19:07:24 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 19:07:25 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 19:07:26 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 19:07:26 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 19:07:26 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-20 19:07:26 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 19:07:26 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 19:07:26 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 19:07:26 INFO  GameController:249 - Move: (4,3) -> (3,3)
+2021-05-20 19:07:27 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 19:07:28 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 19:07:28 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 19:07:28 INFO  GameController:249 - Move: (3,3) -> (3,2)
+2021-05-20 19:07:28 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 19:07:29 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 19:07:29 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 19:07:29 INFO  GameController:249 - Move: (3,2) -> (3,1)
+2021-05-20 19:14:04 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 19:14:08 INFO  StartController:45 - The player1 name is set to {234214}, loading game scene
+2021-05-20 19:14:08 INFO  StartController:46 - The player2 name is set to {2532523}, loading game scene
+2021-05-20 19:14:09 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 19:14:09 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 19:14:09 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 19:14:09 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 19:14:12 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 19:14:12 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 19:14:12 INFO  GameController:175 - Moving piece 6 UP
+2021-05-20 19:14:12 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-20 19:14:12 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 19:14:13 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 19:14:13 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 19:14:13 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-20 19:14:13 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 19:14:13 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 19:14:13 INFO  GameController:175 - Moving piece 5 UP
+2021-05-20 19:14:13 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-20 19:14:13 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 19:14:14 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 19:14:14 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 19:14:14 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-20 19:14:14 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 19:14:15 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 19:14:15 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 19:14:15 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-20 19:22:50 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 19:22:57 INFO  StartController:45 - The player1 name is set to {12313}, loading game scene
+2021-05-20 19:22:57 INFO  StartController:46 - The player2 name is set to {1231312}, loading game scene
+2021-05-20 19:22:58 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 19:22:58 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 19:22:58 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 19:22:58 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 19:22:59 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 19:22:59 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 19:22:59 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 19:22:59 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-20 19:23:00 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 19:23:00 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 19:23:00 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 19:23:00 INFO  GameController:249 - Move: (4,3) -> (3,3)
+2021-05-20 19:23:00 INFO  GameController:159 - Click on square (3,3)
+2021-05-20 19:23:01 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 19:23:01 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 19:23:01 INFO  GameController:249 - Move: (3,3) -> (3,2)
+2021-05-20 19:23:01 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 19:23:01 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 19:23:01 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 19:23:01 INFO  GameController:249 - Move: (3,2) -> (3,1)
+2021-05-20 19:38:46 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 19:38:49 INFO  StartController:45 - The player1 name is set to {12313}, loading game scene
+2021-05-20 19:38:49 INFO  StartController:46 - The player2 name is set to {1231232}, loading game scene
+2021-05-20 19:38:50 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 19:38:50 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 19:38:50 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 19:38:50 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 19:38:50 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 19:38:51 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 19:38:51 INFO  GameController:175 - Moving piece 5 UP
+2021-05-20 19:38:51 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-20 19:38:52 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 19:38:52 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 19:38:52 INFO  GameController:175 - Moving piece 6 LEFT
+2021-05-20 19:38:52 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-20 19:38:53 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 19:38:53 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 19:38:53 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 19:38:53 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-20 19:38:54 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 19:38:54 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 19:38:54 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 19:38:54 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-20 19:38:54 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 19:38:55 INFO  GameController:159 - Click on square (2,2)
+2021-05-20 19:38:55 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 19:38:55 INFO  GameController:249 - Move: (3,2) -> (2,2)
+2021-05-20 19:38:56 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 19:38:56 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 19:38:56 INFO  GameController:175 - Moving piece 5 UP
+2021-05-20 19:38:56 INFO  GameController:249 - Move: (3,1) -> (2,1)
+2021-05-20 19:38:56 INFO  GameController:159 - Click on square (2,2)
+2021-05-20 19:38:57 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 19:38:57 INFO  GameController:175 - Moving piece 7 DOWN
+2021-05-20 19:38:57 INFO  GameController:249 - Move: (2,2) -> (3,2)
+2021-05-20 19:38:57 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 19:38:58 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 19:38:58 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 19:38:58 INFO  GameController:249 - Move: (3,2) -> (3,1)
+2021-05-20 21:48:44 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 21:48:51 INFO  StartController:45 - The player1 name is set to {12}, loading game scene
+2021-05-20 21:48:51 INFO  StartController:46 - The player2 name is set to {321}, loading game scene
+2021-05-20 21:48:51 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 21:48:52 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 21:48:52 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 21:48:52 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 21:48:53 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 21:48:53 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 21:48:53 INFO  GameController:175 - Moving piece 5 UP
+2021-05-20 21:48:53 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-20 21:48:54 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 21:48:55 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 21:48:55 INFO  GameController:175 - Moving piece 5 UP
+2021-05-20 21:48:55 INFO  GameController:249 - Move: (3,1) -> (2,1)
+2021-05-20 21:48:55 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 21:48:56 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 21:48:56 INFO  GameController:175 - Moving piece 6 UP
+2021-05-20 21:48:56 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-20 21:48:56 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 21:48:57 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 21:48:57 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 21:48:57 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-20 21:48:57 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 21:48:57 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 21:48:57 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 21:48:57 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-20 21:48:58 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 21:48:58 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 21:48:58 INFO  GameController:175 - Moving piece 7 UP
+2021-05-20 21:48:58 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-20 21:49:48 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 21:49:52 INFO  StartController:45 - The player1 name is set to {312}, loading game scene
+2021-05-20 21:49:52 INFO  StartController:46 - The player2 name is set to {12313}, loading game scene
+2021-05-20 21:49:52 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 21:49:53 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 21:49:53 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 21:49:53 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 21:49:55 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 21:49:55 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 21:49:55 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 21:49:55 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-20 21:49:56 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 21:49:56 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 21:49:56 INFO  GameController:175 - Moving piece 5 UP
+2021-05-20 21:49:56 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-20 21:49:56 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 21:49:57 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 21:49:57 INFO  GameController:175 - Moving piece 6 UP
+2021-05-20 21:49:57 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-20 21:49:57 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 21:49:57 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 21:49:57 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 21:49:57 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-20 21:49:58 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 21:49:58 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 21:49:58 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 21:49:58 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 21:49:58 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-20 22:05:11 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 22:05:14 INFO  StartController:45 - The player1 name is set to {1231}, loading game scene
+2021-05-20 22:05:14 INFO  StartController:46 - The player2 name is set to {3213123}, loading game scene
+2021-05-20 22:05:15 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 22:05:15 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 22:05:15 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 22:05:15 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 22:05:16 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 22:05:17 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 22:05:17 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 22:05:17 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-20 22:05:18 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 22:05:18 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 22:05:18 INFO  GameController:175 - Moving piece 5 UP
+2021-05-20 22:05:18 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-20 22:05:18 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 22:05:18 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 22:05:18 INFO  GameController:175 - Moving piece 6 UP
+2021-05-20 22:05:18 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-20 22:05:19 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 22:05:19 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 22:05:19 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 22:05:19 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-20 22:05:20 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 22:05:20 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 22:05:21 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 22:05:21 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 22:05:21 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-20 22:05:23 INFO  GameController:277 - java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+2021-05-20 22:10:42 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-20 22:10:46 INFO  StartController:45 - The player1 name is set to {123124}, loading game scene
+2021-05-20 22:10:46 INFO  StartController:46 - The player2 name is set to {124142}, loading game scene
+2021-05-20 22:10:47 INFO  GameController:159 - Click on square (0,1)
+2021-05-20 22:10:47 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 22:10:47 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 22:10:47 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-20 22:10:48 INFO  GameController:159 - Click on square (1,1)
+2021-05-20 22:10:49 INFO  GameController:159 - Click on square (2,1)
+2021-05-20 22:10:49 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-20 22:10:49 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-20 22:10:50 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 22:10:50 INFO  GameController:159 - Click on square (3,1)
+2021-05-20 22:10:50 INFO  GameController:175 - Moving piece 5 UP
+2021-05-20 22:10:50 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-20 22:10:50 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 22:10:50 INFO  GameController:159 - Click on square (3,2)
+2021-05-20 22:10:50 INFO  GameController:175 - Moving piece 6 UP
+2021-05-20 22:10:50 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-20 22:10:51 INFO  GameController:159 - Click on square (4,3)
+2021-05-20 22:10:51 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 22:10:51 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 22:10:51 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-20 22:10:52 INFO  GameController:159 - Click on square (4,2)
+2021-05-20 22:10:52 INFO  GameController:159 - Click on square (4,1)
+2021-05-20 22:10:52 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-20 22:10:52 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-20 22:10:53 INFO  GameController:277 - java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+2021-05-21 01:16:58 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 01:17:01 INFO  StartController:45 - The player1 name is set to {1231}, loading game scene
+2021-05-21 01:17:01 INFO  StartController:46 - The player2 name is set to {41231}, loading game scene
+2021-05-21 01:17:02 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 01:17:02 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 01:17:02 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 01:17:02 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 01:17:04 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 01:17:04 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 01:17:04 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 01:17:04 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 01:17:05 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 01:17:05 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 01:17:05 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 01:17:05 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 01:17:05 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:17:05 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 01:17:05 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 01:17:05 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 01:17:06 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 01:17:06 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:17:06 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 01:17:06 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 01:17:07 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:17:07 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 01:17:07 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 01:17:07 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 01:17:54 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 01:17:57 INFO  StartController:45 - The player1 name is set to {12313}, loading game scene
+2021-05-21 01:17:57 INFO  StartController:46 - The player2 name is set to {41241}, loading game scene
+2021-05-21 01:17:58 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 01:17:58 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 01:17:58 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 01:17:58 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 01:17:59 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 01:17:59 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 01:17:59 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 01:17:59 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 01:18:00 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 01:18:00 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 01:18:00 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 01:18:00 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 01:18:00 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:18:00 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 01:18:00 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 01:18:00 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 01:18:01 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 01:18:01 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:18:01 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 01:18:01 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 01:18:02 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:18:02 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 01:18:02 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 01:18:02 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 01:23:38 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 01:23:42 INFO  StartController:45 - The player1 name is set to {532435}, loading game scene
+2021-05-21 01:23:42 INFO  StartController:46 - The player2 name is set to {25343}, loading game scene
+2021-05-21 01:23:43 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 01:23:43 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 01:23:43 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 01:23:43 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 01:23:44 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 01:23:44 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 01:23:44 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 01:23:44 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 01:23:45 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:23:45 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 01:23:45 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 01:23:45 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 01:23:46 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 01:23:46 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 01:23:46 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 01:23:46 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 01:23:46 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 01:23:47 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:23:47 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 01:23:47 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 01:23:47 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:23:47 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 01:23:47 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 01:23:47 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 01:24:27 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 01:24:30 INFO  StartController:45 - The player1 name is set to {3453245}, loading game scene
+2021-05-21 01:24:30 INFO  StartController:46 - The player2 name is set to {23534254}, loading game scene
+2021-05-21 01:24:31 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 01:24:31 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 01:24:31 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 01:24:31 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 01:24:32 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 01:24:32 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 01:24:32 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 01:24:32 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 01:24:33 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 01:24:33 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 01:24:33 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 01:24:33 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 01:24:33 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:24:34 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 01:24:34 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 01:24:34 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 01:24:34 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 01:24:34 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:24:34 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 01:24:34 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 01:24:35 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:24:35 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 01:24:35 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 01:24:35 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 01:26:16 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 01:26:19 INFO  StartController:45 - The player1 name is set to {12414}, loading game scene
+2021-05-21 01:26:19 INFO  StartController:46 - The player2 name is set to {12414}, loading game scene
+2021-05-21 01:26:20 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 01:26:20 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 01:26:20 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 01:26:20 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 01:26:21 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 01:26:21 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 01:26:21 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 01:26:21 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 01:26:21 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 01:26:22 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 01:26:22 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 01:26:22 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 01:26:22 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:26:23 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 01:26:23 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 01:26:23 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 01:26:23 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 01:26:23 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:26:23 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 01:26:23 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 01:26:24 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:26:24 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 01:26:24 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 01:26:24 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 01:26:41 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 01:26:46 INFO  StartController:45 - The player1 name is set to {21321421421}, loading game scene
+2021-05-21 01:26:46 INFO  StartController:46 - The player2 name is set to {1521324324}, loading game scene
+2021-05-21 01:26:46 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 01:26:47 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 01:26:47 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 01:26:47 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 01:26:47 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 01:26:47 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 01:26:47 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 01:26:47 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 01:26:48 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 01:26:48 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 01:26:48 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 01:26:48 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 01:26:49 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:26:49 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 01:26:49 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 01:26:49 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 01:26:49 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 01:26:49 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:26:49 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 01:26:49 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 01:26:50 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:26:50 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 01:26:50 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 01:26:50 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 01:43:54 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 01:43:58 INFO  StartController:45 - The player1 name is set to {231424}, loading game scene
+2021-05-21 01:43:58 INFO  StartController:46 - The player2 name is set to {2143214321}, loading game scene
+2021-05-21 01:43:59 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 01:43:59 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 01:43:59 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 01:43:59 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 01:44:00 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 01:44:01 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 01:44:01 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 01:44:01 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 01:44:01 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:44:01 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 01:44:01 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 01:44:01 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 01:44:02 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 01:44:02 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 01:44:02 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 01:44:02 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 01:44:02 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 01:44:03 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:44:03 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 01:44:03 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 01:44:03 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:44:03 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 01:44:03 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 01:44:03 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 01:44:05 DEBUG XmlUtil:35 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 01:45:40 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 01:45:44 INFO  StartController:45 - The player1 name is set to {23421}, loading game scene
+2021-05-21 01:45:44 INFO  StartController:46 - The player2 name is set to {1253215}, loading game scene
+2021-05-21 01:45:45 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 01:45:45 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 01:45:45 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 01:45:45 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 01:45:46 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 01:45:46 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 01:45:46 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 01:45:46 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 01:45:47 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:45:47 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 01:45:47 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 01:45:47 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 01:45:48 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 01:45:48 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:45:48 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 01:45:48 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 01:45:48 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 01:45:49 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 01:45:49 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 01:45:49 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 01:45:49 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 01:45:49 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 01:45:49 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 01:45:49 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 01:45:50 DEBUG XmlUtil:35 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 02:10:00 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 02:10:03 INFO  StartController:45 - The player1 name is set to {234124}, loading game scene
+2021-05-21 02:10:03 INFO  StartController:46 - The player2 name is set to {3521532}, loading game scene
+2021-05-21 02:10:04 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 02:10:04 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 02:10:04 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 02:10:04 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 02:10:04 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 02:10:05 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 02:10:05 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 02:10:05 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 02:10:05 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:10:05 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 02:10:05 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 02:10:05 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 02:10:06 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:10:06 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 02:10:06 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 02:10:06 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 02:10:06 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 02:10:07 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:10:07 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:10:07 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 02:10:07 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:10:07 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:10:07 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:10:07 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 02:10:09 INFO  GameController:277 - java.lang.NullPointerException: Cannot invoke "java.net.URL.getFile()" because the return value of "java.lang.ClassLoader.getResource(String)" is null
+2021-05-21 02:15:04 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 02:15:07 INFO  StartController:45 - The player1 name is set to {2143213}, loading game scene
+2021-05-21 02:15:07 INFO  StartController:46 - The player2 name is set to {23152153}, loading game scene
+2021-05-21 02:15:08 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 02:15:09 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 02:15:09 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 02:15:09 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 02:15:10 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:15:10 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 02:15:10 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 02:15:10 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 02:15:11 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 02:15:11 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 02:15:11 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 02:15:11 INFO  GameController:249 - Move: (3,1) -> (2,1)
+2021-05-21 02:15:12 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:15:12 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 02:15:12 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 02:15:12 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 02:15:12 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 02:15:13 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:15:13 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:15:13 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 02:15:13 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:15:13 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:15:13 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:15:13 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 02:15:14 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:15:14 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 02:15:14 INFO  GameController:175 - Moving piece 7 UP
+2021-05-21 02:15:14 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 02:15:15 INFO  GameController:277 - java.lang.NullPointerException: Cannot invoke "java.net.URL.getFile()" because the return value of "java.lang.ClassLoader.getResource(String)" is null
+2021-05-21 02:29:16 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 02:29:27 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 02:29:30 INFO  StartController:45 - The player1 name is set to {213421}, loading game scene
+2021-05-21 02:29:30 INFO  StartController:46 - The player2 name is set to {2432143}, loading game scene
+2021-05-21 02:29:31 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 02:29:31 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 02:29:31 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 02:29:31 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 02:29:32 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 02:29:32 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 02:29:32 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 02:29:32 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 02:29:32 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:29:32 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 02:29:32 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 02:29:32 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 02:29:33 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:29:33 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 02:29:33 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 02:29:33 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 02:29:33 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 02:29:34 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:29:34 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:29:34 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 02:29:34 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:29:34 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:29:34 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:29:34 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 02:29:36 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 02:29:36 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 02:31:22 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 02:31:26 INFO  StartController:45 - The player1 name is set to {35252}, loading game scene
+2021-05-21 02:31:26 INFO  StartController:46 - The player2 name is set to {215321532}, loading game scene
+2021-05-21 02:31:27 INFO  GameController:159 - Click on square (0,2)
+2021-05-21 02:31:28 INFO  GameController:159 - Click on square (1,2)
+2021-05-21 02:31:28 INFO  GameController:175 - Moving piece 2 DOWN
+2021-05-21 02:31:28 INFO  GameController:249 - Move: (0,2) -> (1,2)
+2021-05-21 02:31:28 INFO  GameController:159 - Click on square (1,2)
+2021-05-21 02:31:29 INFO  GameController:159 - Click on square (2,2)
+2021-05-21 02:31:29 INFO  GameController:175 - Moving piece 2 DOWN
+2021-05-21 02:31:29 INFO  GameController:249 - Move: (1,2) -> (2,2)
+2021-05-21 02:31:29 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:31:30 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 02:31:30 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 02:31:30 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 02:31:31 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:31:31 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 02:31:31 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 02:31:31 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 02:31:31 INFO  GameController:159 - Click on square (4,0)
+2021-05-21 02:31:32 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:31:32 INFO  GameController:175 - Moving piece 4 RIGHT
+2021-05-21 02:31:32 INFO  GameController:249 - Move: (4,0) -> (4,1)
+2021-05-21 02:31:32 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:31:32 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:31:32 INFO  GameController:175 - Moving piece 4 RIGHT
+2021-05-21 02:31:32 INFO  GameController:249 - Move: (4,1) -> (4,2)
+2021-05-21 02:31:34 INFO  GameController:326 - Game information
+
+GameRecord(Createtime=2021-05-20T18:31:34.016488600Z, player=215321532, step=6, playgame=00:00:07)
+2021-05-21 02:31:34 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 02:31:34 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 02:32:48 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 02:32:54 INFO  StartController:45 - The player1 name is set to {qwetwwq}, loading game scene
+2021-05-21 02:32:54 INFO  StartController:46 - The player2 name is set to {WF}, loading game scene
+2021-05-21 02:32:54 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 02:32:55 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 02:32:55 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 02:32:55 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 02:32:56 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 02:32:56 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 02:32:56 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 02:32:56 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 02:32:57 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:32:57 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 02:32:57 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 02:32:57 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 02:32:57 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:32:57 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 02:32:57 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 02:32:57 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 02:32:58 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 02:32:59 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:32:59 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:32:59 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 02:33:00 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:33:00 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:33:00 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:33:00 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 02:33:01 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T18:33:01.534098200Z, player=qwetwwq, step=6, playgame=00:00:07)
+2021-05-21 02:33:01 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 02:33:01 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 02:35:46 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 02:35:51 INFO  StartController:45 - The player1 name is set to {wqrewq}, loading game scene
+2021-05-21 02:35:51 INFO  StartController:46 - The player2 name is set to {DFSSA}, loading game scene
+2021-05-21 02:35:52 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 02:35:52 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 02:35:52 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 02:35:52 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 02:35:53 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 02:35:53 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 02:35:53 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 02:35:53 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 02:35:54 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:35:54 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 02:35:54 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 02:35:54 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 02:35:54 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:35:55 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 02:35:55 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 02:35:55 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 02:35:55 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 02:35:55 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:35:55 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:35:55 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 02:35:56 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:35:56 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:35:56 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:35:56 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 02:35:57 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T18:35:57.719900600Z, player=wqrewq, step=6, playgame=00:00:06)
+2021-05-21 02:35:57 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 02:35:57 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 02:37:01 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 02:37:07 INFO  StartController:45 - The player1 name is set to {qwer}, loading game scene
+2021-05-21 02:37:07 INFO  StartController:46 - The player2 name is set to {asd}, loading game scene
+2021-05-21 02:37:08 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 02:37:08 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 02:37:08 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 02:37:08 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 02:37:09 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 02:37:09 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 02:37:09 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 02:37:09 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 02:37:10 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:37:10 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 02:37:10 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 02:37:10 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 02:37:10 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:37:10 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 02:37:10 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 02:37:10 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 02:37:11 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 02:37:11 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:37:11 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:37:11 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 02:37:12 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:37:12 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:37:12 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:37:12 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 02:37:13 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T18:37:13.555608200Z, player=qwer, step=6, playgame=00:00:06)
+2021-05-21 02:37:13 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 02:37:13 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 02:37:53 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 02:37:57 INFO  StartController:45 - The player1 name is set to {qwerwq}, loading game scene
+2021-05-21 02:37:57 INFO  StartController:46 - The player2 name is set to {sadfas}, loading game scene
+2021-05-21 02:37:58 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 02:37:58 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 02:37:58 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 02:37:58 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 02:37:59 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 02:37:59 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 02:37:59 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 02:37:59 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 02:38:00 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:38:00 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 02:38:00 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 02:38:00 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 02:38:00 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:38:01 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 02:38:01 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 02:38:01 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 02:38:01 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 02:38:02 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:38:02 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:38:02 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 02:38:02 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:38:02 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:38:02 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:38:02 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 02:38:04 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T18:38:04.263277400Z, player=qwerwq, step=6, playgame=00:00:06)
+2021-05-21 02:38:04 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 02:38:04 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 02:42:22 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 02:42:25 INFO  StartController:45 - The player1 name is set to {12313}, loading game scene
+2021-05-21 02:42:25 INFO  StartController:46 - The player2 name is set to {13213213}, loading game scene
+2021-05-21 02:42:26 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 02:42:26 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 02:42:26 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 02:42:26 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 02:42:27 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 02:42:27 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 02:42:27 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 02:42:27 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 02:42:28 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:42:28 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 02:42:28 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 02:42:28 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 02:42:29 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:42:29 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 02:42:29 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 02:42:29 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 02:42:29 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 02:42:30 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:42:30 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:42:30 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 02:42:30 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:42:30 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:42:30 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:42:30 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 02:42:32 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T18:42:32.043052Z, player=12313, step=6, playgame=00:00:06)
+2021-05-21 02:42:32 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 02:42:32 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 02:45:06 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 02:45:10 INFO  StartController:45 - The player1 name is set to {wqrewre}, loading game scene
+2021-05-21 02:45:10 INFO  StartController:46 - The player2 name is set to {SDSAFD}, loading game scene
+2021-05-21 02:45:10 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 02:45:11 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 02:45:11 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 02:45:11 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 02:45:12 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 02:45:12 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 02:45:12 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 02:45:12 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 02:45:13 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:45:13 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 02:45:13 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 02:45:13 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 02:45:14 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:45:14 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 02:45:14 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 02:45:14 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 02:45:14 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 02:45:14 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:45:14 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:45:14 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 02:45:15 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:45:15 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:45:15 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 02:45:15 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 02:45:16 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T18:45:16.595080300Z, player=wqrewre, step=6, playgame=00:00:06)
+2021-05-21 02:45:16 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 02:45:16 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 02:45:31 DEBUG GameController:299 - Reset is pressed
+2021-05-21 02:45:31 INFO  GameController:300 - Resetting game...
+2021-05-21 02:45:32 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:45:32 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 02:45:32 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 02:45:32 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 02:45:34 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:45:35 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 02:45:35 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 02:45:35 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 02:45:36 INFO  GameController:159 - Click on square (4,0)
+2021-05-21 02:45:36 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:45:36 INFO  GameController:175 - Moving piece 4 RIGHT
+2021-05-21 02:45:36 INFO  GameController:249 - Move: (4,0) -> (4,1)
+2021-05-21 02:45:36 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 02:45:37 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 02:45:37 INFO  GameController:175 - Moving piece 4 RIGHT
+2021-05-21 02:45:37 INFO  GameController:249 - Move: (4,1) -> (4,2)
+2021-05-21 02:45:37 INFO  GameController:159 - Click on square (0,2)
+2021-05-21 02:45:38 INFO  GameController:159 - Click on square (1,2)
+2021-05-21 02:45:38 INFO  GameController:175 - Moving piece 2 DOWN
+2021-05-21 02:45:38 INFO  GameController:249 - Move: (0,2) -> (1,2)
+2021-05-21 02:45:38 INFO  GameController:159 - Click on square (1,2)
+2021-05-21 02:45:38 INFO  GameController:159 - Click on square (2,2)
+2021-05-21 02:45:38 INFO  GameController:175 - Moving piece 2 DOWN
+2021-05-21 02:45:38 INFO  GameController:249 - Move: (1,2) -> (2,2)
+2021-05-21 02:45:40 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T18:45:40.204893500Z, player=SDSAFD, step=12, playgame=00:00:09)
+2021-05-21 02:45:40 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 02:45:40 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 03:11:32 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 03:11:38 INFO  StartController:45 - The player1 name is set to {wreqwq}, loading game scene
+2021-05-21 03:11:38 INFO  StartController:46 - The player2 name is set to {ASDAD}, loading game scene
+2021-05-21 03:11:38 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 03:11:38 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 03:11:38 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 03:11:38 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 03:11:39 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 03:11:39 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 03:11:39 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 03:11:39 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 03:11:40 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 03:11:40 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 03:11:40 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 03:11:40 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 03:11:41 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 03:11:41 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 03:11:41 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 03:11:41 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 03:11:41 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 03:11:41 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 03:11:41 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 03:11:41 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 03:11:42 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 03:11:42 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 03:11:42 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 03:11:42 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 03:11:43 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T19:11:43.975509800Z, player=wreqwq, step=6, playgame=00:00:05)
+2021-05-21 03:11:44 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 03:11:44 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 03:13:46 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 03:13:52 INFO  StartController:45 - The player1 name is set to {wsa}, loading game scene
+2021-05-21 03:13:52 INFO  StartController:46 - The player2 name is set to {fdsfd}, loading game scene
+2021-05-21 03:13:53 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 03:13:53 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 03:13:53 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 03:13:53 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 03:13:54 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 03:13:54 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 03:13:54 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 03:13:54 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 03:13:55 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 03:13:55 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 03:13:55 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 03:13:55 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 03:13:56 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 03:13:56 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 03:13:56 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 03:13:56 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 03:13:56 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 03:13:56 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 03:13:56 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 03:13:56 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 03:13:57 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 03:13:57 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 03:13:57 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 03:13:57 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 03:13:59 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T19:13:59.186604900Z, player=wsa, step=6, playgame=00:00:06)
+2021-05-21 03:13:59 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 03:13:59 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 03:21:26 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 03:21:30 INFO  StartController:45 - The player1 name is set to {123}, loading game scene
+2021-05-21 03:21:30 INFO  StartController:46 - The player2 name is set to {23421}, loading game scene
+2021-05-21 03:21:31 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 03:21:31 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 03:21:31 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 03:21:31 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 03:21:31 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 03:21:32 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 03:21:32 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 03:21:32 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 03:21:32 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 03:21:33 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 03:21:33 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 03:21:33 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 03:21:33 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 03:21:33 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 03:21:33 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 03:21:33 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 03:21:34 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 03:21:34 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 03:21:34 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 03:21:34 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 03:21:34 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 03:21:35 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 03:21:35 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 03:21:35 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 03:21:36 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T19:21:36.602196700Z, player=123, step=6, playgame=00:00:06)
+2021-05-21 03:21:36 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 03:21:36 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 04:24:15 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 04:24:19 INFO  StartController:45 - The player1 name is set to {werwq}, loading game scene
+2021-05-21 04:24:19 INFO  StartController:46 - The player2 name is set to {dsaf}, loading game scene
+2021-05-21 04:24:19 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 04:24:20 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:24:20 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:24:20 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 04:24:21 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:24:22 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 04:24:22 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:24:22 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 04:24:22 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:24:22 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 04:24:22 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 04:24:22 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 04:24:23 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:24:23 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 04:24:23 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 04:24:23 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 04:24:24 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 04:24:24 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:24:24 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:24:24 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 04:24:24 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:24:25 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:24:25 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:24:25 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 04:24:26 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T20:24:26.368342700Z, player=werwq, step=6, playgame=00:00:07)
+2021-05-21 04:24:26 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 04:24:26 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 04:26:08 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 04:26:12 INFO  StartController:45 - The player1 name is set to {qweq}, loading game scene
+2021-05-21 04:26:12 INFO  StartController:46 - The player2 name is set to {asd}, loading game scene
+2021-05-21 04:26:13 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 04:26:13 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:26:13 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:26:13 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 04:26:14 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:26:14 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 04:26:14 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 04:26:14 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 04:26:14 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 04:26:15 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 04:26:15 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 04:26:15 INFO  GameController:249 - Move: (3,1) -> (2,1)
+2021-05-21 04:26:15 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:26:16 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 04:26:16 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 04:26:16 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 04:26:16 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 04:26:16 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:26:16 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:26:16 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 04:26:17 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:26:17 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:26:17 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:26:17 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 04:26:18 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:26:18 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 04:26:18 INFO  GameController:175 - Moving piece 7 UP
+2021-05-21 04:26:18 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 04:26:19 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T20:26:19.564434400Z, player=qweq, step=7, playgame=00:00:07)
+2021-05-21 04:26:19 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 04:26:19 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 04:42:26 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 04:42:41 INFO  StartController:45 - The player1 name is set to {asd}, loading game scene
+2021-05-21 04:42:41 INFO  StartController:46 - The player2 name is set to {qweqew}, loading game scene
+2021-05-21 04:42:42 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 04:42:42 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:42:42 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:42:42 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 04:42:43 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:42:43 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 04:42:43 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:42:43 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 04:42:44 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:42:44 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 04:42:44 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 04:42:44 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 04:42:45 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:42:45 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 04:42:45 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 04:42:45 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 04:42:45 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 04:42:45 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:42:45 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:42:45 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 04:42:46 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:42:46 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:42:46 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:42:46 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 04:42:47 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T20:42:47.888903Z, player=asd, step=6, playgame=00:00:06)
+2021-05-21 04:42:48 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 04:42:48 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 04:47:09 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 04:47:14 INFO  StartController:45 - The player1 name is set to {qwer}, loading game scene
+2021-05-21 04:47:14 INFO  StartController:46 - The player2 name is set to {qweq}, loading game scene
+2021-05-21 04:47:15 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 04:47:15 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:47:15 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:47:15 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 04:47:15 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:47:16 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 04:47:16 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:47:16 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 04:47:17 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:47:17 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 04:47:17 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 04:47:17 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 04:47:18 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:47:18 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 04:47:18 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 04:47:18 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 04:47:18 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 04:47:18 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:47:18 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:47:18 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 04:47:19 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:47:19 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:47:19 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:47:19 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 04:47:21 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T20:47:21.228232Z, player=qwer, step=6, playgame=00:00:06)
+2021-05-21 04:47:21 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 04:47:21 INFO  GameController:277 - java.util.regex.PatternSyntaxException: Illegal repetition near index 1
+{}
+ ^
+2021-05-21 04:49:15 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 04:49:19 INFO  StartController:45 - The player1 name is set to {12121}, loading game scene
+2021-05-21 04:49:19 INFO  StartController:46 - The player2 name is set to {222}, loading game scene
+2021-05-21 04:49:20 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 04:49:20 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:49:20 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:49:20 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 04:49:21 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:49:21 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 04:49:21 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:49:21 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 04:49:21 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:49:21 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 04:49:21 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 04:49:21 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 04:49:22 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:49:22 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 04:49:22 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 04:49:22 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 04:49:22 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 04:49:22 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:49:22 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:49:22 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 04:49:23 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:49:23 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:49:23 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:49:23 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 04:49:24 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T20:49:24.807683500Z, player=12121, step=6, playgame=00:00:05)
+2021-05-21 04:49:24 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 04:49:24 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 04:50:51 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 04:50:55 INFO  StartController:45 - The player1 name is set to {wqrewq}, loading game scene
+2021-05-21 04:50:55 INFO  StartController:46 - The player2 name is set to {vcs}, loading game scene
+2021-05-21 04:50:55 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 04:50:55 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:50:55 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:50:55 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 04:50:56 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:50:56 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 04:50:56 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:50:56 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 04:50:57 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 04:50:57 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:50:57 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 04:50:57 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 04:50:57 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 04:50:58 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:50:58 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 04:50:58 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 04:50:58 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 04:50:59 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 04:50:59 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:50:59 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:50:59 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 04:50:59 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:51:00 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:51:00 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:51:00 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 04:51:01 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T20:51:01.579758300Z, player=wqrewq, step=6, playgame=00:00:06)
+2021-05-21 04:51:01 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 04:51:01 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 04:52:54 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 04:52:57 INFO  StartController:45 - The player1 name is set to {wqre}, loading game scene
+2021-05-21 04:52:57 INFO  StartController:46 - The player2 name is set to {ds}, loading game scene
+2021-05-21 04:52:58 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 04:52:58 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:52:58 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:52:58 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 04:52:59 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:53:00 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 04:53:00 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:53:00 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 04:53:00 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:53:00 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 04:53:00 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 04:53:00 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 04:53:01 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:53:01 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 04:53:01 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 04:53:01 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 04:53:01 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 04:53:02 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:53:02 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:53:02 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 04:53:02 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:53:02 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:53:02 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:53:02 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 04:53:04 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T20:53:04.367808800Z, player=wqre, step=6, playgame=00:00:06)
+2021-05-21 04:53:04 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 04:53:04 INFO  GameController:277 - java.util.regex.PatternSyntaxException: Illegal repetition near index 1
+{
+2021-05-21 04:55:01 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 04:55:05 INFO  StartController:45 - The player1 name is set to {qwre}, loading game scene
+2021-05-21 04:55:05 INFO  StartController:46 - The player2 name is set to {asd}, loading game scene
+2021-05-21 04:55:06 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 04:55:06 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:55:06 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:55:06 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 04:55:07 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 04:55:07 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:55:08 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 04:55:08 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:55:08 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 04:55:09 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:55:09 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 04:55:09 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 04:55:09 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 04:55:09 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:55:09 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 04:55:09 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 04:55:09 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 04:55:10 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 04:55:10 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:55:10 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:55:10 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 04:55:10 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:55:11 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:55:11 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:55:11 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 04:55:12 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T20:55:12.377688Z, player=qwre, step=6, playgame=00:00:06)
+2021-05-21 04:55:12 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 04:55:12 INFO  GameController:277 - java.util.regex.PatternSyntaxException: Illegal repetition near index 1
+{
+2021-05-21 04:57:53 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 04:57:59 INFO  StartController:45 - The player1 name is set to {w}, loading game scene
+2021-05-21 04:57:59 INFO  StartController:46 - The player2 name is set to {as}, loading game scene
+2021-05-21 04:58:00 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 04:58:00 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:58:00 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:58:00 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 04:58:01 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:58:01 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 04:58:01 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:58:01 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 04:58:02 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:58:02 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 04:58:02 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 04:58:02 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 04:58:02 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:58:03 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 04:58:03 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 04:58:03 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 04:58:03 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 04:58:03 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:58:03 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:58:03 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 04:58:03 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:58:04 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:58:05 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:58:05 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:58:05 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 04:58:06 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T20:58:06.444644900Z, player=w, step=6, playgame=00:00:06)
+2021-05-21 04:58:06 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 04:58:06 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class Entity.GameRecord), not marked as ignorable (4 known properties: "player", "step", "playgame", "createtime"])
+ at [Source: (StringReader); line: 1, column: 30] (through reference chain: Entity.GameRecord["Player"])
+2021-05-21 04:58:48 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 04:58:53 INFO  StartController:45 - The player1 name is set to {ee}, loading game scene
+2021-05-21 04:58:53 INFO  StartController:46 - The player2 name is set to {ss}, loading game scene
+2021-05-21 04:58:53 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 04:58:53 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:58:53 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:58:53 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 04:58:54 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:58:54 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 04:58:54 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:58:54 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 04:58:56 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:58:56 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 04:58:56 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 04:58:56 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 04:58:57 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 04:58:57 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:58:57 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:58:57 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 04:58:57 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:58:57 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 04:58:57 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 04:58:57 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 04:58:58 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:58:58 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:58:58 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 04:58:58 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 04:58:59 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T20:58:59.807638700Z, player=ee, step=6, playgame=00:00:06)
+2021-05-21 04:58:59 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 04:58:59 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class Entity.GameRecord), not marked as ignorable (4 known properties: "player", "step", "playgame", "createtime"])
+ at [Source: (StringReader); line: 1, column: 30] (through reference chain: Entity.GameRecord["Player"])
+2021-05-21 04:59:52 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 04:59:56 INFO  StartController:45 - The player1 name is set to {asdf}, loading game scene
+2021-05-21 04:59:56 INFO  StartController:46 - The player2 name is set to {asa}, loading game scene
+2021-05-21 04:59:57 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 04:59:57 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:59:57 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:59:57 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 04:59:58 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 04:59:58 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 04:59:58 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 04:59:58 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 04:59:59 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 04:59:59 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 04:59:59 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 04:59:59 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 04:59:59 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 04:59:59 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 04:59:59 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 04:59:59 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 05:00:00 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 05:00:00 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:00:00 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 05:00:00 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 05:00:00 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:00:00 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 05:00:00 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 05:00:00 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 05:00:02 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T21:00:02.151594400Z, player=asdf, step=6, playgame=00:00:05)
+2021-05-21 05:00:02 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 05:00:02 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class Entity.GameRecord), not marked as ignorable (4 known properties: "player", "step", "playgame", "createtime"])
+ at [Source: (StringReader); line: 1, column: 30] (through reference chain: Entity.GameRecord["Player"])
+2021-05-21 05:03:08 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 05:03:13 INFO  StartController:45 - The player1 name is set to {wer}, loading game scene
+2021-05-21 05:03:13 INFO  StartController:46 - The player2 name is set to {aaa}, loading game scene
+2021-05-21 05:03:13 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 05:03:14 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 05:03:14 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 05:03:14 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 05:03:14 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 05:03:15 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 05:03:15 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 05:03:15 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 05:03:15 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 05:03:16 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 05:03:16 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 05:03:16 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 05:03:16 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:03:16 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 05:03:16 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 05:03:16 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 05:03:17 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 05:03:17 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:03:17 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 05:03:17 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 05:03:17 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:03:17 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 05:03:17 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 05:03:17 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 05:03:19 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T21:03:19.260619200Z, player=wer, step=6, playgame=00:00:06)
+2021-05-21 05:03:19 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 05:04:33 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 05:04:37 INFO  StartController:45 - The player1 name is set to {qwe}, loading game scene
+2021-05-21 05:04:37 INFO  StartController:46 - The player2 name is set to {dsa}, loading game scene
+2021-05-21 05:04:37 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 05:04:38 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 05:04:38 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 05:04:38 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 05:04:39 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 05:04:39 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 05:04:39 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 05:04:39 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 05:04:40 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 05:04:40 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 05:04:40 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 05:04:40 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 05:04:40 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:04:40 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 05:04:40 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 05:04:40 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 05:04:41 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 05:04:41 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:04:41 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 05:04:41 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 05:04:41 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:04:42 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 05:04:42 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 05:04:42 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 05:04:43 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T21:04:43.266444700Z, player=qwe, step=6, playgame=00:00:05)
+2021-05-21 05:04:43 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 05:04:43 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class Entity.GameRecord), not marked as ignorable (5 known properties: "Createtime", "step", "playgame", "player", "createtime"])
+ at [Source: (StringReader); line: 1, column: 30] (through reference chain: Entity.GameRecord["Player"])
+2021-05-21 05:06:31 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 05:06:34 INFO  StartController:45 - The player1 name is set to {ew}, loading game scene
+2021-05-21 05:06:34 INFO  StartController:46 - The player2 name is set to {as}, loading game scene
+2021-05-21 05:06:35 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 05:06:35 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 05:06:35 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 05:06:35 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 05:06:37 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 05:06:37 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 05:06:37 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 05:06:37 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 05:06:38 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 05:06:38 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 05:06:38 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 05:06:38 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 05:06:38 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:06:38 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 05:06:38 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 05:06:38 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 05:06:39 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 05:06:39 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:06:39 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 05:06:39 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 05:06:39 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:06:40 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 05:06:40 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 05:06:40 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 05:06:41 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T21:06:41.402826900Z, player=ew, step=6, playgame=00:00:06)
+2021-05-21 05:06:41 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 05:06:41 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class Entity.GameRecord), not marked as ignorable (5 known properties: "Createtime", "step", "playgame", "player", "createtime"])
+ at [Source: (StringReader); line: 1, column: 30] (through reference chain: Entity.GameRecord["Player"])
+2021-05-21 05:07:40 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 05:07:44 INFO  StartController:45 - The player1 name is set to {wre}, loading game scene
+2021-05-21 05:07:44 INFO  StartController:46 - The player2 name is set to {dsa}, loading game scene
+2021-05-21 05:07:44 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 05:07:45 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 05:07:45 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 05:07:45 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 05:07:45 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 05:07:46 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 05:07:46 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 05:07:46 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 05:07:46 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 05:07:46 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 05:07:46 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 05:07:46 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 05:07:47 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:07:47 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:07:48 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 05:07:48 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 05:07:48 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 05:07:48 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 05:07:48 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:07:48 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 05:07:48 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 05:07:49 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:07:49 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 05:07:49 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 05:07:49 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 05:07:50 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T21:07:50.668693200Z, Player=wre, Step=6, Playgame=00:00:06)
+2021-05-21 05:07:50 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 05:34:16 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 05:34:19 INFO  StartController:45 - The player1 name is set to {12}, loading game scene
+2021-05-21 05:34:19 INFO  StartController:46 - The player2 name is set to {12}, loading game scene
+2021-05-21 05:34:20 DEBUG GameController:308 - Quit is pressed
+2021-05-21 05:34:20 INFO  GameController:310 - The game has been stopped
+2021-05-21 05:34:20 INFO  GameController:312 - Loading high scores scene...
+2021-05-21 05:34:20 DEBUG settlementController:45 - Loading Play record...
+2021-05-21 05:36:38 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 05:36:43 INFO  StartController:45 - The player1 name is set to {qwq}, loading game scene
+2021-05-21 05:36:43 INFO  StartController:46 - The player2 name is set to {asasa}, loading game scene
+2021-05-21 05:36:43 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 05:36:44 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 05:36:44 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 05:36:44 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 05:36:44 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 05:36:45 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 05:36:45 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 05:36:45 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 05:36:45 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 05:36:45 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 05:36:45 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 05:36:45 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 05:36:46 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:36:46 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 05:36:46 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 05:36:46 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 05:36:46 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 05:36:47 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:36:47 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 05:36:47 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 05:36:47 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:36:47 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 05:36:47 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 05:36:47 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 05:36:49 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T21:36:49.599658400Z, Player=qwq, Step=6, Playgame=00:00:06)
+2021-05-21 05:36:49 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 05:36:50 DEBUG GameController:308 - Quit is pressed
+2021-05-21 05:36:50 INFO  GameController:310 - The game has been stopped
+2021-05-21 05:36:50 INFO  GameController:312 - Loading high scores scene...
+2021-05-21 05:36:50 DEBUG settlementController:45 - Loading Play record...
+2021-05-21 05:38:44 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 05:38:46 INFO  StartController:45 - The player1 name is set to {}, loading game scene
+2021-05-21 05:38:46 INFO  StartController:46 - The player2 name is set to {}, loading game scene
+2021-05-21 05:38:48 DEBUG GameController:308 - Quit is pressed
+2021-05-21 05:38:48 INFO  GameController:310 - The game has been stopped
+2021-05-21 05:38:48 INFO  GameController:312 - Loading high scores scene...
+2021-05-21 05:38:48 DEBUG settlementController:45 - Loading Play record...
+2021-05-21 05:40:13 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 05:40:14 INFO  StartController:45 - The player1 name is set to {}, loading game scene
+2021-05-21 05:40:14 INFO  StartController:46 - The player2 name is set to {}, loading game scene
+2021-05-21 05:40:15 DEBUG GameController:308 - Quit is pressed
+2021-05-21 05:40:15 INFO  GameController:310 - The game has been stopped
+2021-05-21 05:40:15 INFO  GameController:312 - Loading high scores scene...
+2021-05-21 05:40:15 DEBUG settlementController:45 - Loading Play record...
+2021-05-21 05:44:48 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 05:45:03 INFO  StartController:45 - The player1 name is set to {test1}, loading game scene
+2021-05-21 05:45:03 INFO  StartController:46 - The player2 name is set to {test2}, loading game scene
+2021-05-21 05:45:04 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 05:45:06 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 05:45:06 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 05:45:06 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 05:45:07 INFO  GameController:159 - Click on square (0,0)
+2021-05-21 05:45:08 INFO  GameController:159 - Click on square (1,0)
+2021-05-21 05:45:08 INFO  GameController:175 - Moving piece 0 DOWN
+2021-05-21 05:45:08 INFO  GameController:249 - Move: (0,0) -> (1,0)
+2021-05-21 05:45:08 INFO  GameController:159 - Click on square (4,0)
+2021-05-21 05:45:09 INFO  GameController:159 - Click on square (3,0)
+2021-05-21 05:45:09 INFO  GameController:175 - Moving piece 4 UP
+2021-05-21 05:45:09 INFO  GameController:249 - Move: (4,0) -> (3,0)
+2021-05-21 05:45:10 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 05:45:10 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 05:45:10 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 05:45:10 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 05:45:11 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 05:45:13 INFO  GameController:159 - Click on square (1,0)
+2021-05-21 05:45:13 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 05:45:13 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 05:45:13 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 05:45:15 INFO  GameController:159 - Click on square (1,0)
+2021-05-21 05:45:15 INFO  GameController:159 - Click on square (2,0)
+2021-05-21 05:45:15 INFO  GameController:175 - Moving piece 0 DOWN
+2021-05-21 05:45:15 INFO  GameController:249 - Move: (1,0) -> (2,0)
+2021-05-21 05:45:17 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:45:17 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 05:45:17 INFO  GameController:175 - Moving piece 6 LEFT
+2021-05-21 05:45:17 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 05:45:20 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 05:45:20 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 05:45:20 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 05:45:20 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 05:45:21 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 05:45:22 INFO  GameController:159 - Click on square (4,0)
+2021-05-21 05:45:22 INFO  GameController:175 - Moving piece 6 LEFT
+2021-05-21 05:45:22 INFO  GameController:249 - Move: (4,1) -> (4,0)
+2021-05-21 05:45:23 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T21:45:23.848338900Z, Player=test1, Step=9, Playgame=00:00:20)
+2021-05-21 05:45:23 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 05:45:28 DEBUG GameController:308 - Quit is pressed
+2021-05-21 05:45:28 INFO  GameController:310 - The game has been stopped
+2021-05-21 05:45:28 INFO  GameController:312 - Loading high scores scene...
+2021-05-21 05:45:28 DEBUG settlementController:45 - Loading Play record...
+2021-05-21 05:48:37 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 05:48:39 INFO  StartController:45 - The player1 name is set to {}, loading game scene
+2021-05-21 05:48:39 INFO  StartController:46 - The player2 name is set to {}, loading game scene
+2021-05-21 05:48:40 DEBUG GameController:308 - Quit is pressed
+2021-05-21 05:48:40 INFO  GameController:310 - The game has been stopped
+2021-05-21 05:48:40 INFO  GameController:312 - Loading high scores scene...
+2021-05-21 05:48:40 DEBUG settlementController:45 - Loading Play record...
+2021-05-21 05:50:15 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 05:50:16 INFO  StartController:45 - The player1 name is set to {}, loading game scene
+2021-05-21 05:50:16 INFO  StartController:46 - The player2 name is set to {}, loading game scene
+2021-05-21 05:50:18 DEBUG GameController:308 - Quit is pressed
+2021-05-21 05:50:18 INFO  GameController:310 - The game has been stopped
+2021-05-21 05:50:18 INFO  GameController:312 - Loading high scores scene...
+2021-05-21 05:50:18 DEBUG settlementController:45 - Loading Play record...
+2021-05-21 05:56:23 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 05:56:25 INFO  StartController:45 - The player1 name is set to {}, loading game scene
+2021-05-21 05:56:25 INFO  StartController:46 - The player2 name is set to {}, loading game scene
+2021-05-21 05:56:26 DEBUG GameController:308 - Quit is pressed
+2021-05-21 05:56:26 INFO  GameController:310 - The game has been stopped
+2021-05-21 05:56:26 INFO  GameController:312 - Loading high scores scene...
+2021-05-21 05:56:26 DEBUG settlementController:45 - Loading Play record...
+2021-05-21 05:58:47 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 05:58:49 INFO  StartController:45 - The player1 name is set to {}, loading game scene
+2021-05-21 05:58:49 INFO  StartController:46 - The player2 name is set to {}, loading game scene
+2021-05-21 05:58:50 DEBUG GameController:308 - Quit is pressed
+2021-05-21 05:58:50 INFO  GameController:310 - The game has been stopped
+2021-05-21 05:58:50 INFO  GameController:312 - Loading high scores scene...
+2021-05-21 05:58:50 DEBUG settlementController:45 - Loading Play record...
+2021-05-21 06:07:35 INFO  Daotest:24 - GameRecord(Createtime=2021-05-20T21:00:02.151594400Z, Player=asdf, Step=6, Playgame=00:00:05)
+2021-05-21 06:07:35 INFO  Daotest:24 - GameRecord(Createtime=2021-05-20T20:55:12.377688Z, Player=qwre, Step=6, Playgame=00:00:06)
+2021-05-21 06:07:35 INFO  Daotest:24 - GameRecord(Createtime=2021-05-20T20:58:59.807638700Z, Player=ee, Step=6, Playgame=00:00:06)
+2021-05-21 06:07:35 INFO  Daotest:24 - GameRecord(Createtime=2021-05-20T20:47:21.228232Z, Player=qwer, Step=6, Playgame=00:00:06)
+2021-05-21 06:07:35 INFO  Daotest:24 - GameRecord(Createtime=2021-05-20T20:49:24.807683500Z, Player=12121, Step=6, Playgame=00:00:05)
+2021-05-21 06:07:35 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 06:08:05 INFO  Daotest:24 - GameRecord(Createtime=2021-05-20T20:58:06.444644900Z, Player=Unit_test, Step=1, Playgame=00:00:01)
+2021-05-21 06:08:05 INFO  Daotest:24 - GameRecord(Createtime=2021-05-20T21:00:02.151594400Z, Player=asdf, Step=6, Playgame=00:00:05)
+2021-05-21 06:08:05 INFO  Daotest:24 - GameRecord(Createtime=2021-05-20T20:58:59.807638700Z, Player=ee, Step=6, Playgame=00:00:06)
+2021-05-21 06:08:05 INFO  Daotest:24 - GameRecord(Createtime=2021-05-20T20:51:01.579758300Z, Player=wqrewq, Step=6, Playgame=00:00:06)
+2021-05-21 06:08:05 INFO  Daotest:24 - GameRecord(Createtime=2021-05-20T21:03:19.260619200Z, Player=wer, Step=6, Playgame=00:00:06)
+2021-05-21 06:08:05 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 06:09:52 INFO  Daotest:24 - GameRecord(Createtime=2021-05-20T20:58:06.444644900Z, Player=Unit_test, Step=1, Playgame=00:00:01)
+2021-05-21 06:09:52 INFO  Daotest:24 - GameRecord(Createtime=2021-05-20T21:00:02.151594400Z, Player=asdf, Step=6, Playgame=00:00:05)
+2021-05-21 06:09:52 INFO  Daotest:24 - GameRecord(Createtime=2021-05-20T20:58:59.807638700Z, Player=ee, Step=6, Playgame=00:00:06)
+2021-05-21 06:09:52 INFO  Daotest:24 - GameRecord(Createtime=2021-05-20T20:51:01.579758300Z, Player=wqrewq, Step=6, Playgame=00:00:06)
+2021-05-21 06:09:52 INFO  Daotest:24 - GameRecord(Createtime=2021-05-20T21:03:19.260619200Z, Player=wer, Step=6, Playgame=00:00:06)
+2021-05-21 06:09:52 INFO  XmlUtil:29 - Game Data:<Record><Createtime>2021-05-20T20:58:06.444644900Z</Createtime><Player>Unit_test</Player><Step>1</Step><Playgame>00:00:01</Playgame></Record>
+2021-05-21 06:09:52 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 06:26:32 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 06:26:33 INFO  StartController:45 - The player1 name is set to {}, loading game scene
+2021-05-21 06:26:33 INFO  StartController:46 - The player2 name is set to {}, loading game scene
+2021-05-21 06:26:35 DEBUG GameController:308 - Quit is pressed
+2021-05-21 06:26:35 INFO  GameController:310 - The game has been stopped
+2021-05-21 06:26:35 INFO  GameController:312 - Loading high scores scene...
+2021-05-21 06:26:35 DEBUG settlementController:45 - Loading Play record...
+2021-05-21 09:34:31 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 09:34:39 INFO  StartController:45 - The player1 name is set to {1281313}, loading game scene
+2021-05-21 09:34:39 INFO  StartController:46 - The player2 name is set to {13121}, loading game scene
+2021-05-21 09:34:40 INFO  GameController:159 - Click on square (0,1)
+2021-05-21 09:34:41 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 09:34:41 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 09:34:41 INFO  GameController:249 - Move: (0,1) -> (1,1)
+2021-05-21 09:34:42 INFO  GameController:159 - Click on square (1,1)
+2021-05-21 09:34:43 INFO  GameController:159 - Click on square (2,1)
+2021-05-21 09:34:43 INFO  GameController:175 - Moving piece 1 DOWN
+2021-05-21 09:34:43 INFO  GameController:249 - Move: (1,1) -> (2,1)
+2021-05-21 09:34:45 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 09:34:45 INFO  GameController:159 - Click on square (3,1)
+2021-05-21 09:34:45 INFO  GameController:175 - Moving piece 5 UP
+2021-05-21 09:34:45 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-21 09:34:45 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 09:34:46 INFO  GameController:159 - Click on square (3,2)
+2021-05-21 09:34:46 INFO  GameController:175 - Moving piece 6 UP
+2021-05-21 09:34:46 INFO  GameController:249 - Move: (4,2) -> (3,2)
+2021-05-21 09:34:47 INFO  GameController:159 - Click on square (4,3)
+2021-05-21 09:34:47 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 09:34:47 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 09:34:47 INFO  GameController:249 - Move: (4,3) -> (4,2)
+2021-05-21 09:34:48 INFO  GameController:159 - Click on square (4,2)
+2021-05-21 09:34:49 INFO  GameController:159 - Click on square (4,1)
+2021-05-21 09:34:49 INFO  GameController:175 - Moving piece 7 LEFT
+2021-05-21 09:34:49 INFO  GameController:249 - Move: (4,2) -> (4,1)
+2021-05-21 09:34:50 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-21T07:34:50.934079Z, Player=1281313, Step=6, Playgame=00:00:11)
+2021-05-21 09:34:51 INFO  XmlUtil:29 - Game Data:<Record><Createtime>2021-05-21T07:34:50.934079Z</Createtime><Player>1281313</Player><Step>6</Step><Playgame>00:00:11</Playgame></Record>
+2021-05-21 09:34:51 DEBUG XmlUtil:34 - FilePath:/C:/Users/27426/Desktop/学习资料/homework-template-project-master/target/classes/xml/GameRecord.xml
+2021-05-21 09:34:51 INFO  GameController:277 - com.fasterxml.jackson.core.JsonParseException: Unexpected EOF in prolog
+ at [row,col {unknown-source}]: [1,1]
+2021-05-21 09:34:56 DEBUG GameController:308 - Quit is pressed
+2021-05-21 09:34:56 INFO  GameController:310 - The game has been stopped
+2021-05-21 09:34:56 INFO  GameController:312 - Loading high scores scene...
+2021-05-21 09:34:56 DEBUG settlementController:45 - Loading Play record...
+2021-05-21 09:35:05 DEBUG GameController:308 - Quit is pressed
+2021-05-21 09:35:05 INFO  GameController:310 - The game has been stopped
+2021-05-21 09:35:05 INFO  GameController:312 - Loading high scores scene...
+2021-05-21 09:35:05 DEBUG settlementController:45 - Loading Play record...
+2021-05-21 09:37:13 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-21 09:37:16 INFO  StartController:45 - The player1 name is set to {}, loading game scene
+2021-05-21 09:37:16 INFO  StartController:46 - The player2 name is set to {}, loading game scene
+2021-05-21 09:37:18 DEBUG GameController:308 - Quit is pressed
+2021-05-21 09:37:18 INFO  GameController:310 - The game has been stopped
+2021-05-21 09:37:18 INFO  GameController:312 - Loading high scores scene...
+2021-05-21 09:37:18 DEBUG settlementController:45 - Loading Play record...
+2021-05-22 10:38:04 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-22 10:38:08 INFO  StartController:45 - The player1 name is set to {584}, loading game scene
+2021-05-22 10:38:08 INFO  StartController:46 - The player2 name is set to {54}, loading game scene
+2021-05-22 10:38:09 INFO  GameController:159 - Click on square (4,1)
+2021-05-22 10:38:09 INFO  GameController:159 - Click on square (3,1)
+2021-05-22 10:38:09 INFO  GameController:175 - Moving piece 5 UP
+2021-05-22 10:38:09 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-22 10:38:11 DEBUG GameController:308 - Quit is pressed
+2021-05-22 10:38:11 INFO  GameController:310 - The game has been stopped
+2021-05-22 10:38:11 INFO  GameController:312 - Loading high scores scene...
+2021-05-22 10:38:11 DEBUG settlementController:45 - Loading Play record...
+2021-05-22 10:38:13 DEBUG GameController:299 - Reset is pressed
+2021-05-22 10:38:13 INFO  GameController:300 - Resetting game...
+2021-05-22 10:38:25 INFO  PlayBoardGameApplication:21 - Starting application...
+2021-05-22 10:38:27 INFO  StartController:45 - The player1 name is set to {}, loading game scene
+2021-05-22 10:38:27 INFO  StartController:46 - The player2 name is set to {}, loading game scene
+2021-05-22 10:38:28 INFO  GameController:159 - Click on square (4,1)
+2021-05-22 10:38:28 INFO  GameController:159 - Click on square (3,1)
+2021-05-22 10:38:28 INFO  GameController:175 - Moving piece 5 UP
+2021-05-22 10:38:28 INFO  GameController:249 - Move: (4,1) -> (3,1)
+2021-05-22 10:38:30 DEBUG GameController:308 - Quit is pressed
+2021-05-22 10:38:30 INFO  GameController:310 - The game has been stopped
+2021-05-22 10:38:30 INFO  GameController:312 - Loading high scores scene...
+2021-05-22 10:38:30 DEBUG settlementController:45 - Loading Play record...
