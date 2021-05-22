@@ -6,17 +6,27 @@ import Entity.Position;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * class of how to victory.
+ */
 public class Victory {
     int[][] chead = new int[5][4];
-    
+
     List<Position> positions = new  ArrayList<Position>();
+
+    /**
+     *
+     * @param checkerboard
+     * @param color
+     * @return
+     */
     public boolean victory(Checkerboard checkerboard, String color){
         for (int i = 0; i < chead.length; i++) {
             for (int j = 0; j < chead[0].length; j++) {
                 chead[i][j] = 0;
             }
         }
-        
+
         for (int i = 0; i < checkerboard.getPieceCount(); i++) {
             String colornow = String.valueOf(checkerboard.getPieceType(i));
             if (color.equals(colornow)) {
@@ -122,8 +132,27 @@ public class Victory {
         }
         return rightLeaCount >= 3 ? true : false;
     }
-    /** * 该方法调用了其余判断四个方向的方法做为判断条件 * 其中之一知足则表明出现赢棋，返回true，不然返回false * */
-    public static boolean winOrLoseCheck(int[][] board, final int row, final int col) {
+
+    /**
+     *
+     * @param board
+     * @param row
+     * @param col
+     * @return
+     */
+    public static boolean winOrLoseCheck(
+            /**
+             * board.
+             */
+            int[][] board,
+            /**
+             * row.
+             */
+            final int row,
+            /**
+             * col.
+             */
+            final int col) {
         if (winCol(board, row, col) || winRow(board, row, col)
                 || winLeftLea(board, row, col) || winRightLea(board, row, col)) {
             return true;

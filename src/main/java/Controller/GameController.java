@@ -37,6 +37,9 @@ import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * class of gam controller.
+ */
 @Slf4j
 @Data
 public class GameController {
@@ -271,8 +274,8 @@ public class GameController {
             stopWatchTimeline.stop();
             try {
                 GameRecord g = createGameResult();
-                 GameRecordDao ff = new  GameRecordDao();
-                 ff.InputGameRecord(g);
+                GameRecordDao ff = new  GameRecordDao();
+                ff.InputGameRecord(g);
             } catch (Exception e){
                 log.info(String.valueOf(e));
             }
@@ -295,6 +298,10 @@ public class GameController {
         stopWatchTimeline.play();
     }
 
+    /**
+     *
+     * @param actionEvent
+     */
     public void handleResetButton(ActionEvent actionEvent) {
         log.debug("{} is pressed", ((Button) actionEvent.getSource()).getText());
         log.info("Resetting game...");
@@ -303,6 +310,11 @@ public class GameController {
         initialize();
     }
 
+    /**
+     *
+     * @param actionEvent
+     * @throws IOException
+     */
     public void handleGiveUpButton(ActionEvent actionEvent) throws IOException {
         String buttonText = ((Button) actionEvent.getSource()).getText();
         log.debug("{} is pressed", buttonText);
@@ -317,6 +329,11 @@ public class GameController {
         stage.show();
     }
 
+    /**
+     *
+     * @return
+     * @throws Exception
+     */
     public GameRecord createGameResult() throws Exception {
         GameRecord result = new GameRecord();
         result.setCreatetime(String.valueOf(Instant.now()));

@@ -13,8 +13,17 @@ import java.net.URLDecoder;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
+
+/**
+ *
+ */
 @Slf4j
 public class XmlUtil {
+    /**
+     *
+     * @param gameRecord
+     * @throws JsonProcessingException
+     */
     public static void BeanXml(GameRecord gameRecord) throws JsonProcessingException {
         XmlMapper xmlMapper = new XmlMapper();
         xmlMapper.setDefaultUseWrapper(false);
@@ -46,6 +55,11 @@ public class XmlUtil {
 
     }
 
+    /**
+     *
+     * @return
+     * @throws IOException
+     */
     public  static List<GameRecord> GetGameRecord() throws IOException {
         InputStream is = XmlUtil.class.getClassLoader().getResourceAsStream("xml/GameRecord.xml");
         Properties prop = new Properties();

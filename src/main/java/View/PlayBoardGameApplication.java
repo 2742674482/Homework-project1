@@ -9,7 +9,9 @@ import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import lombok.extern.slf4j.Slf4j;
 
-
+/**
+ * Start the  Application.
+ */
 @Slf4j
 public class PlayBoardGameApplication extends Application {
 

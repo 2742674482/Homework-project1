@@ -14,6 +14,9 @@ import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
 
+/**
+ *
+ */
 @Slf4j
 public class StartController {
     private FXMLLoader fxmlLoader;
@@ -22,10 +25,17 @@ public class StartController {
     private TextField playone;
     @FXML
     private TextField playtwo;
-
+    /**
+     *
+     */
     @FXML
     private Label errorLabel;
 
+    /**
+     *
+     * @param actionEvent
+     * @throws IOException
+     */
     public void start(ActionEvent actionEvent) throws IOException {
         if (playone.getText().isEmpty()) {
             errorLabel.setText("Enter your name!");

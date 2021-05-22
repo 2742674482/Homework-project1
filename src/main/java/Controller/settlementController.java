@@ -22,6 +22,9 @@ import java.time.Duration;
 import java.time.ZonedDateTime;
 import java.util.List;
 
+/**
+ *
+ */
 @Slf4j
 
 public class settlementController {
@@ -57,7 +60,11 @@ public class settlementController {
         RecordTable.setItems(observableResult);
     }
 
-
+    /**
+     *
+     * @param actionEvent
+     * @throws IOException
+     */
     public void RestartButton(ActionEvent actionEvent) throws IOException {
         log.debug("{} is pressed", ((Button) actionEvent.getSource()).getText());
         log.info("Loading launch scene...");

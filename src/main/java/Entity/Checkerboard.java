@@ -5,11 +5,17 @@ import javafx.beans.property.ObjectProperty;
 
 import java.util.*;
 
+/**
+ *
+ */
 public class Checkerboard {
 
 
     private final Piece[] pieces;
 
+    /**
+     *
+     */
     public Checkerboard() {
         this(new Piece( PieceType.RED, new Position(0, 0)),
                 new Piece( PieceType.BLUE, new Position(0, 1)),
@@ -21,6 +27,10 @@ public class Checkerboard {
                 new Piece( PieceType.BLUE, new Position(4, 3)));
     }
 
+    /**
+     *
+     * @param pieces
+     */
     public Checkerboard(Piece... pieces) {
         checkPieces(pieces);
         this.pieces = pieces.clone();
@@ -36,22 +46,47 @@ public class Checkerboard {
         }
     }
 
+    /**
+     *
+     * @return
+     */
     public int getPieceCount() {
         return pieces.length;
     }
 
+    /**
+     *
+     * @param pieceNumber
+     * @return
+     */
     public PieceType getPieceType(int pieceNumber) {
         return pieces[pieceNumber].getType();
     }
 
+    /**
+     *
+     * @param pieceNumber
+     * @return
+     */
     public Position getPiecePosition(int pieceNumber) {
         return pieces[pieceNumber].getPosition();
     }
 
+    /**
+     *
+     * @param pieceNumber
+     * @return
+     */
     public ObjectProperty<Position> positionProperty(int pieceNumber) {
         return pieces[pieceNumber].positionProperty();
     }
 
+    /**
+     *
+     * @param pieceNumber
+     * @param direction
+     * @return
+     */
     public boolean isValidMove(int pieceNumber, PawnDirection direction) {
         if (pieceNumber < 0 || pieceNumber >= pieces.length) {
             throw new IllegalArgumentException();
@@ -68,6 +103,11 @@ public class Checkerboard {
         return true;
     }
 
+    /**
+     *
+     * @param pieceNumber
+     * @return
+     */
     public Set<PawnDirection> getValidMoves(int pieceNumber) {
         EnumSet<PawnDirection> validMoves = EnumSet.noneOf(PawnDirection.class);
         for (var direction : PawnDirection.values()) {
@@ -78,15 +118,29 @@ public class Checkerboard {
         return validMoves;
     }
 
+    /**
+     *
+     * @param pieceNumber
+     * @param direction
+     */
     public void move(int pieceNumber, PawnDirection direction) {
         pieces[pieceNumber].moveTo(direction);
     }
 
+    /**
+     *
+     * @param position
+     * @return
+     */
     public static boolean isOnBoard(Position position) {
         return 0 <= position.getRow() && position.getRow() < 5
                 && 0 <= position.getCol() && position.getCol() < 4;
     }
 
+    /**
+     *
+     * @return
+     */
     public List<Position> getPiecePositions() {
         List<Position> positions = new ArrayList<>(pieces.length);
         for (var piece : pieces) {
@@ -95,6 +149,11 @@ public class Checkerboard {
         return positions;
     }
 
+    /**
+     *
+     * @param position
+     * @return
+     */
     public OptionalInt getPieceNumber(Position position) {
         for (int i = 0; i < pieces.length; i++) {
             if (pieces[i].getPosition().equals(position)) {
@@ -104,6 +163,10 @@ public class Checkerboard {
         return OptionalInt.empty();
     }
 
+    /**
+     *
+     * @return
+     */
     public String toString() {
         StringJoiner joiner = new StringJoiner(",", "[", "]");
         for (var piece : pieces) {

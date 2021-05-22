@@ -1,7 +1,4 @@
-package Entity.operation;
-/*
-Selection and judgment of mobile phone
-
-
-/
+/**
+ * Selection and judgment of mobile phone.
  */
+package Entity.operation;
