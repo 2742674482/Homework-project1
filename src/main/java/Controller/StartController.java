@@ -15,7 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.io.IOException;
 
 /**
- *
+ *Controller for start page.
  */
 @Slf4j
 public class StartController {
@@ -26,15 +26,15 @@ public class StartController {
     @FXML
     private TextField playtwo;
     /**
-     *
+     *Error message.
      */
     @FXML
     private Label errorLabel;
 
     /**
-     *
-     * @param actionEvent
-     * @throws IOException
+     *Start button, click function.
+     * @param actionEvent Mouse click event source
+     * @throws IOException Data exception thrown
      */
     public void start(ActionEvent actionEvent) throws IOException {
         if (playone.getText().isEmpty()) {

@@ -12,8 +12,7 @@ public class Position {
     int col;
 
     /**
-     *
-     *z
+     *Class initialization load.
      * @param row
      * @param col
      */
@@ -23,17 +22,17 @@ public class Position {
     }
 
     /**
-     *
+     *Mobile method.
      * @param direction
-     * @return
+     * @return row and col move to
      */
     public Position moveTo(Direction direction) {
         return new Position(row + direction.getRowChange(), col + direction.getColChange());
     }
 
     /**
-     *
-     * @return
+     *Output printing.
+     * @return row and col to string
      */
     public String toString() {
         return String.format("(%d,%d)", row, col);

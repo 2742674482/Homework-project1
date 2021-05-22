@@ -31,7 +31,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.time.DurationFormatUtils;
 
 import java.io.IOException;
-import java.time.Duration;
+
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
@@ -299,8 +299,8 @@ public class GameController {
     }
 
     /**
-     *
-     * @param actionEvent
+     *this is mouseaction event.
+     * @param actionEvent  Get mouse click events
      */
     public void handleResetButton(ActionEvent actionEvent) {
         log.debug("{} is pressed", ((Button) actionEvent.getSource()).getText());
@@ -313,9 +313,9 @@ public class GameController {
     }
 
     /**
-     *
-     * @param actionEvent
-     * @throws IOException
+     *This is a page Jump event.
+     * @param actionEvent Get mouse click event source
+     * @throws IOException When the data is empty, or data overflow is an exception
      */
     public void handleGiveUpButton(ActionEvent actionEvent) throws IOException {
         String buttonText = ((Button) actionEvent.getSource()).getText();
@@ -332,9 +332,9 @@ public class GameController {
     }
 
     /**
-     *
-     * @return
-     * @throws Exception
+     *The data generated will be recorded and stored.
+     * @return Return to page data
+     * @throws Exception When the data is empty, or data overflow is an exception
      */
     public GameRecord createGameResult() throws Exception {
         GameRecord result = new GameRecord();

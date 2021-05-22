@@ -23,7 +23,7 @@ import java.time.ZonedDateTime;
 import java.util.List;
 
 /**
- *
+ *Results show the controller of the page.
  */
 @Slf4j
 
@@ -61,9 +61,9 @@ public class settlementController {
     }
 
     /**
-     *
-     * @param actionEvent
-     * @throws IOException
+     *Page Jump.
+     * @param actionEvent Mouse click event source
+     * @throws IOException When the data is empty, or data overflow is an exception
      */
     public void RestartButton(ActionEvent actionEvent) throws IOException {
         log.debug("{} is pressed", ((Button) actionEvent.getSource()).getText());

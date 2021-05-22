@@ -6,7 +6,7 @@ import javafx.beans.property.ObjectProperty;
 import java.util.*;
 
 /**
- *
+ *Chessboard generation class.
  */
 public class Checkerboard {
 
@@ -14,7 +14,7 @@ public class Checkerboard {
     private final Piece[] pieces;
 
     /**
-     *
+     *Chessboard initialization.
      */
     public Checkerboard() {
         this(new Piece( PieceType.RED, new Position(0, 0)),
@@ -28,7 +28,7 @@ public class Checkerboard {
     }
 
     /**
-     *
+     *Chessboard initialization.
      * @param pieces
      */
     public Checkerboard(Piece... pieces) {
@@ -47,45 +47,45 @@ public class Checkerboard {
     }
 
     /**
-     *
-     * @return
+     *Get the number of pieces.
+     * @return number of pieces
      */
     public int getPieceCount() {
         return pieces.length;
     }
 
     /**
-     *
-     * @param pieceNumber
-     * @return
+     *number of PieceType.
+     * @param pieceNumber number of pieceNumber
+     * @return number of pieceNumber
      */
     public PieceType getPieceType(int pieceNumber) {
         return pieces[pieceNumber].getType();
     }
 
     /**
-     *
-     * @param pieceNumber
-     * @return
+     *number of Position.
+     * @param pieceNumber number of pieceNumber
+     * @return number of pieceNumber
      */
     public Position getPiecePosition(int pieceNumber) {
         return pieces[pieceNumber].getPosition();
     }
 
     /**
-     *
+     *Get operation object.
      * @param pieceNumber
-     * @return
+     * @return Operation object
      */
     public ObjectProperty<Position> positionProperty(int pieceNumber) {
         return pieces[pieceNumber].positionProperty();
     }
 
     /**
-     *
-     * @param pieceNumber
-     * @param direction
-     * @return
+     *Chess pieces and direction control.
+     * @param pieceNumber piece Number
+     * @param direction Direction of movement
+     * @return Can it move
      */
     public boolean isValidMove(int pieceNumber, PawnDirection direction) {
         if (pieceNumber < 0 || pieceNumber >= pieces.length) {
@@ -104,9 +104,9 @@ public class Checkerboard {
     }
 
     /**
-     *
-     * @param pieceNumber
-     * @return
+     *Get mobile data.
+     * @param pieceNumber piece Number
+     * @return Can it move piece
      */
     public Set<PawnDirection> getValidMoves(int pieceNumber) {
         EnumSet<PawnDirection> validMoves = EnumSet.noneOf(PawnDirection.class);
@@ -119,18 +119,18 @@ public class Checkerboard {
     }
 
     /**
-     *
-     * @param pieceNumber
-     * @param direction
+     *How to move.
+     * @param pieceNumber piece Number
+     * @param direction direction
      */
     public void move(int pieceNumber, PawnDirection direction) {
         pieces[pieceNumber].moveTo(direction);
     }
 
     /**
-     *
+     *Direction movement judgment.
      * @param position
-     * @return
+     * @return result
      */
     public static boolean isOnBoard(Position position) {
         return 0 <= position.getRow() && position.getRow() < 5
@@ -138,8 +138,8 @@ public class Checkerboard {
     }
 
     /**
-     *
-     * @return
+     *Get mobile collection.
+     * @return Get mobile collection return
      */
     public List<Position> getPiecePositions() {
         List<Position> positions = new ArrayList<>(pieces.length);
@@ -150,9 +150,9 @@ public class Checkerboard {
     }
 
     /**
-     *
-     * @param position
-     * @return
+     *Get all the directions you can move.
+     * @param position Direction object
+     * @return data
      */
     public OptionalInt getPieceNumber(Position position) {
         for (int i = 0; i < pieces.length; i++) {
@@ -164,8 +164,8 @@ public class Checkerboard {
     }
 
     /**
-     *
-     * @return
+     *All data are printed out.
+     * @return character string
      */
     public String toString() {
         StringJoiner joiner = new StringJoiner(",", "[", "]");

@@ -48,7 +48,8 @@ public enum KnightDirection implements Direction {
 
     /**
      *
-     * @return
+     * Get the return value of the row.
+     * @return Return the number of rows
      */
     public int getRowChange() {
         return rowChange;
@@ -56,17 +57,18 @@ public enum KnightDirection implements Direction {
 
     /**
      *
-     * @return
+     * Get the return value of the col.
+     *@return Return the number of cols
      */
     public int getColChange() {
         return colChange;
     }
 
     /**
-     *
+     *Direction control.
      * @param rowChange
      * @param colChange
-     * @return
+     * @return Return row and column data
      */
     public static KnightDirection of(int rowChange, int colChange) {
         for (var direction : values()) {

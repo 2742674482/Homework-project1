@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Properties;
 
 /**
- *
+ *Transformation tool class between XML and JavaBean.
  */
 @Slf4j
 public class XmlUtil {
@@ -56,8 +56,8 @@ public class XmlUtil {
     }
 
     /**
-     *
-     * @return
+     * Get game record collection.
+     * @return Game record collection
      * @throws IOException
      */
     public  static List<GameRecord> GetGameRecord() throws IOException {
@@ -70,7 +70,9 @@ public class XmlUtil {
             xml = xml.substring(1);
             xml = xml.substring(0,xml.length()-1);
         }
+        xml = xml.replaceAll("<\\?xml=version=\"1.0\" encoding=\"UTF-8\" \\?>","");
         xml = xml.replaceAll(regExp,"");
+
         xml = xml.replaceAll("=",":");
         String[] xmls = xml.split("\\?");
         XmlMapper xmlMapper = new XmlMapper();
@@ -93,7 +95,6 @@ public class XmlUtil {
                 }
             }
         }
-
         List<GameRecord> gameRecords = new ArrayList<>();
         int count = 0;
         if (g.size() >= 5) {
@@ -104,6 +105,8 @@ public class XmlUtil {
         for (int i = 0; i < count; i++) {
             gameRecords.add(g.get(i));
         }
+
+
 
         return gameRecords;
     }

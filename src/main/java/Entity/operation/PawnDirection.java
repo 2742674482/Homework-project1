@@ -47,7 +47,8 @@ public enum PawnDirection implements Direction {
 
     /**
      *
-     * @return
+     * Get the return value of the row.
+     * @return Return the number of rows
      */
     public int getRowChange() {
         return rowChange;
@@ -55,17 +56,18 @@ public enum PawnDirection implements Direction {
 
     /**
      *
-     * @return
+     * Get the return value of the col.
+     *@return Return the number of cols
      */
     public int getColChange() {
         return colChange;
     }
 
     /**
-     *
+     *Direction control.
      * @param rowChange
      * @param colChange
-     * @return
+     * @return Return row and column data
      */
     public static PawnDirection of(int rowChange, int colChange) {
         for (var direction : values()) {
@@ -76,12 +78,5 @@ public enum PawnDirection implements Direction {
         throw new IllegalArgumentException();
     }
 
-    /**
-     *
-     * @param args
-     */
-    public static void main(String[] args) {
-        System.out.println(of(1, -1));
-    }
 
 }

@@ -14,7 +14,7 @@ public class Piece {
     private final ObjectProperty<Position> position = new SimpleObjectProperty<>();
 
     /**
-     *
+     * piece init.
      * @param type
      * @param position
      */
@@ -24,7 +24,7 @@ public class Piece {
     }
 
     /**
-     *
+     * piece move to.
      * @param direction
      */
     public void moveTo(Direction direction) {
@@ -33,16 +33,16 @@ public class Piece {
     }
 
     /**
-     *
-     * @return
+     * get the position.
+     * @return get the position
      */
     public Position getPosition() {
         return position.get();
     }
 
     /**
-     *
-     * @return
+     * get the property of position.
+     * @return {@code position}
      */
     public ObjectProperty<Position> positionProperty() {
         return position;

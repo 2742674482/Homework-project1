@@ -1,18 +1,18 @@
 package Entity.operation;
 
 /**
- *
+ *Direction control interface.
  */
 public interface Direction {
     /**
-     *
-     * @return
+     *Get the return value of the row.
+     * @return Return the number of rows
      */
     int getRowChange();
 
     /**
-     *
-     * @return
+     *Get the return value of the col.
+     * @return Return the number of cols
      */
     int getColChange();
 

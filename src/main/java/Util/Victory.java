@@ -15,10 +15,10 @@ public class Victory {
     List<Position> positions = new  ArrayList<Position>();
 
     /**
-     *
+     *Integrate the input data.
      * @param checkerboard
      * @param color
-     * @return
+     * @return Win or not
      */
     public boolean victory(Checkerboard checkerboard, String color){
         for (int i = 0; i < chead.length; i++) {
@@ -134,11 +134,11 @@ public class Victory {
     }
 
     /**
-     *
+     *find it win or lose.
      * @param board
      * @param row
      * @param col
-     * @return
+     * @return  win or lose
      */
     public static boolean winOrLoseCheck(
             /**
