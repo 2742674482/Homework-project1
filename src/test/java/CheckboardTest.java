@@ -7,11 +7,10 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CheckboardTest {
-    /*@Test
+    @Test
     void testSetInitial() {
         Checkerboard boardGame = new Checkerboard();
-        assertEquals(new Checkerboard(
-                new Piece( PieceType.RED, new Position(0, 0)),
+        assertEquals(new Checkerboard(new Piece( PieceType.RED, new Position(0, 0)),
                 new Piece( PieceType.BLUE, new Position(0, 1)),
                 new Piece( PieceType.RED, new Position(0, 2)),
                 new Piece( PieceType.BLUE, new Position(0, 3)),
@@ -22,7 +21,7 @@ public class CheckboardTest {
     }
 
 
-*/
+
 
     @Test
     void testToString() {
