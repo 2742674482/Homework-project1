@@ -72,7 +72,6 @@ public class PositionTest {
     void getKnightDOWN_LEFT() {   assertPosition(2, -1, position.moveTo(KnightDirection.DOWN_LEFT));}
 
 
-
     @Test
     void getPawnUP_LEFT() { assertPosition(-1, -1, position.moveTo(PawnDirection.UP_LEFT));}
 
