@@ -4,34 +4,22 @@ package Entity.operation;
  * pawn direction.
  */
 public enum PawnDirection implements Direction {
-    /**
-     * up left.
-     */
-    UP_LEFT(-1, -1),
+
     /**
      * up.
      */
     UP(-1, 0),
-    /**
-     * up right.
-     */
-    UP_RIGHT(-1, 1),
+
     /**
      * right.
      */
     RIGHT(0, 1),
-    /**
-     * down right.
-     */
-    DOWN_RIGHT(1, 1),
+
     /**
      * down.
      */
     DOWN(1, 0),
-    /**
-     * down left.
-     */
-    DOWN_LEFT(1, -1),
+
     /**
      * left.
      */
