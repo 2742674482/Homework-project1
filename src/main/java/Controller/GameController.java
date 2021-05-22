@@ -307,6 +307,8 @@ public class GameController {
         log.info("Resetting game...");
         stopWatchTimeline.stop();
         board.getChildren().clear();
+        steps = 0;
+        stepsLabel.setText(String.valueOf(steps));
         initialize();
     }
 
