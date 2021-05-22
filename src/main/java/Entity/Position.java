@@ -13,7 +13,7 @@ public class Position {
 
     /**
      *
-     * @param row
+      * @param row
      * @param col
      */
     public Position(int row, int col){
@@ -32,7 +32,7 @@ public class Position {
 
     /**
      *
-     * @return
+      * @return
      */
     public String toString() {
         return String.format("(%d,%d)", row, col);
