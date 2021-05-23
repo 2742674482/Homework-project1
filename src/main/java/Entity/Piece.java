@@ -6,7 +6,7 @@ import javafx.beans.property.SimpleObjectProperty;
 import lombok.Data;
 
 /**
- class of piece.
+ class of {@link Piece}.
  */
 @Data
 public class Piece {

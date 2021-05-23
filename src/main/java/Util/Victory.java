@@ -142,15 +142,15 @@ public class Victory {
      */
     public static boolean winOrLoseCheck(
             /**
-             * board.
+             *  {@link board}.
              */
             int[][] board,
             /**
-             * row.
+             *  {@link row}.
              */
             final int row,
             /**
-             * col.
+             *  {@link col}.
              */
             final int col) {
         if (winCol(board, row, col) || winRow(board, row, col)

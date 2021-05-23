@@ -22,7 +22,7 @@ public class GameRecordDao {
     }
 
     /**
-     * Get all the game data return the{@code g}.
+     * Get all the game data and return the{@code g}.
      * @return the {@code g} to game data list
      * @throws IOException Data exception thrown
      */

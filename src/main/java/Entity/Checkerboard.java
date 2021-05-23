@@ -6,7 +6,7 @@ import javafx.beans.property.ObjectProperty;
 import java.util.*;
 
 /**
- *Chessboard generation class.
+ *  {@link Checkerboard} generation class.
  */
 public class Checkerboard {
 
@@ -14,7 +14,7 @@ public class Checkerboard {
     private final Piece[] pieces;
 
     /**
-     *Chessboard initialization.
+     *{@link Checkerboard} initialization.
      */
     public Checkerboard() {
         this(new Piece( PieceType.RED, new Position(0, 0)),

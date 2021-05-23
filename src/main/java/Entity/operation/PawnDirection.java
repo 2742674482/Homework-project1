@@ -1,7 +1,7 @@
 package Entity.operation;
 
 /**
- * pawn direction.
+ * enum of  {@link PawnDirection}.
  */
 public enum PawnDirection implements Direction {
 
@@ -36,7 +36,7 @@ public enum PawnDirection implements Direction {
     /**
      *
      * Get the return value of the row.
-     * @return Return the number of rows
+     * @return Return the {@code rowChange}
      */
     public int getRowChange() {
         return rowChange;
@@ -52,10 +52,10 @@ public enum PawnDirection implements Direction {
     }
 
     /**
-     *Direction control.
+     * Direction control.
      * @param rowChange
      * @param colChange
-     * @return Return row and column data
+     * @return Return the {@code direction}
      */
     public static PawnDirection of(int rowChange, int colChange) {
         for (var direction : values()) {

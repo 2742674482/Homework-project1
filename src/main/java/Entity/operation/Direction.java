@@ -1,7 +1,7 @@
 package Entity.operation;
 
 /**
- *Direction control interface.
+ * {@link Direction} control interface.
  */
 public interface Direction {
     /**
