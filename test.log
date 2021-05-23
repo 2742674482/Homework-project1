@@ -3844,3 +3844,386 @@ GameRecord(Createtime=2021-05-20T18:31:34.016488600Z, player=215321532, step=6, 
 2021-05-22 23:19:08 INFO  GameController:324 - The game has been stopped
 2021-05-22 23:19:08 INFO  GameController:326 - Loading high scores scene...
 2021-05-22 23:19:08 DEBUG settlementController:48 - Loading Play record...
+2021-05-23 00:50:16 INFO  XmlUtil:38 - Game Data:<Record><Createtime>2021-05-22T15:37:15.336119200Z</Createtime><Player>qwe</Player><Step>0</Step><Playgame>00:00:01</Playgame></Record>
+2021-05-23 00:50:16 DEBUG XmlUtil:43 - FilePath:/C:/Users/27426/Desktop/homework-project/target/classes/xml/GameRecord.xml
+2021-05-23 08:38:09 INFO  XmlUtil:38 - Game Data:<Record><Createtime>2021-05-22T15:37:15.336119200Z</Createtime><Player>qwe</Player><Step>0</Step><Playgame>00:00:01</Playgame></Record>
+2021-05-23 08:38:09 DEBUG XmlUtil:43 - FilePath:/C:/Users/27426/Desktop/homework-project/target/classes/xml/GameRecord.xml
+2021-05-23 08:38:53 INFO  XmlUtil:38 - Game Data:<Record><Createtime>2021-05-22T15:37:15.336119200Z</Createtime><Player>qwe</Player><Step>0</Step><Playgame>00:00:01</Playgame></Record>
+2021-05-23 08:38:53 DEBUG XmlUtil:43 - FilePath:/C:/Users/27426/Desktop/homework-project/target/classes/xml/GameRecord.xml
+2021-05-23 08:55:18 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-23 08:55:21 INFO  StartController:55 - The player1 name is set to {}, loading game scene
+2021-05-23 08:55:21 INFO  StartController:56 - The player2 name is set to {}, loading game scene
+2021-05-23 08:55:23 DEBUG GameController:322 - Quit is pressed
+2021-05-23 08:55:23 INFO  GameController:324 - The game has been stopped
+2021-05-23 08:55:23 INFO  GameController:326 - Loading high scores scene...
+2021-05-23 08:55:23 DEBUG settlementController:48 - Loading Play record...
+2021-05-23 10:17:57 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-23 10:18:00 INFO  StartController:55 - The player1 name is set to {54}, loading game scene
+2021-05-23 10:18:00 INFO  StartController:56 - The player2 name is set to {456}, loading game scene
+2021-05-23 10:18:01 INFO  GameController:162 - Click on square (4,0)
+2021-05-23 10:18:01 INFO  GameController:162 - Click on square (3,0)
+2021-05-23 10:18:01 INFO  GameController:178 - Moving piece 4 UP
+2021-05-23 10:18:01 INFO  GameController:252 - Move: (4,0) -> (3,0)
+2021-05-23 10:18:03 DEBUG GameController:322 - Quit is pressed
+2021-05-23 10:18:03 INFO  GameController:324 - The game has been stopped
+2021-05-23 10:18:03 INFO  GameController:326 - Loading high scores scene...
+2021-05-23 10:18:03 DEBUG settlementController:48 - Loading Play record...
+2021-05-23 10:18:39 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-23 10:18:43 INFO  StartController:55 - The player1 name is set to {654}, loading game scene
+2021-05-23 10:18:43 INFO  StartController:56 - The player2 name is set to {456}, loading game scene
+2021-05-23 10:18:44 INFO  GameController:162 - Click on square (4,0)
+2021-05-23 10:18:44 INFO  GameController:162 - Click on square (3,0)
+2021-05-23 10:18:44 INFO  GameController:178 - Moving piece 4 UP
+2021-05-23 10:18:44 INFO  GameController:252 - Move: (4,0) -> (3,0)
+2021-05-23 10:18:46 INFO  GameController:162 - Click on square (0,0)
+2021-05-23 10:18:47 INFO  GameController:162 - Click on square (4,1)
+2021-05-23 10:18:47 INFO  GameController:162 - Click on square (3,1)
+2021-05-23 10:18:48 INFO  GameController:162 - Click on square (4,1)
+2021-05-23 10:18:48 INFO  GameController:162 - Click on square (3,1)
+2021-05-23 10:18:51 DEBUG GameController:306 - Reset is pressed
+2021-05-23 10:18:51 INFO  GameController:307 - Resetting game...
+2021-05-23 10:18:52 INFO  GameController:162 - Click on square (4,0)
+2021-05-23 10:18:53 DEBUG GameController:306 - Reset is pressed
+2021-05-23 10:18:53 INFO  GameController:307 - Resetting game...
+2021-05-23 10:18:57 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-23 10:19:00 INFO  StartController:55 - The player1 name is set to {75}, loading game scene
+2021-05-23 10:19:00 INFO  StartController:56 - The player2 name is set to {785}, loading game scene
+2021-05-23 10:19:01 INFO  GameController:162 - Click on square (4,0)
+2021-05-23 10:19:01 INFO  GameController:162 - Click on square (3,0)
+2021-05-23 10:19:01 INFO  GameController:178 - Moving piece 4 UP
+2021-05-23 10:19:01 INFO  GameController:252 - Move: (4,0) -> (3,0)
+2021-05-23 10:19:02 INFO  GameController:162 - Click on square (4,1)
+2021-05-23 10:19:03 INFO  GameController:162 - Click on square (3,1)
+2021-05-23 10:19:03 INFO  GameController:178 - Moving piece 5 UP
+2021-05-23 10:19:03 INFO  GameController:252 - Move: (4,1) -> (3,1)
+2021-05-23 10:19:04 INFO  GameController:162 - Click on square (0,0)
+2021-05-23 10:19:04 INFO  GameController:162 - Click on square (1,0)
+2021-05-23 10:19:04 INFO  GameController:178 - Moving piece 0 DOWN
+2021-05-23 10:19:04 INFO  GameController:252 - Move: (0,0) -> (1,0)
+2021-05-23 10:19:05 INFO  GameController:162 - Click on square (3,1)
+2021-05-23 10:19:05 INFO  GameController:162 - Click on square (2,1)
+2021-05-23 10:19:05 INFO  GameController:178 - Moving piece 5 UP
+2021-05-23 10:19:05 INFO  GameController:252 - Move: (3,1) -> (2,1)
+2021-05-23 10:19:07 INFO  GameController:162 - Click on square (1,0)
+2021-05-23 10:19:07 INFO  GameController:162 - Click on square (2,0)
+2021-05-23 10:19:07 INFO  GameController:178 - Moving piece 0 DOWN
+2021-05-23 10:19:07 INFO  GameController:252 - Move: (1,0) -> (2,0)
+2021-05-23 10:19:08 INFO  GameController:162 - Click on square (2,1)
+2021-05-23 10:19:08 INFO  GameController:162 - Click on square (1,1)
+2021-05-23 10:19:08 INFO  GameController:178 - Moving piece 5 UP
+2021-05-23 10:19:08 INFO  GameController:252 - Move: (2,1) -> (1,1)
+2021-05-23 10:19:09 INFO  GameController:162 - Click on square (4,2)
+2021-05-23 10:19:09 INFO  GameController:162 - Click on square (4,1)
+2021-05-23 10:19:09 INFO  GameController:178 - Moving piece 6 LEFT
+2021-05-23 10:19:09 INFO  GameController:252 - Move: (4,2) -> (4,1)
+2021-05-23 10:19:10 INFO  GameController:162 - Click on square (0,3)
+2021-05-23 10:19:10 INFO  GameController:162 - Click on square (1,3)
+2021-05-23 10:19:10 INFO  GameController:178 - Moving piece 3 DOWN
+2021-05-23 10:19:10 INFO  GameController:252 - Move: (0,3) -> (1,3)
+2021-05-23 10:19:11 INFO  GameController:162 - Click on square (4,1)
+2021-05-23 10:19:11 INFO  GameController:162 - Click on square (4,0)
+2021-05-23 10:19:11 INFO  GameController:178 - Moving piece 6 LEFT
+2021-05-23 10:19:11 INFO  GameController:252 - Move: (4,1) -> (4,0)
+2021-05-23 10:19:14 INFO  GameController:345 - Game informationGameRecord(Createtime=2021-05-23T08:19:14.033366500Z, Player=75, Step=9, Playgame=00:00:13)
+2021-05-23 10:19:14 INFO  XmlUtil:38 - Game Data:<Record><Createtime>2021-05-23T08:19:14.033366500Z</Createtime><Player>75</Player><Step>9</Step><Playgame>00:00:13</Playgame></Record>
+2021-05-23 10:19:14 DEBUG XmlUtil:43 - FilePath:/C:/Users/27426/Desktop/homework-project/target/classes/xml/GameRecord.xml
+2021-05-23 10:19:16 DEBUG GameController:322 - Quit is pressed
+2021-05-23 10:19:16 INFO  GameController:324 - The game has been stopped
+2021-05-23 10:19:16 INFO  GameController:326 - Loading high scores scene...
+2021-05-23 10:19:16 DEBUG settlementController:48 - Loading Play record...
+2021-05-23 10:19:18 DEBUG settlementController:69 - Restart is pressed
+2021-05-23 10:19:18 INFO  settlementController:70 - Loading launch scene...
+2021-05-23 10:19:21 INFO  StartController:55 - The player1 name is set to {4545}, loading game scene
+2021-05-23 10:19:21 INFO  StartController:56 - The player2 name is set to {4564}, loading game scene
+2021-05-23 10:19:21 INFO  GameController:162 - Click on square (4,0)
+2021-05-23 10:19:21 INFO  GameController:162 - Click on square (3,0)
+2021-05-23 10:19:21 INFO  GameController:178 - Moving piece 4 UP
+2021-05-23 10:19:21 INFO  GameController:252 - Move: (4,0) -> (3,0)
+2021-05-23 10:19:22 INFO  GameController:162 - Click on square (0,0)
+2021-05-23 10:19:22 INFO  GameController:162 - Click on square (1,0)
+2021-05-23 10:19:22 INFO  GameController:178 - Moving piece 0 DOWN
+2021-05-23 10:19:22 INFO  GameController:252 - Move: (0,0) -> (1,0)
+2021-05-23 10:19:22 INFO  GameController:162 - Click on square (0,3)
+2021-05-23 10:19:23 INFO  GameController:162 - Click on square (0,2)
+2021-05-23 10:19:24 INFO  GameController:162 - Click on square (0,2)
+2021-05-23 10:19:24 INFO  GameController:162 - Click on square (1,3)
+2021-05-23 10:19:24 INFO  GameController:178 - Moving piece 3 DOWN
+2021-05-23 10:19:24 INFO  GameController:252 - Move: (0,3) -> (1,3)
+2021-05-23 10:19:25 INFO  GameController:162 - Click on square (0,2)
+2021-05-23 10:19:25 INFO  GameController:162 - Click on square (1,2)
+2021-05-23 10:19:25 INFO  GameController:178 - Moving piece 2 DOWN
+2021-05-23 10:19:25 INFO  GameController:252 - Move: (0,2) -> (1,2)
+2021-05-23 10:19:25 INFO  GameController:162 - Click on square (1,2)
+2021-05-23 10:19:26 INFO  GameController:162 - Click on square (2,2)
+2021-05-23 10:19:26 INFO  GameController:178 - Moving piece 2 DOWN
+2021-05-23 10:19:26 INFO  GameController:252 - Move: (1,2) -> (2,2)
+2021-05-23 10:19:26 INFO  GameController:162 - Click on square (2,2)
+2021-05-23 10:19:26 INFO  GameController:162 - Click on square (2,1)
+2021-05-23 10:19:26 INFO  GameController:178 - Moving piece 2 LEFT
+2021-05-23 10:19:26 INFO  GameController:252 - Move: (2,2) -> (2,1)
+2021-05-23 10:19:27 INFO  GameController:162 - Click on square (2,1)
+2021-05-23 10:19:27 INFO  GameController:162 - Click on square (2,0)
+2021-05-23 10:19:27 INFO  GameController:178 - Moving piece 2 LEFT
+2021-05-23 10:19:27 INFO  GameController:252 - Move: (2,1) -> (2,0)
+2021-05-23 10:19:28 INFO  GameController:345 - Game informationGameRecord(Createtime=2021-05-23T08:19:28.310165Z, Player=4564, Step=7, Playgame=00:00:07)
+2021-05-23 10:19:28 INFO  XmlUtil:38 - Game Data:<Record><Createtime>2021-05-23T08:19:28.310165Z</Createtime><Player>4564</Player><Step>7</Step><Playgame>00:00:07</Playgame></Record>
+2021-05-23 10:19:28 DEBUG XmlUtil:43 - FilePath:/C:/Users/27426/Desktop/homework-project/target/classes/xml/GameRecord.xml
+2021-05-23 10:19:29 DEBUG GameController:322 - Quit is pressed
+2021-05-23 10:19:29 INFO  GameController:324 - The game has been stopped
+2021-05-23 10:19:29 INFO  GameController:326 - Loading high scores scene...
+2021-05-23 10:19:29 DEBUG settlementController:48 - Loading Play record...
+2021-05-23 10:19:30 DEBUG settlementController:69 - Restart is pressed
+2021-05-23 10:19:30 INFO  settlementController:70 - Loading launch scene...
+2021-05-23 10:19:32 INFO  StartController:55 - The player1 name is set to {5745}, loading game scene
+2021-05-23 10:19:32 INFO  StartController:56 - The player2 name is set to {757575}, loading game scene
+2021-05-23 10:19:33 INFO  GameController:162 - Click on square (4,0)
+2021-05-23 10:19:33 INFO  GameController:162 - Click on square (3,1)
+2021-05-23 10:19:34 INFO  GameController:162 - Click on square (3,0)
+2021-05-23 10:19:34 INFO  GameController:178 - Moving piece 4 UP
+2021-05-23 10:19:34 INFO  GameController:252 - Move: (4,0) -> (3,0)
+2021-05-23 10:19:34 INFO  GameController:162 - Click on square (4,1)
+2021-05-23 10:19:34 INFO  GameController:162 - Click on square (3,1)
+2021-05-23 10:19:34 INFO  GameController:178 - Moving piece 5 UP
+2021-05-23 10:19:34 INFO  GameController:252 - Move: (4,1) -> (3,1)
+2021-05-23 10:19:35 INFO  GameController:162 - Click on square (0,1)
+2021-05-23 10:19:35 INFO  GameController:162 - Click on square (1,1)
+2021-05-23 10:19:35 INFO  GameController:178 - Moving piece 1 DOWN
+2021-05-23 10:19:35 INFO  GameController:252 - Move: (0,1) -> (1,1)
+2021-05-23 10:19:35 INFO  GameController:162 - Click on square (0,3)
+2021-05-23 10:19:36 INFO  GameController:162 - Click on square (1,3)
+2021-05-23 10:19:36 INFO  GameController:178 - Moving piece 3 DOWN
+2021-05-23 10:19:36 INFO  GameController:252 - Move: (0,3) -> (1,3)
+2021-05-23 10:19:36 INFO  GameController:162 - Click on square (1,3)
+2021-05-23 10:19:37 INFO  GameController:162 - Click on square (1,2)
+2021-05-23 10:19:37 INFO  GameController:178 - Moving piece 3 LEFT
+2021-05-23 10:19:37 INFO  GameController:252 - Move: (1,3) -> (1,2)
+2021-05-23 10:19:37 INFO  GameController:162 - Click on square (1,2)
+2021-05-23 10:19:37 INFO  GameController:162 - Click on square (2,2)
+2021-05-23 10:19:37 INFO  GameController:178 - Moving piece 3 DOWN
+2021-05-23 10:19:37 INFO  GameController:252 - Move: (1,2) -> (2,2)
+2021-05-23 10:19:37 INFO  GameController:162 - Click on square (2,2)
+2021-05-23 10:19:38 INFO  GameController:162 - Click on square (2,1)
+2021-05-23 10:19:38 INFO  GameController:178 - Moving piece 3 LEFT
+2021-05-23 10:19:38 INFO  GameController:252 - Move: (2,2) -> (2,1)
+2021-05-23 10:19:39 INFO  GameController:345 - Game informationGameRecord(Createtime=2021-05-23T08:19:39.083455100Z, Player=5745, Step=7, Playgame=00:00:06)
+2021-05-23 10:19:39 INFO  XmlUtil:38 - Game Data:<Record><Createtime>2021-05-23T08:19:39.083455100Z</Createtime><Player>5745</Player><Step>7</Step><Playgame>00:00:06</Playgame></Record>
+2021-05-23 10:19:39 DEBUG XmlUtil:43 - FilePath:/C:/Users/27426/Desktop/homework-project/target/classes/xml/GameRecord.xml
+2021-05-23 10:19:40 DEBUG GameController:322 - Quit is pressed
+2021-05-23 10:19:40 INFO  GameController:324 - The game has been stopped
+2021-05-23 10:19:40 INFO  GameController:326 - Loading high scores scene...
+2021-05-23 10:19:40 DEBUG settlementController:48 - Loading Play record...
+2021-05-23 10:19:42 DEBUG settlementController:69 - Restart is pressed
+2021-05-23 10:19:42 INFO  settlementController:70 - Loading launch scene...
+2021-05-23 10:19:44 INFO  StartController:55 - The player1 name is set to {5245}, loading game scene
+2021-05-23 10:19:44 INFO  StartController:56 - The player2 name is set to {4545}, loading game scene
+2021-05-23 10:19:45 INFO  GameController:162 - Click on square (3,0)
+2021-05-23 10:19:45 INFO  GameController:162 - Click on square (4,0)
+2021-05-23 10:19:45 INFO  GameController:162 - Click on square (3,0)
+2021-05-23 10:19:45 INFO  GameController:178 - Moving piece 4 UP
+2021-05-23 10:19:45 INFO  GameController:252 - Move: (4,0) -> (3,0)
+2021-05-23 10:19:46 INFO  GameController:162 - Click on square (1,0)
+2021-05-23 10:19:46 INFO  GameController:162 - Click on square (0,0)
+2021-05-23 10:19:46 INFO  GameController:162 - Click on square (1,0)
+2021-05-23 10:19:46 INFO  GameController:178 - Moving piece 0 DOWN
+2021-05-23 10:19:46 INFO  GameController:252 - Move: (0,0) -> (1,0)
+2021-05-23 10:19:47 INFO  GameController:162 - Click on square (0,2)
+2021-05-23 10:19:47 INFO  GameController:162 - Click on square (1,2)
+2021-05-23 10:19:47 INFO  GameController:178 - Moving piece 2 DOWN
+2021-05-23 10:19:47 INFO  GameController:252 - Move: (0,2) -> (1,2)
+2021-05-23 10:19:48 INFO  GameController:162 - Click on square (1,2)
+2021-05-23 10:19:48 INFO  GameController:162 - Click on square (2,2)
+2021-05-23 10:19:48 INFO  GameController:178 - Moving piece 2 DOWN
+2021-05-23 10:19:48 INFO  GameController:252 - Move: (1,2) -> (2,2)
+2021-05-23 10:19:48 INFO  GameController:162 - Click on square (2,2)
+2021-05-23 10:19:48 INFO  GameController:162 - Click on square (2,1)
+2021-05-23 10:19:48 INFO  GameController:178 - Moving piece 2 LEFT
+2021-05-23 10:19:48 INFO  GameController:252 - Move: (2,2) -> (2,1)
+2021-05-23 10:19:49 INFO  GameController:162 - Click on square (2,1)
+2021-05-23 10:19:49 INFO  GameController:162 - Click on square (2,0)
+2021-05-23 10:19:49 INFO  GameController:178 - Moving piece 2 LEFT
+2021-05-23 10:19:49 INFO  GameController:252 - Move: (2,1) -> (2,0)
+2021-05-23 10:19:50 INFO  GameController:345 - Game informationGameRecord(Createtime=2021-05-23T08:19:50.343183100Z, Player=4545, Step=6, Playgame=00:00:05)
+2021-05-23 10:19:50 INFO  XmlUtil:38 - Game Data:<Record><Createtime>2021-05-23T08:19:50.343183100Z</Createtime><Player>4545</Player><Step>6</Step><Playgame>00:00:05</Playgame></Record>
+2021-05-23 10:19:50 DEBUG XmlUtil:43 - FilePath:/C:/Users/27426/Desktop/homework-project/target/classes/xml/GameRecord.xml
+2021-05-23 10:19:50 DEBUG GameController:322 - Quit is pressed
+2021-05-23 10:19:50 INFO  GameController:324 - The game has been stopped
+2021-05-23 10:19:50 INFO  GameController:326 - Loading high scores scene...
+2021-05-23 10:19:50 DEBUG settlementController:48 - Loading Play record...
+2021-05-23 10:19:53 DEBUG settlementController:69 - Restart is pressed
+2021-05-23 10:19:53 INFO  settlementController:70 - Loading launch scene...
+2021-05-23 10:19:56 INFO  StartController:55 - The player1 name is set to {45654}, loading game scene
+2021-05-23 10:19:56 INFO  StartController:56 - The player2 name is set to {5464545}, loading game scene
+2021-05-23 10:19:56 INFO  GameController:162 - Click on square (4,0)
+2021-05-23 10:19:56 INFO  GameController:162 - Click on square (3,0)
+2021-05-23 10:19:56 INFO  GameController:178 - Moving piece 4 UP
+2021-05-23 10:19:56 INFO  GameController:252 - Move: (4,0) -> (3,0)
+2021-05-23 10:19:57 INFO  GameController:162 - Click on square (0,0)
+2021-05-23 10:19:57 INFO  GameController:162 - Click on square (1,0)
+2021-05-23 10:19:57 INFO  GameController:178 - Moving piece 0 DOWN
+2021-05-23 10:19:57 INFO  GameController:252 - Move: (0,0) -> (1,0)
+2021-05-23 10:19:57 INFO  GameController:162 - Click on square (1,0)
+2021-05-23 10:19:58 INFO  GameController:162 - Click on square (2,0)
+2021-05-23 10:19:58 INFO  GameController:178 - Moving piece 0 DOWN
+2021-05-23 10:19:58 INFO  GameController:252 - Move: (1,0) -> (2,0)
+2021-05-23 10:19:58 INFO  GameController:162 - Click on square (0,2)
+2021-05-23 10:19:58 INFO  GameController:162 - Click on square (1,2)
+2021-05-23 10:19:58 INFO  GameController:178 - Moving piece 2 DOWN
+2021-05-23 10:19:58 INFO  GameController:252 - Move: (0,2) -> (1,2)
+2021-05-23 10:19:58 INFO  GameController:162 - Click on square (1,2)
+2021-05-23 10:19:59 INFO  GameController:162 - Click on square (1,1)
+2021-05-23 10:19:59 INFO  GameController:178 - Moving piece 2 LEFT
+2021-05-23 10:19:59 INFO  GameController:252 - Move: (1,2) -> (1,1)
+2021-05-23 10:19:59 INFO  GameController:162 - Click on square (1,1)
+2021-05-23 10:19:59 INFO  GameController:162 - Click on square (1,0)
+2021-05-23 10:19:59 INFO  GameController:178 - Moving piece 2 LEFT
+2021-05-23 10:19:59 INFO  GameController:252 - Move: (1,1) -> (1,0)
+2021-05-23 10:20:01 INFO  GameController:345 - Game informationGameRecord(Createtime=2021-05-23T08:20:01.246035900Z, Player=5464545, Step=6, Playgame=00:00:05)
+2021-05-23 10:20:01 INFO  XmlUtil:38 - Game Data:<Record><Createtime>2021-05-23T08:20:01.246035900Z</Createtime><Player>5464545</Player><Step>6</Step><Playgame>00:00:05</Playgame></Record>
+2021-05-23 10:20:01 DEBUG XmlUtil:43 - FilePath:/C:/Users/27426/Desktop/homework-project/target/classes/xml/GameRecord.xml
+2021-05-23 10:20:02 DEBUG GameController:322 - Quit is pressed
+2021-05-23 10:20:02 INFO  GameController:324 - The game has been stopped
+2021-05-23 10:20:02 INFO  GameController:326 - Loading high scores scene...
+2021-05-23 10:20:02 DEBUG settlementController:48 - Loading Play record...
+2021-05-23 10:20:03 DEBUG settlementController:69 - Restart is pressed
+2021-05-23 10:20:03 INFO  settlementController:70 - Loading launch scene...
+2021-05-23 10:20:06 INFO  StartController:55 - The player1 name is set to {354754}, loading game scene
+2021-05-23 10:20:06 INFO  StartController:56 - The player2 name is set to {75575}, loading game scene
+2021-05-23 10:20:06 INFO  GameController:162 - Click on square (4,0)
+2021-05-23 10:20:07 INFO  GameController:162 - Click on square (3,1)
+2021-05-23 10:20:07 INFO  GameController:162 - Click on square (3,0)
+2021-05-23 10:20:07 INFO  GameController:178 - Moving piece 4 UP
+2021-05-23 10:20:07 INFO  GameController:252 - Move: (4,0) -> (3,0)
+2021-05-23 10:20:08 INFO  GameController:162 - Click on square (3,0)
+2021-05-23 10:20:08 INFO  GameController:162 - Click on square (2,0)
+2021-05-23 10:20:08 INFO  GameController:178 - Moving piece 4 UP
+2021-05-23 10:20:08 INFO  GameController:252 - Move: (3,0) -> (2,0)
+2021-05-23 10:20:08 INFO  GameController:162 - Click on square (0,0)
+2021-05-23 10:20:09 INFO  GameController:162 - Click on square (1,0)
+2021-05-23 10:20:09 INFO  GameController:178 - Moving piece 0 DOWN
+2021-05-23 10:20:09 INFO  GameController:252 - Move: (0,0) -> (1,0)
+2021-05-23 10:20:09 INFO  GameController:162 - Click on square (0,2)
+2021-05-23 10:20:09 INFO  GameController:162 - Click on square (1,2)
+2021-05-23 10:20:09 INFO  GameController:178 - Moving piece 2 DOWN
+2021-05-23 10:20:09 INFO  GameController:252 - Move: (0,2) -> (1,2)
+2021-05-23 10:20:09 INFO  GameController:162 - Click on square (1,2)
+2021-05-23 10:20:10 INFO  GameController:162 - Click on square (1,1)
+2021-05-23 10:20:10 INFO  GameController:178 - Moving piece 2 LEFT
+2021-05-23 10:20:10 INFO  GameController:252 - Move: (1,2) -> (1,1)
+2021-05-23 10:20:10 INFO  GameController:162 - Click on square (1,1)
+2021-05-23 10:20:10 INFO  GameController:162 - Click on square (2,1)
+2021-05-23 10:20:10 INFO  GameController:178 - Moving piece 2 DOWN
+2021-05-23 10:20:10 INFO  GameController:252 - Move: (1,1) -> (2,1)
+2021-05-23 10:20:11 INFO  GameController:162 - Click on square (2,1)
+2021-05-23 10:20:11 INFO  GameController:162 - Click on square (3,1)
+2021-05-23 10:20:11 INFO  GameController:178 - Moving piece 2 DOWN
+2021-05-23 10:20:11 INFO  GameController:252 - Move: (2,1) -> (3,1)
+2021-05-23 10:20:12 INFO  GameController:345 - Game informationGameRecord(Createtime=2021-05-23T08:20:12.586913Z, Player=75575, Step=7, Playgame=00:00:06)
+2021-05-23 10:20:12 INFO  XmlUtil:38 - Game Data:<Record><Createtime>2021-05-23T08:20:12.586913Z</Createtime><Player>75575</Player><Step>7</Step><Playgame>00:00:06</Playgame></Record>
+2021-05-23 10:20:12 DEBUG XmlUtil:43 - FilePath:/C:/Users/27426/Desktop/homework-project/target/classes/xml/GameRecord.xml
+2021-05-23 10:20:14 DEBUG GameController:322 - Quit is pressed
+2021-05-23 10:20:14 INFO  GameController:324 - The game has been stopped
+2021-05-23 10:20:14 INFO  GameController:326 - Loading high scores scene...
+2021-05-23 10:20:14 DEBUG settlementController:48 - Loading Play record...
+2021-05-23 10:20:16 DEBUG settlementController:69 - Restart is pressed
+2021-05-23 10:20:16 INFO  settlementController:70 - Loading launch scene...
+2021-05-23 10:20:19 INFO  StartController:55 - The player1 name is set to {54}, loading game scene
+2021-05-23 10:20:19 INFO  StartController:56 - The player2 name is set to {54857}, loading game scene
+2021-05-23 10:20:20 INFO  GameController:162 - Click on square (4,0)
+2021-05-23 10:20:20 INFO  GameController:162 - Click on square (3,0)
+2021-05-23 10:20:20 INFO  GameController:178 - Moving piece 4 UP
+2021-05-23 10:20:20 INFO  GameController:252 - Move: (4,0) -> (3,0)
+2021-05-23 10:20:21 INFO  GameController:162 - Click on square (1,0)
+2021-05-23 10:20:21 INFO  GameController:162 - Click on square (0,0)
+2021-05-23 10:20:21 INFO  GameController:162 - Click on square (1,0)
+2021-05-23 10:20:21 INFO  GameController:178 - Moving piece 0 DOWN
+2021-05-23 10:20:21 INFO  GameController:252 - Move: (0,0) -> (1,0)
+2021-05-23 10:20:22 INFO  GameController:162 - Click on square (0,2)
+2021-05-23 10:20:22 INFO  GameController:162 - Click on square (1,2)
+2021-05-23 10:20:22 INFO  GameController:178 - Moving piece 2 DOWN
+2021-05-23 10:20:22 INFO  GameController:252 - Move: (0,2) -> (1,2)
+2021-05-23 10:20:23 INFO  GameController:162 - Click on square (1,2)
+2021-05-23 10:20:23 INFO  GameController:162 - Click on square (2,2)
+2021-05-23 10:20:23 INFO  GameController:178 - Moving piece 2 DOWN
+2021-05-23 10:20:23 INFO  GameController:252 - Move: (1,2) -> (2,2)
+2021-05-23 10:20:23 INFO  GameController:162 - Click on square (2,2)
+2021-05-23 10:20:24 INFO  GameController:162 - Click on square (2,1)
+2021-05-23 10:20:24 INFO  GameController:178 - Moving piece 2 LEFT
+2021-05-23 10:20:24 INFO  GameController:252 - Move: (2,2) -> (2,1)
+2021-05-23 10:20:24 INFO  GameController:162 - Click on square (2,1)
+2021-05-23 10:20:24 INFO  GameController:162 - Click on square (2,0)
+2021-05-23 10:20:24 INFO  GameController:178 - Moving piece 2 LEFT
+2021-05-23 10:20:24 INFO  GameController:252 - Move: (2,1) -> (2,0)
+2021-05-23 10:20:25 INFO  GameController:345 - Game informationGameRecord(Createtime=2021-05-23T08:20:25.542717900Z, Player=54857, Step=6, Playgame=00:00:05)
+2021-05-23 10:20:25 INFO  XmlUtil:38 - Game Data:<Record><Createtime>2021-05-23T08:20:25.542717900Z</Createtime><Player>54857</Player><Step>6</Step><Playgame>00:00:05</Playgame></Record>
+2021-05-23 10:20:25 DEBUG XmlUtil:43 - FilePath:/C:/Users/27426/Desktop/homework-project/target/classes/xml/GameRecord.xml
+2021-05-23 10:20:27 DEBUG GameController:322 - Quit is pressed
+2021-05-23 10:20:27 INFO  GameController:324 - The game has been stopped
+2021-05-23 10:20:27 INFO  GameController:326 - Loading high scores scene...
+2021-05-23 10:20:27 DEBUG settlementController:48 - Loading Play record...
+2021-05-23 10:20:33 DEBUG settlementController:69 - Restart is pressed
+2021-05-23 10:20:33 INFO  settlementController:70 - Loading launch scene...
+2021-05-23 10:20:42 INFO  StartController:55 - The player1 name is set to {aasd}, loading game scene
+2021-05-23 10:20:42 INFO  StartController:56 - The player2 name is set to {dsad}, loading game scene
+2021-05-23 10:20:42 INFO  GameController:162 - Click on square (0,0)
+2021-05-23 10:20:43 INFO  GameController:162 - Click on square (1,0)
+2021-05-23 10:20:43 INFO  GameController:178 - Moving piece 0 DOWN
+2021-05-23 10:20:43 INFO  GameController:252 - Move: (0,0) -> (1,0)
+2021-05-23 10:20:43 INFO  GameController:162 - Click on square (1,0)
+2021-05-23 10:20:44 INFO  GameController:162 - Click on square (2,0)
+2021-05-23 10:20:44 INFO  GameController:178 - Moving piece 0 DOWN
+2021-05-23 10:20:44 INFO  GameController:252 - Move: (1,0) -> (2,0)
+2021-05-23 10:20:45 INFO  GameController:162 - Click on square (2,0)
+2021-05-23 10:20:49 INFO  GameController:162 - Click on square (4,0)
+2021-05-23 10:20:49 INFO  GameController:162 - Click on square (3,0)
+2021-05-23 10:20:49 INFO  GameController:178 - Moving piece 0 DOWN
+2021-05-23 10:20:49 INFO  GameController:252 - Move: (2,0) -> (3,0)
+2021-05-23 10:20:50 INFO  GameController:162 - Click on square (4,2)
+2021-05-23 10:20:51 INFO  GameController:162 - Click on square (3,2)
+2021-05-23 10:20:51 INFO  GameController:178 - Moving piece 6 UP
+2021-05-23 10:20:51 INFO  GameController:252 - Move: (4,2) -> (3,2)
+2021-05-23 10:20:51 INFO  GameController:162 - Click on square (3,2)
+2021-05-23 10:20:52 INFO  GameController:162 - Click on square (2,2)
+2021-05-23 10:20:52 INFO  GameController:178 - Moving piece 6 UP
+2021-05-23 10:20:52 INFO  GameController:252 - Move: (3,2) -> (2,2)
+2021-05-23 10:20:52 INFO  GameController:162 - Click on square (2,2)
+2021-05-23 10:20:52 INFO  GameController:162 - Click on square (2,1)
+2021-05-23 10:20:52 INFO  GameController:178 - Moving piece 6 LEFT
+2021-05-23 10:20:52 INFO  GameController:252 - Move: (2,2) -> (2,1)
+2021-05-23 10:20:53 INFO  GameController:162 - Click on square (2,1)
+2021-05-23 10:20:53 INFO  GameController:162 - Click on square (2,0)
+2021-05-23 10:20:53 INFO  GameController:178 - Moving piece 6 LEFT
+2021-05-23 10:20:53 INFO  GameController:252 - Move: (2,1) -> (2,0)
+2021-05-23 10:20:54 INFO  GameController:345 - Game informationGameRecord(Createtime=2021-05-23T08:20:54.434774200Z, Player=dsad, Step=7, Playgame=00:00:11)
+2021-05-23 10:20:54 INFO  XmlUtil:38 - Game Data:<Record><Createtime>2021-05-23T08:20:54.434774200Z</Createtime><Player>dsad</Player><Step>7</Step><Playgame>00:00:11</Playgame></Record>
+2021-05-23 10:20:54 DEBUG XmlUtil:43 - FilePath:/C:/Users/27426/Desktop/homework-project/target/classes/xml/GameRecord.xml
+2021-05-23 10:20:55 DEBUG GameController:322 - Quit is pressed
+2021-05-23 10:20:55 INFO  GameController:324 - The game has been stopped
+2021-05-23 10:20:55 INFO  GameController:326 - Loading high scores scene...
+2021-05-23 10:20:55 DEBUG settlementController:48 - Loading Play record...
+2021-05-23 10:21:03 DEBUG settlementController:69 - Restart is pressed
+2021-05-23 10:21:03 INFO  settlementController:70 - Loading launch scene...
+2021-05-23 10:21:05 INFO  StartController:55 - The player1 name is set to {7855}, loading game scene
+2021-05-23 10:21:05 INFO  StartController:56 - The player2 name is set to {87797}, loading game scene
+2021-05-23 10:21:06 INFO  GameController:162 - Click on square (4,0)
+2021-05-23 10:21:06 INFO  GameController:162 - Click on square (3,0)
+2021-05-23 10:21:06 INFO  GameController:178 - Moving piece 4 UP
+2021-05-23 10:21:06 INFO  GameController:252 - Move: (4,0) -> (3,0)
+2021-05-23 10:21:08 INFO  GameController:162 - Click on square (3,0)
+2021-05-23 10:21:08 INFO  GameController:162 - Click on square (3,1)
+2021-05-23 10:21:08 INFO  GameController:178 - Moving piece 4 RIGHT
+2021-05-23 10:21:08 INFO  GameController:252 - Move: (3,0) -> (3,1)
+2021-05-23 10:21:09 INFO  GameController:162 - Click on square (0,0)
+2021-05-23 10:21:09 INFO  GameController:162 - Click on square (1,0)
+2021-05-23 10:21:09 INFO  GameController:178 - Moving piece 0 DOWN
+2021-05-23 10:21:09 INFO  GameController:252 - Move: (0,0) -> (1,0)
+2021-05-23 10:21:10 INFO  GameController:162 - Click on square (1,0)
+2021-05-23 10:21:10 INFO  GameController:162 - Click on square (2,0)
+2021-05-23 10:21:10 INFO  GameController:178 - Moving piece 0 DOWN
+2021-05-23 10:21:10 INFO  GameController:252 - Move: (1,0) -> (2,0)
+2021-05-23 10:21:11 INFO  GameController:345 - Game informationGameRecord(Createtime=2021-05-23T08:21:11.397253300Z, Player=87797, Step=4, Playgame=00:00:05)
+2021-05-23 10:21:11 INFO  XmlUtil:38 - Game Data:<Record><Createtime>2021-05-23T08:21:11.397253300Z</Createtime><Player>87797</Player><Step>4</Step><Playgame>00:00:05</Playgame></Record>
+2021-05-23 10:21:11 DEBUG XmlUtil:43 - FilePath:/C:/Users/27426/Desktop/homework-project/target/classes/xml/GameRecord.xml
+2021-05-23 10:21:12 DEBUG GameController:322 - Quit is pressed
+2021-05-23 10:21:12 INFO  GameController:324 - The game has been stopped
+2021-05-23 10:21:12 INFO  GameController:326 - Loading high scores scene...
+2021-05-23 10:21:12 DEBUG settlementController:48 - Loading Play record...

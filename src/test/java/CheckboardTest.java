@@ -10,14 +10,14 @@ public class CheckboardTest {
     @Test
     void testSetInitial() {
         Checkerboard boardGame = new Checkerboard();
-        assertEquals(new Checkerboard(new Piece( PieceType.RED, new Position(0, 0)),
+        assertEquals(new Checkerboard(new Piece[]{new Piece( PieceType.RED, new Position(0, 0)),
                 new Piece( PieceType.BLUE, new Position(0, 1)),
                 new Piece( PieceType.RED, new Position(0, 2)),
                 new Piece( PieceType.BLUE, new Position(0, 3)),
                 new Piece( PieceType.RED, new Position(4, 0)),
                 new Piece( PieceType.BLUE, new Position(4, 1)),
                 new Piece( PieceType.RED, new Position(4, 2)),
-                new Piece( PieceType.BLUE, new Position(4, 3))),boardGame);
+                new Piece( PieceType.BLUE, new Position(4, 3))}).toString(),boardGame.toString());
     }
 
 

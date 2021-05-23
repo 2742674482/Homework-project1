@@ -25,43 +25,24 @@ public class PositionTest {
 
     @Test
     void getTarget() {
-
-
-
         assertPosition(-1, 0, position.moveTo(PawnDirection.UP));
-
         assertPosition(0, 1, position.moveTo(PawnDirection.RIGHT));
-
         assertPosition(1, 0, position.moveTo(PawnDirection.DOWN));
-
         assertPosition(0, -1, position.moveTo(PawnDirection.LEFT));
     }
-
-
-
-
 
 
     @Test
     void getPawnUP() {assertPosition(-1, 0, position.moveTo(PawnDirection.UP));}
 
-
-
     @Test
     void getPawnRIGHT() {  assertPosition(0, 1, position.moveTo(PawnDirection.RIGHT));}
-
-
 
     @Test
     void getPawnDOWN() {  assertPosition(1, 0, position.moveTo(PawnDirection.DOWN));}
 
-
-
     @Test
     void getPawnLEFT() {    assertPosition(0, -1, position.moveTo(PawnDirection.LEFT));}
-
-
-
 
     @Test
     void testEquals() {

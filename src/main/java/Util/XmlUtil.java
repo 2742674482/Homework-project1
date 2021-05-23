@@ -42,7 +42,7 @@ public class XmlUtil {
             filePath = URLDecoder.decode(filePath,"utf-8");
             log.debug("FilePath:" + filePath);
             bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(filePath,true)));
-            bw.write(result+"?"+"\r\n");
+            bw.write(result+"?");
         } catch (IOException e){
             log.error(e.getMessage());
         }finally {
@@ -60,11 +60,12 @@ public class XmlUtil {
      * @return Game record collection
      * @throws IOException
      */
-    public  static List<GameRecord> GetGameRecord() throws IOException {
+    public static   List<GameRecord> GetGameRecord() throws IOException {
         InputStream is = XmlUtil.class.getClassLoader().getResourceAsStream("xml/GameRecord.xml");
         Properties prop = new Properties();
         prop.load(is);
         String xml = prop.toString();
+        System.out.println(prop.toString());
         String regExp = ",";
         if (xml.length()>0) {
             xml = xml.substring(1);
@@ -75,6 +76,7 @@ public class XmlUtil {
 
         xml = xml.replaceAll("=",":");
         String[] xmls = xml.split("\\?");
+
         XmlMapper xmlMapper = new XmlMapper();
         xmlMapper.setDefaultUseWrapper(false);
         /* 字段为null，自动忽略，不再序列化 */
@@ -83,6 +85,7 @@ public class XmlUtil {
         xmlMapper.enable(MapperFeature.USE_STD_BEAN_NAMING);
         List<GameRecord> g = new ArrayList<>();
         for (int i = 0; i < xmls.length; i++) {
+            System.out.println(xmls[i]);
             g.add(xmlMapper.readValue(xmls[i], GameRecord.class));
             xmlMapper.readValue(xmls[i],GameRecord.class);
         }
