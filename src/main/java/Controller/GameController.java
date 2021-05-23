@@ -342,6 +342,8 @@ public class GameController {
         result.setPlayer(playerLabel.getText());
         result.setStep(steps);
         result.setPlaygame(stopWatchLabel.getText());
+        result.setPlayone(player1Name);
+        result.setPlaytwo(player2Name);
         log.info("Game information" + result.toString());
         return result;
     }

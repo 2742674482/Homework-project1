@@ -11,7 +11,7 @@ public interface Direction {
     int getRowChange();
 
     /**
-     *Get the return value of the col.mvn
+     *Get the return value of the col.
      * @return Return the number of cols
      */
     int getColChange();

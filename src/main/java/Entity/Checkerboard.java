@@ -33,7 +33,7 @@ public class Checkerboard {
      */
     public Checkerboard(Piece... pieces) {
         checkPieces(pieces);
-        this.pieces = pieces.clone();
+        this.pieces = pieces;
     }
 
     private void checkPieces(Piece[] pieces) {

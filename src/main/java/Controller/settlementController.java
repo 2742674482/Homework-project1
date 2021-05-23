@@ -44,6 +44,11 @@ public class settlementController {
     private TableColumn<GameRecord, String> Createtime;
 
     @FXML
+    private TableColumn<GameRecord, String> Playone;
+    @FXML
+    private TableColumn<GameRecord, String> Playtwo;
+
+    @FXML
     private void initialize() throws IOException {
         log.debug("Loading Play record...");
         List<GameRecord> gameRecords = new  GameRecordDao().OutputGamaRecord();
@@ -53,6 +58,8 @@ public class settlementController {
         Step.setCellValueFactory(new PropertyValueFactory<>("Step"));
         Playgame.setCellValueFactory(new PropertyValueFactory<>("Playgame"));
         Createtime.setCellValueFactory(new PropertyValueFactory<>("Createtime"));
+        Playone.setCellValueFactory(new PropertyValueFactory<>("Playone"));
+        Playtwo.setCellValueFactory(new PropertyValueFactory<>("Playtwo"));
 
         ObservableList<GameRecord> observableResult = FXCollections.observableArrayList();
         observableResult.addAll(gameRecords);
