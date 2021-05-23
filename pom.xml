@@ -16,13 +16,13 @@
         </developer>
     </developers>
     <scm>
-        <developerConnection>https://github.com/2742674482/Homework-project1</developerConnection>
+        <developerConnection></developerConnection>
     </scm>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.outputEncoding>UTF-8</project.build.outputEncoding>
         <maven.compiler.release>16</maven.compiler.release>
-        <exec.mainClass>java.View.ApplicationMain</exec.mainClass>
+        <exec.mainClass>View.ApplicationMain</exec.mainClass>
         <javafx.version>16</javafx.version>
         <junit.jupiter.version>5.7.1</junit.jupiter.version>
         <jacoco.version>0.8.7</jacoco.version>
