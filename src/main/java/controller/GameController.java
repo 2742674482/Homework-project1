@@ -1,11 +1,11 @@
-package Controller;
+package controller;
 
-import Dao.GameRecordDao;
+import dao.GameRecordDao;
 import Entity.Checkerboard;
 import Entity.GameRecord;
 import Entity.Position;
 import Entity.operation.PawnDirection;
-import Util.Victory;
+import Entity.Victory;
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
@@ -145,7 +145,7 @@ public class GameController {
         piece.setFill(color);
         return piece;
     }
-
+    //鼠标点击变灰
     @FXML
     private void handleMouseClick(MouseEvent event) {
         var square = (StackPane) event.getSource();
@@ -246,7 +246,7 @@ public class GameController {
         }
         throw new AssertionError();
     }
-
+    //棋子转移
     private void piecePositionChange(ObservableValue<? extends Position> observable,
                                      Position oldPosition, Position newPosition) {
         log.info("Move: {} -> {}", oldPosition, newPosition);
@@ -256,15 +256,16 @@ public class GameController {
         oldSquare.getChildren().clear();
         steps++;
         stepsLabel.setText(String.valueOf(steps));
-
+    //判断胜利的方法，是不是有人x3，先获取颜色，for循环双向获取，获得所有颜色
         String color = "";
         for (int i = 0; i <model.getPieceCount() ; i++) {
             if (model.getPiecePosition(i).getCol() == newPosition.getCol() && model.getPiecePosition(i).getRow() == newPosition.getRow()) {
                 color = String.valueOf(model.getPieceType(i));
             }
         }
+        //放入victor进行 判断是否*3
         boolean result = new  Victory().victory(model,color);
-
+        //若胜利弹窗，刷线游戏
         if (result == true) {
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.titleProperty().set("Win");
@@ -272,6 +273,7 @@ public class GameController {
             alert.showAndWait();
             board.setFocusTraversable(false);
             stopWatchTimeline.stop();
+            //将游戏记录经行装载 gamerecord（下方） gamerecorddao旁边
             try {
                 GameRecord g = createGameResult();
                 GameRecordDao ff = new  GameRecordDao();
@@ -281,14 +283,14 @@ public class GameController {
             }
 
         }
-
+        // 游侠转化，谁走下一步
         if (color.equals("RED")) {
             playerLabel.setText(player2Name);
         }else if (color.equals("BLUE")){
             playerLabel.setText(player1Name);
         }
     }
-
+    //刷新时间
     private void createStopWatch() {
         stopWatchTimeline = new Timeline(new KeyFrame(javafx.util.Duration.ZERO, e -> {
             long millisElapsed = startTime.until(Instant.now(), ChronoUnit.MILLIS);
@@ -302,6 +304,7 @@ public class GameController {
      *this is mouseaction event.
      * @param actionEvent  Get mouse click events
      */
+    //重开按钮
     public void handleResetButton(ActionEvent actionEvent) {
         log.debug("{} is pressed", ((Button) actionEvent.getSource()).getText());
         log.info("Resetting game...");
@@ -336,6 +339,7 @@ public class GameController {
      * @return Return to page data
      * @throws Exception When the data is empty, or data overflow is an exception
      */
+    //将游戏的记录数据包装
     public GameRecord createGameResult() throws Exception {
         GameRecord result = new GameRecord();
         result.setCreatetime(String.valueOf(Instant.now()));

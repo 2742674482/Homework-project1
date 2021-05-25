@@ -1,4 +1,4 @@
-package Util;
+package util;
 
 import Entity.GameRecord;
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Properties;
 
 /**
- *Transformation tool class between XML and JavaBean.
+ *Transformation tool class between XML and JavaB.
  */
 @Slf4j
 public class XmlUtil {
@@ -25,6 +25,7 @@ public class XmlUtil {
      * @throws JsonProcessingException
      */
     public static void BeanXml(GameRecord gameRecord) throws JsonProcessingException {
+        //构建一个map，实体类的装载容器
         XmlMapper xmlMapper = new XmlMapper();
         xmlMapper.setDefaultUseWrapper(false);
         //字段为null，自动忽略，不再序列化
@@ -33,14 +34,18 @@ public class XmlUtil {
         xmlMapper.setPropertyNamingStrategy(PropertyNamingStrategy.UPPER_CAMEL_CASE);
         //设置转换模式
         xmlMapper.enable(MapperFeature.USE_STD_BEAN_NAMING);
-
+        //转译到数据 复制到结果
         String result = xmlMapper.writeValueAsString(gameRecord);
         log.info("Game Data:"+result.toString());
+        //获取resourece的路劲
         String filePath = XmlUtil.class.getClassLoader().getResource("xml/GameRecord.xml").getFile();
+        //流
         BufferedWriter bw = null;
         try {
+            //转译为真实的url
             filePath = URLDecoder.decode(filePath,"utf-8");
             log.debug("FilePath:" + filePath);
+            //创建文件流 重新构建一个新的outputstream
             bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(filePath,true)));
             bw.write(result+"?");
         } catch (IOException e){
@@ -54,12 +59,13 @@ public class XmlUtil {
         }
 
     }
-
+    //xml转实体
     /**
      * Get game record collection.
      * @return Game record collection
      * @throws IOException
      */
+    //构建一个输出流
     public static   List<GameRecord> GetGameRecord() throws IOException {
         InputStream is = XmlUtil.class.getClassLoader().getResourceAsStream("xml/GameRecord.xml");
         Properties prop = new Properties();
@@ -67,6 +73,7 @@ public class XmlUtil {
         String xml = prop.toString();
         System.out.println(prop.toString());
         String regExp = ",";
+        //此处if是消除可能会得到的符号 jackson无法吧xml转化为list，只能手动吧xml分割为一个个单独的xml（只对一个对象），再用jackson转译加入list
         if (xml.length()>0) {
             xml = xml.substring(1);
             xml = xml.substring(0,xml.length()-1);
@@ -89,6 +96,7 @@ public class XmlUtil {
             g.add(xmlMapper.readValue(xmls[i], GameRecord.class));
             xmlMapper.readValue(xmls[i],GameRecord.class);
         }
+        //排序，步数最少的最高
         for (int i = 0; i <g.size() ; i++) {
             for (int j = i; j <g.size(); j++) {
                 if (g.get(i).getStep() > g.get(j).getStep()) {
@@ -98,6 +106,8 @@ public class XmlUtil {
                 }
             }
         }
+
+        //把最高的五个重新输入到list并输出
         List<GameRecord> gameRecords = new ArrayList<>();
         int count = 0;
         if (g.size() >= 5) {

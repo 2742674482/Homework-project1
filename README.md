@@ -9,4 +9,3 @@ Please follow the rules.
 
 The highest 5 player data will be on the Leaderboard.
 
-Game data will be saved in the target/classes/xml/GameRecord.xml.

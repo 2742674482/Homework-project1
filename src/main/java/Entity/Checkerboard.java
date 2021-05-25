@@ -119,7 +119,7 @@ public class Checkerboard {
     }
 
     /**
-     *How to move.
+     * How to move.
      * @param pieceNumber piece Number
      * @param direction direction
      */

@@ -1,4 +1,4 @@
-package Util;
+package Entity;
 
 import Entity.Checkerboard;
 import Entity.Position;
@@ -20,13 +20,14 @@ public class Victory {
      * @param color
      * @return Win or not
      */
+    //将棋盘颜色输入进来 重新构建二位数组
     public boolean victory(Checkerboard checkerboard, String color){
         for (int i = 0; i < chead.length; i++) {
             for (int j = 0; j < chead[0].length; j++) {
                 chead[i][j] = 0;
             }
         }
-
+    //将所有颜色全部获取 ，进入list position里
         for (int i = 0; i < checkerboard.getPieceCount(); i++) {
             String colornow = String.valueOf(checkerboard.getPieceType(i));
             if (color.equals(colornow)) {
@@ -35,6 +36,7 @@ public class Victory {
                 chead[position.getRow()][position.getCol()] = 1;
             }
         }
+        //判断输赢
         for (int i = 0; i < positions.size(); i++) {
             if (winOrLoseCheck(chead,positions.get(i).getRow(),positions.get(i).getCol())==true) {
                 return true;
@@ -140,14 +142,17 @@ public class Victory {
      * @param col
      * @return  win or lose
      */
+    //统一在次方法类调用上面的判断输赢
     public static boolean winOrLoseCheck(
             /**
              *  {@link board}.
              */
+            //输入棋盘
             int[][] board,
             /**
              *  {@link row}.
              */
+            //输入棋子位置
             final int row,
             /**
              *  {@link col}.

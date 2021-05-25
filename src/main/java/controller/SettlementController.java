@@ -1,6 +1,6 @@
-package Controller;
+package controller;
 
-import Dao.GameRecordDao;
+import dao.GameRecordDao;
 import Entity.GameRecord;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -18,8 +18,6 @@ import javafx.stage.Stage;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
-import java.time.Duration;
-import java.time.ZonedDateTime;
 import java.util.List;
 
 /**
@@ -27,7 +25,7 @@ import java.util.List;
  */
 @Slf4j
 
-public class settlementController {
+public class SettlementController {
     @FXML
     private TableView<GameRecord> RecordTable;
 
@@ -51,9 +49,10 @@ public class settlementController {
     @FXML
     private void initialize() throws IOException {
         log.debug("Loading Play record...");
+        //创造容器，获得以前所有的游戏数据，通过Dao
         List<GameRecord> gameRecords = new  GameRecordDao().OutputGamaRecord();
 
-
+        // 绑定 bind
         Player.setCellValueFactory(new PropertyValueFactory<>("Player"));
         Step.setCellValueFactory(new PropertyValueFactory<>("Step"));
         Playgame.setCellValueFactory(new PropertyValueFactory<>("Playgame"));
@@ -72,6 +71,7 @@ public class settlementController {
      * @param actionEvent Mouse click event source
      * @throws IOException When the data is empty, or data overflow is an exception
      */
+    //页面跳转
     public void RestartButton(ActionEvent actionEvent) throws IOException {
         log.debug("{} is pressed", ((Button) actionEvent.getSource()).getText());
         log.info("Loading launch scene...");

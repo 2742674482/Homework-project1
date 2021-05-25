@@ -14,7 +14,7 @@
       prefHeight="700.0" prefWidth="700.0"
       style="-fx-background-color: cornsilk;"
       xmlns="http://javafx.com/javafx"
-      xmlns:fx="http://javafx.com/fxml" fx:controller="Controller.settlementController">
+      xmlns:fx="http://javafx.com/fxml" fx:controller="controller.SettlementController">
     <children>
         <TableView fx:id="RecordTable" editable="true" layoutX="25.0" layoutY="74.0" prefHeight="550.0" prefWidth="650.0" style="-fx-background-color: cornsilk;">
             <columns>

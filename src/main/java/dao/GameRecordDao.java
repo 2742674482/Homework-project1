@@ -1,7 +1,7 @@
-package Dao;
+package dao;
 
 import Entity.GameRecord;
-import Util.XmlUtil;
+import util.XmlUtil;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
 import java.io.IOException;

@@ -3,4 +3,4 @@
  * including the reading and writing class of XML,
  * and the winning logic of playing chess.
  */
-package Util;
+package util;
