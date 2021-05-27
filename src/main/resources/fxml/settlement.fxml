@@ -16,14 +16,14 @@
       xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml" fx:controller="controller.SettlementController">
     <children>
-        <TableView fx:id="RecordTable" editable="true" layoutX="25.0" layoutY="74.0" prefHeight="550.0" prefWidth="650.0" style="-fx-background-color: cornsilk;">
+        <TableView fx:id="recordTable" editable="true" layoutX="25.0" layoutY="74.0" prefHeight="550.0" prefWidth="650.0" style="-fx-background-color: cornsilk;">
             <columns>
-                <TableColumn fx:id="Player" prefWidth="100.0" text="Winer" />
-                <TableColumn fx:id="Step" prefWidth="50.0" text="Steps" />
-                <TableColumn fx:id="Playgame" prefWidth="100.0" text="Duration" />
-                <TableColumn fx:id="Createtime" prefWidth="195.0" text="Date" />
-                <TableColumn fx:id="Playone" prefWidth="100.0" text="Playerone" />
-                <TableColumn fx:id="Playtwo" prefWidth="100.0" text="Playertwo" />
+                <TableColumn fx:id="winer" prefWidth="100.0" text="Winer" />
+                <TableColumn fx:id="step" prefWidth="50.0" text="Steps" />
+                <TableColumn fx:id="playgame" prefWidth="100.0" text="Duration" />
+                <TableColumn fx:id="createtime" prefWidth="195.0" text="Date" />
+                <TableColumn fx:id="playone" prefWidth="100.0" text="Playerone" />
+                <TableColumn fx:id="playtwo" prefWidth="100.0" text="Playertwo" />
             </columns>
         </TableView>
         <Label layoutX="272.0" layoutY="32.0" text="Play Record">

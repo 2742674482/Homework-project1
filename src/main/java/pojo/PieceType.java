@@ -1,4 +1,4 @@
-package Entity;
+package pojo;
 
 /**
  * class of piece type.

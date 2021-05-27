@@ -1,7 +1,4 @@
-package Entity;
-
-import Entity.Checkerboard;
-import Entity.Position;
+package pojo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,14 +17,15 @@ public class Victory {
      * @param color
      * @return Win or not
      */
-    //将棋盘颜色输入进来 重新构建二位数组
+
+
     public boolean victory(Checkerboard checkerboard, String color){
         for (int i = 0; i < chead.length; i++) {
             for (int j = 0; j < chead[0].length; j++) {
                 chead[i][j] = 0;
             }
         }
-    //将所有颜色全部获取 ，进入list position里
+
         for (int i = 0; i < checkerboard.getPieceCount(); i++) {
             String colornow = String.valueOf(checkerboard.getPieceType(i));
             if (color.equals(colornow)) {
@@ -36,7 +34,6 @@ public class Victory {
                 chead[position.getRow()][position.getCol()] = 1;
             }
         }
-        //判断输赢
         for (int i = 0; i < positions.size(); i++) {
             if (winOrLoseCheck(chead,positions.get(i).getRow(),positions.get(i).getCol())==true) {
                 return true;
@@ -46,7 +43,7 @@ public class Victory {
         return false;
     }
 
-    private static boolean winCol(int[][] board, final int row, final int col) {
+    public static boolean winCol(int[][] board, final int row, final int col) {
         int rowCount = 1;
         /* * 向上查找 * col - i >= 0 是为了防止越界的条件 * board[row][col - i] == board[row][col] 由中心向外判断棋子是否相连的条件 */
         for (int i = 1; i <= 2; i++) {
@@ -66,10 +63,10 @@ public class Victory {
                 break;
             }
         }
-        //若是上下两个方向上相连的棋子相加大于等于5，返回true，不然返回false
+        //若是上下两个方向上相连的棋子相加大于等于3，返回true，不然返回false
         return rowCount >= 3 ? true : false;
     }
-    private static boolean winRow(int[][] board, final int row, final int col) {
+    public static boolean winRow(int[][] board, final int row, final int col) {
         int colCount = 1;
         //向左查找
         for (int i = 1; i <= 2; i++) {
@@ -90,7 +87,7 @@ public class Victory {
         }
         return colCount >= 3 ? true : false;
     }
-    private static boolean winLeftLea(int[][] board, final int row, final int col) {
+    public static boolean winLeftLea(int[][] board, final int row, final int col) {
         int leftLeaCount = 1;
         //向左上查找
         for (int i = 1; i <= 2; i++) {
@@ -112,7 +109,7 @@ public class Victory {
         }
         return leftLeaCount >= 3 ? true : false;
     }
-    private static boolean winRightLea(int[][] board, final int row, final int col) {
+    public static boolean winRightLea(int[][] board, final int row, final int col) {
         int rightLeaCount = 1;
         //向左下查找
         for (int i = 1; i <= 2; i++) {
@@ -142,20 +139,17 @@ public class Victory {
      * @param col
      * @return  win or lose
      */
-    //统一在次方法类调用上面的判断输赢
     public static boolean winOrLoseCheck(
             /**
-             *  {@link board}.
+             * board.
              */
-            //输入棋盘
             int[][] board,
             /**
-             *  {@link row}.
+             * row.
              */
-            //输入棋子位置
             final int row,
             /**
-             *  {@link col}.
+             * col.
              */
             final int col) {
         if (winCol(board, row, col) || winRow(board, row, col)

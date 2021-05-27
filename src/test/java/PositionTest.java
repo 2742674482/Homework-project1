@@ -1,7 +1,7 @@
 
 
-import Entity.Position;
-import Entity.operation.PawnDirection;
+import pojo.Position;
+import pojo.operation.PawnDirection;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,7 +1,7 @@
-package Entity.operation;
+package pojo.operation;
 
 /**
- * enum of  {@link PawnDirection}.
+ * pawn direction.
  */
 public enum PawnDirection implements Direction {
 
@@ -36,7 +36,7 @@ public enum PawnDirection implements Direction {
     /**
      *
      * Get the return value of the row.
-     * @return Return the {@code rowChange}
+     * @return Return the number of rows
      */
     public int getRowChange() {
         return rowChange;
@@ -52,10 +52,10 @@ public enum PawnDirection implements Direction {
     }
 
     /**
-     * Direction control.
+     *Direction control.
      * @param rowChange
      * @param colChange
-     * @return Return the {@code direction}
+     * @return Return row and column data
      */
     public static PawnDirection of(int rowChange, int colChange) {
         for (var direction : values()) {

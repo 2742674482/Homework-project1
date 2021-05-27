@@ -1,7 +1,7 @@
-import Entity.Checkerboard;
-import Entity.Piece;
-import Entity.PieceType;
-import Entity.Position;
+import pojo.Checkerboard;
+import pojo.Piece;
+import pojo.PieceType;
+import pojo.Position;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

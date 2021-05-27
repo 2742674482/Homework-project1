@@ -1,7 +1,8 @@
 package controller;
 
 import dao.GameRecordDao;
-import Entity.GameRecord;
+import pojo.GameRecord;
+import jakarta.xml.bind.JAXBException;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -27,43 +28,42 @@ import java.util.List;
 
 public class SettlementController {
     @FXML
-    private TableView<GameRecord> RecordTable;
+    private TableView<GameRecord> recordTable;
 
     @FXML
-    private TableColumn<GameRecord, String> Player;
+    private TableColumn<GameRecord, String> winer;
 
     @FXML
-    private TableColumn<GameRecord, Integer> Step;
+    private TableColumn<GameRecord, Integer> step;
 
     @FXML
-    private TableColumn<GameRecord, String> Playgame;
+    private TableColumn<GameRecord, String> playgame;
 
     @FXML
-    private TableColumn<GameRecord, String> Createtime;
+    private TableColumn<GameRecord, String> createtime;
 
     @FXML
-    private TableColumn<GameRecord, String> Playone;
+    private TableColumn<GameRecord, String> playone;
     @FXML
-    private TableColumn<GameRecord, String> Playtwo;
+    private TableColumn<GameRecord, String> playtwo;
 
     @FXML
-    private void initialize() throws IOException {
+    private void initialize() throws IOException, JAXBException {
         log.debug("Loading Play record...");
-        //创造容器，获得以前所有的游戏数据，通过Dao
         List<GameRecord> gameRecords = new  GameRecordDao().OutputGamaRecord();
 
-        // 绑定 bind
-        Player.setCellValueFactory(new PropertyValueFactory<>("Player"));
-        Step.setCellValueFactory(new PropertyValueFactory<>("Step"));
-        Playgame.setCellValueFactory(new PropertyValueFactory<>("Playgame"));
-        Createtime.setCellValueFactory(new PropertyValueFactory<>("Createtime"));
-        Playone.setCellValueFactory(new PropertyValueFactory<>("Playone"));
-        Playtwo.setCellValueFactory(new PropertyValueFactory<>("Playtwo"));
+
+        winer.setCellValueFactory(new PropertyValueFactory<>("Winer"));
+        step.setCellValueFactory(new PropertyValueFactory<>("Step"));
+        playgame.setCellValueFactory(new PropertyValueFactory<>("Playgame"));
+        createtime.setCellValueFactory(new PropertyValueFactory<>("Createtime"));
+        playone.setCellValueFactory(new PropertyValueFactory<>("Playone"));
+        playtwo.setCellValueFactory(new PropertyValueFactory<>("Playtwo"));
 
         ObservableList<GameRecord> observableResult = FXCollections.observableArrayList();
         observableResult.addAll(gameRecords);
 
-        RecordTable.setItems(observableResult);
+        recordTable.setItems(observableResult);
     }
 
     /**
@@ -71,7 +71,6 @@ public class SettlementController {
      * @param actionEvent Mouse click event source
      * @throws IOException When the data is empty, or data overflow is an exception
      */
-    //页面跳转
     public void RestartButton(ActionEvent actionEvent) throws IOException {
         log.debug("{} is pressed", ((Button) actionEvent.getSource()).getText());
         log.info("Loading launch scene...");

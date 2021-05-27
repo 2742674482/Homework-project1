@@ -1,12 +1,12 @@
-package Entity;
+package pojo;
 
-import Entity.operation.Direction;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import lombok.Data;
+import pojo.operation.Direction;
 
 /**
- class of {@link Piece}.
+ class of piece.
  */
 @Data
 public class Piece {

@@ -1,4 +1,4 @@
-import Entity.operation.PawnDirection;
+import pojo.operation.PawnDirection;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertSame;

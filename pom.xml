@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>hu.unideb.inf</groupId>
-    <artifactId>Homework-project1</artifactId>
+    <artifactId>homework-project1</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
-    <description>Board game about red and black</description>
+    <description></description>
     <developers>
         <developer>
             <name>Tan Haorui</name>
@@ -16,16 +16,17 @@
         </developer>
     </developers>
     <scm>
-        <developerConnection></developerConnection>
+        <developerConnection>scm:git:https://github.com/INBPM0420/homework-template-project.git</developerConnection>
     </scm>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.outputEncoding>UTF-8</project.build.outputEncoding>
         <maven.compiler.release>16</maven.compiler.release>
-        <exec.mainClass>view.ApplicationMain</exec.mainClass>
+        <exec.mainClass>remove.me.RemoveThisClass</exec.mainClass>
         <javafx.version>16</javafx.version>
         <junit.jupiter.version>5.7.1</junit.jupiter.version>
         <jacoco.version>0.8.7</jacoco.version>
+        <jackson.version>2.12.3</jackson.version>
         <surefire.version>3.0.0-M5</surefire.version>
     </properties>
     <dependencies>
@@ -48,25 +49,37 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>javax.activation</groupId>
-            <artifactId>activation</artifactId>
-            <version>1.1</version>
-        </dependency>
-        <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.25</version>
         </dependency>
-        <!--解决javax/xml/bind/JAXBException-->
         <dependency>
-            <groupId>javax.activation</groupId>
-            <artifactId>javax.activation-api</artifactId>
-            <version>1.2.0</version>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.module</groupId>
+            <artifactId>jackson-module-jaxb-annotations</artifactId>
+            <version>2.12.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>3.0.0</version>
+            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-xml</artifactId>
             <version>2.9.5</version>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+            <version>3.0.0</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>

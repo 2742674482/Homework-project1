@@ -1,12 +1,12 @@
-package Entity;
+package pojo;
 
-import Entity.operation.PawnDirection;
 import javafx.beans.property.ObjectProperty;
+import pojo.operation.PawnDirection;
 
 import java.util.*;
 
 /**
- *  {@link Checkerboard} generation class.
+ *Chessboard generation class.
  */
 public class Checkerboard {
 
@@ -14,7 +14,7 @@ public class Checkerboard {
     private final Piece[] pieces;
 
     /**
-     *{@link Checkerboard} initialization.
+     *Chessboard initialization.
      */
     public Checkerboard() {
         this(new Piece( PieceType.RED, new Position(0, 0)),
@@ -55,7 +55,7 @@ public class Checkerboard {
     }
 
     /**
-     *number of PieceType.
+     *Get the color of the pieces.
      * @param pieceNumber number of pieceNumber
      * @return number of pieceNumber
      */
@@ -64,7 +64,7 @@ public class Checkerboard {
     }
 
     /**
-     *number of Position.
+     *Get the position of the pieces.
      * @param pieceNumber number of pieceNumber
      * @return number of pieceNumber
      */
@@ -82,7 +82,7 @@ public class Checkerboard {
     }
 
     /**
-     *Chess pieces and direction control.
+     *Judge whether the movement of chess pieces is effective.
      * @param pieceNumber piece Number
      * @param direction Direction of movement
      * @return Can it move
@@ -104,7 +104,7 @@ public class Checkerboard {
     }
 
     /**
-     *Get mobile data.
+     *Move the pieces effectively.
      * @param pieceNumber piece Number
      * @return Can it move piece
      */
@@ -119,7 +119,7 @@ public class Checkerboard {
     }
 
     /**
-     * How to move.
+     *Moving method of chess pieces.
      * @param pieceNumber piece Number
      * @param direction direction
      */
@@ -128,7 +128,7 @@ public class Checkerboard {
     }
 
     /**
-     *Direction movement judgment.
+     *Set the range of chess pieces to move.
      * @param position
      * @return result
      */

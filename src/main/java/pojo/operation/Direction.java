@@ -1,7 +1,7 @@
-package Entity.operation;
+package pojo.operation;
 
 /**
- * {@link Direction} control interface.
+ *Direction control interface.
  */
 public interface Direction {
     /**

@@ -1543,8 +1543,8 @@ GameRecord(Createtime=2021-05-20T18:31:34.016488600Z, player=215321532, step=6, 
 2021-05-21 04:58:05 INFO  GameController:249 - Move: (4,2) -> (4,1)
 2021-05-21 04:58:06 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T20:58:06.444644900Z, player=w, step=6, playgame=00:00:06)
 2021-05-21 04:58:06 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
-2021-05-21 04:58:06 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class Entity.GameRecord), not marked as ignorable (4 known properties: "player", "step", "playgame", "createtime"])
- at [Source: (StringReader); line: 1, column: 30] (through reference chain: Entity.GameRecord["Player"])
+2021-05-21 04:58:06 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class pojo.GameRecord), not marked as ignorable (4 known properties: "player", "step", "playgame", "createtime"])
+ at [Source: (StringReader); line: 1, column: 30] (through reference chain: pojo.GameRecord["Player"])
 2021-05-21 04:58:48 INFO  PlayBoardGameApplication:21 - Starting application...
 2021-05-21 04:58:53 INFO  StartController:45 - The player1 name is set to {ee}, loading game scene
 2021-05-21 04:58:53 INFO  StartController:46 - The player2 name is set to {ss}, loading game scene
@@ -1574,8 +1574,8 @@ GameRecord(Createtime=2021-05-20T18:31:34.016488600Z, player=215321532, step=6, 
 2021-05-21 04:58:58 INFO  GameController:249 - Move: (4,2) -> (4,1)
 2021-05-21 04:58:59 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T20:58:59.807638700Z, player=ee, step=6, playgame=00:00:06)
 2021-05-21 04:58:59 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
-2021-05-21 04:58:59 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class Entity.GameRecord), not marked as ignorable (4 known properties: "player", "step", "playgame", "createtime"])
- at [Source: (StringReader); line: 1, column: 30] (through reference chain: Entity.GameRecord["Player"])
+2021-05-21 04:58:59 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class pojo.GameRecord), not marked as ignorable (4 known properties: "player", "step", "playgame", "createtime"])
+ at [Source: (StringReader); line: 1, column: 30] (through reference chain: pojo.GameRecord["Player"])
 2021-05-21 04:59:52 INFO  PlayBoardGameApplication:21 - Starting application...
 2021-05-21 04:59:56 INFO  StartController:45 - The player1 name is set to {asdf}, loading game scene
 2021-05-21 04:59:56 INFO  StartController:46 - The player2 name is set to {asa}, loading game scene
@@ -1605,8 +1605,8 @@ GameRecord(Createtime=2021-05-20T18:31:34.016488600Z, player=215321532, step=6, 
 2021-05-21 05:00:00 INFO  GameController:249 - Move: (4,2) -> (4,1)
 2021-05-21 05:00:02 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T21:00:02.151594400Z, player=asdf, step=6, playgame=00:00:05)
 2021-05-21 05:00:02 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
-2021-05-21 05:00:02 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class Entity.GameRecord), not marked as ignorable (4 known properties: "player", "step", "playgame", "createtime"])
- at [Source: (StringReader); line: 1, column: 30] (through reference chain: Entity.GameRecord["Player"])
+2021-05-21 05:00:02 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class pojo.GameRecord), not marked as ignorable (4 known properties: "player", "step", "playgame", "createtime"])
+ at [Source: (StringReader); line: 1, column: 30] (through reference chain: pojo.GameRecord["Player"])
 2021-05-21 05:03:08 INFO  PlayBoardGameApplication:21 - Starting application...
 2021-05-21 05:03:13 INFO  StartController:45 - The player1 name is set to {wer}, loading game scene
 2021-05-21 05:03:13 INFO  StartController:46 - The player2 name is set to {aaa}, loading game scene
@@ -1665,8 +1665,8 @@ GameRecord(Createtime=2021-05-20T18:31:34.016488600Z, player=215321532, step=6, 
 2021-05-21 05:04:42 INFO  GameController:249 - Move: (4,2) -> (4,1)
 2021-05-21 05:04:43 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T21:04:43.266444700Z, player=qwe, step=6, playgame=00:00:05)
 2021-05-21 05:04:43 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
-2021-05-21 05:04:43 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class Entity.GameRecord), not marked as ignorable (5 known properties: "Createtime", "step", "playgame", "player", "createtime"])
- at [Source: (StringReader); line: 1, column: 30] (through reference chain: Entity.GameRecord["Player"])
+2021-05-21 05:04:43 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class pojo.GameRecord), not marked as ignorable (5 known properties: "Createtime", "step", "playgame", "player", "createtime"])
+ at [Source: (StringReader); line: 1, column: 30] (through reference chain: pojo.GameRecord["Player"])
 2021-05-21 05:06:31 INFO  PlayBoardGameApplication:21 - Starting application...
 2021-05-21 05:06:34 INFO  StartController:45 - The player1 name is set to {ew}, loading game scene
 2021-05-21 05:06:34 INFO  StartController:46 - The player2 name is set to {as}, loading game scene
@@ -1696,8 +1696,8 @@ GameRecord(Createtime=2021-05-20T18:31:34.016488600Z, player=215321532, step=6, 
 2021-05-21 05:06:40 INFO  GameController:249 - Move: (4,2) -> (4,1)
 2021-05-21 05:06:41 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T21:06:41.402826900Z, player=ew, step=6, playgame=00:00:06)
 2021-05-21 05:06:41 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
-2021-05-21 05:06:41 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class Entity.GameRecord), not marked as ignorable (5 known properties: "Createtime", "step", "playgame", "player", "createtime"])
- at [Source: (StringReader); line: 1, column: 30] (through reference chain: Entity.GameRecord["Player"])
+2021-05-21 05:06:41 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class pojo.GameRecord), not marked as ignorable (5 known properties: "Createtime", "step", "playgame", "player", "createtime"])
+ at [Source: (StringReader); line: 1, column: 30] (through reference chain: pojo.GameRecord["Player"])
 2021-05-21 05:07:40 INFO  PlayBoardGameApplication:21 - Starting application...
 2021-05-21 05:07:44 INFO  StartController:45 - The player1 name is set to {wre}, loading game scene
 2021-05-21 05:07:44 INFO  StartController:46 - The player2 name is set to {dsa}, loading game scene
@@ -5223,3 +5223,57 @@ GameRecord(Createtime=2021-05-20T18:31:34.016488600Z, player=215321532, step=6, 
 2021-05-25 15:41:29 INFO  GameController:351 - Game informationGameRecord(Createtime=2021-05-25T13:41:29.286094900Z, Player=, Step=6, Playgame=00:00:06, Playone=, Playtwo=)
 2021-05-25 15:41:29 INFO  XmlUtil:39 - Game Data:<Record><Createtime>2021-05-25T13:41:29.286094900Z</Createtime><Player></Player><Step>6</Step><Playgame>00:00:06</Playgame><Playone></Playone><Playtwo></Playtwo></Record>
 2021-05-25 15:41:29 DEBUG XmlUtil:47 - FilePath:/C:/Users/27426/Desktop/homework-project/target/classes/xml/GameRecord.xml
+2021-05-27 19:32:29 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-27 19:32:39 INFO  StartController:55 - The player1 name is set to {646}, loading game scene
+2021-05-27 19:32:39 INFO  StartController:56 - The player2 name is set to {465}, loading game scene
+2021-05-27 19:32:39 INFO  GameController:162 - Click on square (4,0)
+2021-05-27 19:32:40 INFO  GameController:162 - Click on square (3,0)
+2021-05-27 19:32:40 INFO  GameController:184 - Moving piece 4 UP
+2021-05-27 19:32:40 INFO  GameController:258 - Move: (4,0) -> (3,0)
+2021-05-27 19:32:40 INFO  GameController:166 - Click on square (4,1)
+2021-05-27 19:32:41 INFO  GameController:166 - Click on square (4,0)
+2021-05-27 19:32:41 INFO  GameController:184 - Moving piece 5 LEFT
+2021-05-27 19:32:41 INFO  GameController:258 - Move: (4,1) -> (4,0)
+2021-05-27 19:32:41 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:32:42 INFO  GameController:162 - Click on square (0,0)
+2021-05-27 19:32:42 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:32:42 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-27 19:32:42 INFO  GameController:258 - Move: (0,0) -> (1,0)
+2021-05-27 19:32:42 INFO  GameController:166 - Click on square (0,1)
+2021-05-27 19:32:43 INFO  GameController:166 - Click on square (1,1)
+2021-05-27 19:32:43 INFO  GameController:184 - Moving piece 1 DOWN
+2021-05-27 19:32:43 INFO  GameController:258 - Move: (0,1) -> (1,1)
+2021-05-27 19:32:43 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:32:44 INFO  GameController:162 - Click on square (2,0)
+2021-05-27 19:32:44 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-27 19:32:44 INFO  GameController:258 - Move: (1,0) -> (2,0)
+2021-05-27 19:32:44 INFO  GameController:166 - Click on square (1,1)
+2021-05-27 19:32:45 INFO  GameController:166 - Click on square (1,0)
+2021-05-27 19:32:45 INFO  GameController:184 - Moving piece 1 LEFT
+2021-05-27 19:32:45 INFO  GameController:258 - Move: (1,1) -> (1,0)
+2021-05-27 19:32:45 INFO  GameController:162 - Click on square (3,0)
+2021-05-27 19:32:46 INFO  GameController:162 - Click on square (3,1)
+2021-05-27 19:32:46 INFO  GameController:184 - Moving piece 4 RIGHT
+2021-05-27 19:32:46 INFO  GameController:258 - Move: (3,0) -> (3,1)
+2021-05-27 19:32:47 INFO  GameController:359 - Game informationGameRecord(Createtime=2021-05-27T17:32:47.032931600Z, Winer=646, Step=7, Playgame=00:00:08, Playone=646, Playtwo=465)
+2021-05-27 19:32:47 INFO  GameController:286 - java.io.FileNotFoundException: gamerecord.xml (系统找不到指定的文件。)
+2021-05-27 19:32:50 DEBUG GameController:334 - Quit is pressed
+2021-05-27 19:32:50 INFO  GameController:336 - The game has been stopped
+2021-05-27 19:32:50 INFO  GameController:338 - Loading high scores scene...
+2021-05-27 19:32:50 DEBUG SettlementController:52 - Loading Play record...
+2021-05-27 19:32:52 DEBUG GameController:334 - Quit is pressed
+2021-05-27 19:32:52 INFO  GameController:336 - The game has been stopped
+2021-05-27 19:32:52 INFO  GameController:338 - Loading high scores scene...
+2021-05-27 19:32:52 DEBUG SettlementController:52 - Loading Play record...
+2021-05-27 19:32:52 DEBUG GameController:334 - Quit is pressed
+2021-05-27 19:32:52 INFO  GameController:336 - The game has been stopped
+2021-05-27 19:32:52 INFO  GameController:338 - Loading high scores scene...
+2021-05-27 19:32:52 DEBUG SettlementController:52 - Loading Play record...
+2021-05-27 19:35:05 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-27 19:35:08 INFO  StartController:55 - The player1 name is set to {54}, loading game scene
+2021-05-27 19:35:08 INFO  StartController:56 - The player2 name is set to {6456}, loading game scene
+2021-05-27 19:35:10 DEBUG GameController:334 - Quit is pressed
+2021-05-27 19:35:10 INFO  GameController:336 - The game has been stopped
+2021-05-27 19:35:10 INFO  GameController:338 - Loading high scores scene...
+2021-05-27 19:35:10 DEBUG SettlementController:52 - Loading Play record...
+2021-05-27 19:35:10 INFO  JaxbUtil:54 - Gets the data set in the file
