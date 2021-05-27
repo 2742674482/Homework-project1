@@ -45,7 +45,7 @@ public enum PawnDirection implements Direction {
     /**
      *
      * Get the return value of the col.
-     *@return Return the number of cols
+     * @return Return the number of cols
      */
     public int getColChange() {
         return colChange;

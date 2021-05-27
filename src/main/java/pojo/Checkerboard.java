@@ -47,7 +47,7 @@ public class Checkerboard {
     }
 
     /**
-     *Get the number of pieces.
+     * Get the number of pieces.
      * @return number of pieces
      */
     public int getPieceCount() {
@@ -73,7 +73,7 @@ public class Checkerboard {
     }
 
     /**
-     *Get operation object.
+     * Get operation object.
      * @param pieceNumber
      * @return Operation object
      */
@@ -82,7 +82,7 @@ public class Checkerboard {
     }
 
     /**
-     *Judge whether the movement of chess pieces is effective.
+     * Judge whether the movement of chess pieces is effective.
      * @param pieceNumber piece Number
      * @param direction Direction of movement
      * @return Can it move
@@ -104,7 +104,7 @@ public class Checkerboard {
     }
 
     /**
-     *Move the pieces effectively.
+     * Move the pieces effectively.
      * @param pieceNumber piece Number
      * @return Can it move piece
      */

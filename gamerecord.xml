@@ -1,43 +1,59 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Bean>
     <Record>
-        <Createtime>2021-05-27T15:07:46.211756300Z</Createtime>
-        <Winer>123</Winer>
+        <Createtime>2021-05-27T17:36:02.853994200Z</Createtime>
+        <Winer>asd</Winer>
         <Step>7</Step>
-        <Playgame>00:00:07</Playgame>
-        <Playone>123</Playone>
+        <Playgame>00:00:06</Playgame>
+        <Playone>asd</Playone>
         <Playtwo>asd</Playtwo>
     </Record>
     <Record>
-        <Createtime>2021-05-27T15:08:18.916624600Z</Createtime>
-        <Winer>johr</Winer>
+        <Createtime>2021-05-27T17:36:37.653697300Z</Createtime>
+        <Winer>add</Winer>
+        <Step>11</Step>
+        <Playgame>00:00:15</Playgame>
+        <Playone>add</Playone>
+        <Playtwo>faasd</Playtwo>
+    </Record>
+    <Record>
+        <Createtime>2021-05-27T17:36:56.885851200Z</Createtime>
+        <Winer>fsf</Winer>
+        <Step>7</Step>
+        <Playgame>00:00:08</Playgame>
+        <Playone>fsf</Playone>
+        <Playtwo>dasd</Playtwo>
+    </Record>
+    <Record>
+        <Createtime>2021-05-27T17:37:14.901991300Z</Createtime>
+        <Winer>fsf</Winer>
+        <Step>9</Step>
+        <Playgame>00:00:14</Playgame>
+        <Playone>fsf</Playone>
+        <Playtwo>dasd</Playtwo>
+    </Record>
+    <Record>
+        <Createtime>2021-05-27T17:37:45.399817900Z</Createtime>
+        <Winer>526+</Winer>
         <Step>7</Step>
         <Playgame>00:00:07</Playgame>
-        <Playone>johr</Playone>
-        <Playtwo>peter</Playtwo>
+        <Playone>526+</Playone>
+        <Playtwo>0561</Playtwo>
     </Record>
     <Record>
-        <Createtime>2021-05-27T16:21:21.391548800Z</Createtime>
-        <Winer>64</Winer>
+        <Createtime>2021-05-27T17:37:55.303487300Z</Createtime>
+        <Winer>526+</Winer>
+        <Step>7</Step>
+        <Playgame>00:00:06</Playgame>
+        <Playone>526+</Playone>
+        <Playtwo>0561</Playtwo>
+    </Record>
+    <Record>
+        <Createtime>2021-05-27T17:38:20.652272700Z</Createtime>
+        <Winer>526+</Winer>
         <Step>13</Step>
-        <Playgame>00:01:01</Playgame>
-        <Playone>64</Playone>
-        <Playtwo>das</Playtwo>
-    </Record>
-    <Record>
-        <Createtime>2021-05-27T16:45:11.611881700Z</Createtime>
-        <Winer>1231</Winer>
-        <Step>7</Step>
-        <Playgame>00:03:11</Playgame>
-        <Playone>1231</Playone>
-        <Playtwo>421</Playtwo>
-    </Record>
-    <Record>
-        <Createtime>2021-05-27T17:03:58.283483200Z</Createtime>
-        <Winer>dasfd</Winer>
-        <Step>7</Step>
-        <Playgame>00:00:21</Playgame>
-        <Playone>dasfd</Playone>
-        <Playtwo>fdsfs</Playtwo>
+        <Playgame>00:00:22</Playgame>
+        <Playone>526+</Playone>
+        <Playtwo>0561</Playtwo>
     </Record>
 </Bean>

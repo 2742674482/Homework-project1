@@ -5277,3 +5277,316 @@ GameRecord(Createtime=2021-05-20T18:31:34.016488600Z, player=215321532, step=6, 
 2021-05-27 19:35:10 INFO  GameController:338 - Loading high scores scene...
 2021-05-27 19:35:10 DEBUG SettlementController:52 - Loading Play record...
 2021-05-27 19:35:10 INFO  JaxbUtil:54 - Gets the data set in the file
+2021-05-27 19:35:47 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-27 19:35:50 INFO  StartController:55 - The player1 name is set to {}, loading game scene
+2021-05-27 19:35:50 INFO  StartController:56 - The player2 name is set to {}, loading game scene
+2021-05-27 19:35:54 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-27 19:35:56 INFO  StartController:55 - The player1 name is set to {asd}, loading game scene
+2021-05-27 19:35:56 INFO  StartController:56 - The player2 name is set to {asd}, loading game scene
+2021-05-27 19:35:57 INFO  GameController:162 - Click on square (4,0)
+2021-05-27 19:35:57 INFO  GameController:162 - Click on square (3,0)
+2021-05-27 19:35:57 INFO  GameController:184 - Moving piece 4 UP
+2021-05-27 19:35:57 INFO  GameController:258 - Move: (4,0) -> (3,0)
+2021-05-27 19:35:57 INFO  GameController:166 - Click on square (0,1)
+2021-05-27 19:35:58 INFO  GameController:166 - Click on square (1,1)
+2021-05-27 19:35:58 INFO  GameController:184 - Moving piece 1 DOWN
+2021-05-27 19:35:58 INFO  GameController:258 - Move: (0,1) -> (1,1)
+2021-05-27 19:35:58 INFO  GameController:162 - Click on square (0,0)
+2021-05-27 19:35:58 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:35:58 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-27 19:35:58 INFO  GameController:258 - Move: (0,0) -> (1,0)
+2021-05-27 19:35:59 INFO  GameController:166 - Click on square (1,1)
+2021-05-27 19:35:59 INFO  GameController:166 - Click on square (0,1)
+2021-05-27 19:35:59 INFO  GameController:184 - Moving piece 1 UP
+2021-05-27 19:35:59 INFO  GameController:258 - Move: (1,1) -> (0,1)
+2021-05-27 19:36:00 INFO  GameController:162 - Click on square (3,0)
+2021-05-27 19:36:00 INFO  GameController:162 - Click on square (3,1)
+2021-05-27 19:36:00 INFO  GameController:184 - Moving piece 4 RIGHT
+2021-05-27 19:36:00 INFO  GameController:258 - Move: (3,0) -> (3,1)
+2021-05-27 19:36:00 INFO  GameController:166 - Click on square (0,1)
+2021-05-27 19:36:01 INFO  GameController:166 - Click on square (1,1)
+2021-05-27 19:36:01 INFO  GameController:184 - Moving piece 1 DOWN
+2021-05-27 19:36:01 INFO  GameController:258 - Move: (0,1) -> (1,1)
+2021-05-27 19:36:01 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:36:01 INFO  GameController:162 - Click on square (2,0)
+2021-05-27 19:36:01 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-27 19:36:01 INFO  GameController:258 - Move: (1,0) -> (2,0)
+2021-05-27 19:36:02 INFO  GameController:359 - Game informationGameRecord(Createtime=2021-05-27T17:36:02.853994200Z, Winer=asd, Step=7, Playgame=00:00:06, Playone=asd, Playtwo=asd)
+2021-05-27 19:36:03 INFO  JaxbUtil:41 - Write data to file
+2021-05-27 19:36:04 DEBUG GameController:334 - Quit is pressed
+2021-05-27 19:36:04 INFO  GameController:336 - The game has been stopped
+2021-05-27 19:36:04 INFO  GameController:338 - Loading high scores scene...
+2021-05-27 19:36:04 DEBUG SettlementController:52 - Loading Play record...
+2021-05-27 19:36:04 INFO  JaxbUtil:54 - Gets the data set in the file
+2021-05-27 19:36:16 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-27 19:36:21 INFO  StartController:55 - The player1 name is set to {add}, loading game scene
+2021-05-27 19:36:21 INFO  StartController:56 - The player2 name is set to {faasd}, loading game scene
+2021-05-27 19:36:22 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:36:22 INFO  GameController:162 - Click on square (0,0)
+2021-05-27 19:36:23 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:36:23 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-27 19:36:23 INFO  GameController:258 - Move: (0,0) -> (1,0)
+2021-05-27 19:36:23 INFO  GameController:166 - Click on square (0,1)
+2021-05-27 19:36:24 INFO  GameController:166 - Click on square (1,1)
+2021-05-27 19:36:24 INFO  GameController:184 - Moving piece 1 DOWN
+2021-05-27 19:36:24 INFO  GameController:258 - Move: (0,1) -> (1,1)
+2021-05-27 19:36:24 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:36:25 INFO  GameController:162 - Click on square (2,0)
+2021-05-27 19:36:25 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-27 19:36:25 INFO  GameController:258 - Move: (1,0) -> (2,0)
+2021-05-27 19:36:26 INFO  GameController:166 - Click on square (3,0)
+2021-05-27 19:36:27 INFO  GameController:166 - Click on square (1,1)
+2021-05-27 19:36:27 INFO  GameController:166 - Click on square (1,0)
+2021-05-27 19:36:27 INFO  GameController:184 - Moving piece 1 LEFT
+2021-05-27 19:36:27 INFO  GameController:258 - Move: (1,1) -> (1,0)
+2021-05-27 19:36:28 INFO  GameController:162 - Click on square (2,0)
+2021-05-27 19:36:28 INFO  GameController:162 - Click on square (2,1)
+2021-05-27 19:36:28 INFO  GameController:184 - Moving piece 0 RIGHT
+2021-05-27 19:36:28 INFO  GameController:258 - Move: (2,0) -> (2,1)
+2021-05-27 19:36:29 INFO  GameController:166 - Click on square (1,0)
+2021-05-27 19:36:29 INFO  GameController:166 - Click on square (0,0)
+2021-05-27 19:36:29 INFO  GameController:184 - Moving piece 1 UP
+2021-05-27 19:36:29 INFO  GameController:258 - Move: (1,0) -> (0,0)
+2021-05-27 19:36:30 INFO  GameController:162 - Click on square (2,1)
+2021-05-27 19:36:30 INFO  GameController:162 - Click on square (2,0)
+2021-05-27 19:36:30 INFO  GameController:184 - Moving piece 0 LEFT
+2021-05-27 19:36:30 INFO  GameController:258 - Move: (2,1) -> (2,0)
+2021-05-27 19:36:31 INFO  GameController:166 - Click on square (3,0)
+2021-05-27 19:36:31 INFO  GameController:166 - Click on square (3,0)
+2021-05-27 19:36:32 INFO  GameController:166 - Click on square (0,3)
+2021-05-27 19:36:33 INFO  GameController:166 - Click on square (1,3)
+2021-05-27 19:36:33 INFO  GameController:184 - Moving piece 3 DOWN
+2021-05-27 19:36:33 INFO  GameController:258 - Move: (0,3) -> (1,3)
+2021-05-27 19:36:33 INFO  GameController:162 - Click on square (4,0)
+2021-05-27 19:36:33 INFO  GameController:162 - Click on square (3,0)
+2021-05-27 19:36:33 INFO  GameController:184 - Moving piece 4 UP
+2021-05-27 19:36:33 INFO  GameController:258 - Move: (4,0) -> (3,0)
+2021-05-27 19:36:34 INFO  GameController:166 - Click on square (3,1)
+2021-05-27 19:36:35 INFO  GameController:166 - Click on square (1,3)
+2021-05-27 19:36:35 INFO  GameController:166 - Click on square (1,2)
+2021-05-27 19:36:35 INFO  GameController:184 - Moving piece 3 LEFT
+2021-05-27 19:36:35 INFO  GameController:258 - Move: (1,3) -> (1,2)
+2021-05-27 19:36:36 INFO  GameController:162 - Click on square (3,0)
+2021-05-27 19:36:36 INFO  GameController:162 - Click on square (3,1)
+2021-05-27 19:36:36 INFO  GameController:184 - Moving piece 4 RIGHT
+2021-05-27 19:36:36 INFO  GameController:258 - Move: (3,0) -> (3,1)
+2021-05-27 19:36:37 INFO  GameController:359 - Game informationGameRecord(Createtime=2021-05-27T17:36:37.653697300Z, Winer=add, Step=11, Playgame=00:00:15, Playone=add, Playtwo=faasd)
+2021-05-27 19:36:37 INFO  JaxbUtil:41 - Write data to file
+2021-05-27 19:36:43 DEBUG GameController:334 - Quit is pressed
+2021-05-27 19:36:43 INFO  GameController:336 - The game has been stopped
+2021-05-27 19:36:43 INFO  GameController:338 - Loading high scores scene...
+2021-05-27 19:36:43 DEBUG SettlementController:52 - Loading Play record...
+2021-05-27 19:36:43 INFO  JaxbUtil:54 - Gets the data set in the file
+2021-05-27 19:36:45 DEBUG SettlementController:75 - Restart is pressed
+2021-05-27 19:36:45 INFO  SettlementController:76 - Loading launch scene...
+2021-05-27 19:36:48 INFO  StartController:55 - The player1 name is set to {fsf}, loading game scene
+2021-05-27 19:36:48 INFO  StartController:56 - The player2 name is set to {dasd}, loading game scene
+2021-05-27 19:36:48 INFO  GameController:162 - Click on square (4,0)
+2021-05-27 19:36:48 INFO  GameController:162 - Click on square (3,0)
+2021-05-27 19:36:48 INFO  GameController:184 - Moving piece 4 UP
+2021-05-27 19:36:48 INFO  GameController:258 - Move: (4,0) -> (3,0)
+2021-05-27 19:36:49 INFO  GameController:166 - Click on square (1,0)
+2021-05-27 19:36:50 INFO  GameController:166 - Click on square (0,3)
+2021-05-27 19:36:51 INFO  GameController:166 - Click on square (1,3)
+2021-05-27 19:36:51 INFO  GameController:184 - Moving piece 3 DOWN
+2021-05-27 19:36:51 INFO  GameController:258 - Move: (0,3) -> (1,3)
+2021-05-27 19:36:51 INFO  GameController:162 - Click on square (0,0)
+2021-05-27 19:36:51 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:36:51 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-27 19:36:51 INFO  GameController:258 - Move: (0,0) -> (1,0)
+2021-05-27 19:36:52 INFO  GameController:166 - Click on square (0,1)
+2021-05-27 19:36:52 INFO  GameController:166 - Click on square (1,1)
+2021-05-27 19:36:52 INFO  GameController:184 - Moving piece 1 DOWN
+2021-05-27 19:36:52 INFO  GameController:258 - Move: (0,1) -> (1,1)
+2021-05-27 19:36:53 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:36:53 INFO  GameController:162 - Click on square (2,0)
+2021-05-27 19:36:53 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-27 19:36:53 INFO  GameController:258 - Move: (1,0) -> (2,0)
+2021-05-27 19:36:53 INFO  GameController:166 - Click on square (3,1)
+2021-05-27 19:36:54 INFO  GameController:166 - Click on square (1,1)
+2021-05-27 19:36:54 INFO  GameController:166 - Click on square (1,0)
+2021-05-27 19:36:54 INFO  GameController:184 - Moving piece 1 LEFT
+2021-05-27 19:36:54 INFO  GameController:258 - Move: (1,1) -> (1,0)
+2021-05-27 19:36:55 INFO  GameController:162 - Click on square (3,0)
+2021-05-27 19:36:55 INFO  GameController:162 - Click on square (3,1)
+2021-05-27 19:36:55 INFO  GameController:184 - Moving piece 4 RIGHT
+2021-05-27 19:36:55 INFO  GameController:258 - Move: (3,0) -> (3,1)
+2021-05-27 19:36:56 INFO  GameController:359 - Game informationGameRecord(Createtime=2021-05-27T17:36:56.885851200Z, Winer=fsf, Step=7, Playgame=00:00:08, Playone=fsf, Playtwo=dasd)
+2021-05-27 19:36:56 INFO  JaxbUtil:41 - Write data to file
+2021-05-27 19:37:00 DEBUG GameController:318 - Reset is pressed
+2021-05-27 19:37:00 INFO  GameController:319 - Resetting game...
+2021-05-27 19:37:02 INFO  GameController:162 - Click on square (4,2)
+2021-05-27 19:37:02 INFO  GameController:162 - Click on square (3,2)
+2021-05-27 19:37:02 INFO  GameController:184 - Moving piece 6 UP
+2021-05-27 19:37:02 INFO  GameController:258 - Move: (4,2) -> (3,2)
+2021-05-27 19:37:02 INFO  GameController:166 - Click on square (4,1)
+2021-05-27 19:37:03 INFO  GameController:166 - Click on square (4,2)
+2021-05-27 19:37:03 INFO  GameController:184 - Moving piece 5 RIGHT
+2021-05-27 19:37:03 INFO  GameController:258 - Move: (4,1) -> (4,2)
+2021-05-27 19:37:04 INFO  GameController:162 - Click on square (4,1)
+2021-05-27 19:37:05 INFO  GameController:162 - Click on square (3,2)
+2021-05-27 19:37:05 INFO  GameController:162 - Click on square (3,1)
+2021-05-27 19:37:05 INFO  GameController:184 - Moving piece 6 LEFT
+2021-05-27 19:37:05 INFO  GameController:258 - Move: (3,2) -> (3,1)
+2021-05-27 19:37:06 INFO  GameController:166 - Click on square (4,2)
+2021-05-27 19:37:06 INFO  GameController:166 - Click on square (4,1)
+2021-05-27 19:37:06 INFO  GameController:184 - Moving piece 5 LEFT
+2021-05-27 19:37:06 INFO  GameController:258 - Move: (4,2) -> (4,1)
+2021-05-27 19:37:07 INFO  GameController:162 - Click on square (4,2)
+2021-05-27 19:37:07 INFO  GameController:162 - Click on square (3,1)
+2021-05-27 19:37:08 INFO  GameController:162 - Click on square (3,0)
+2021-05-27 19:37:08 INFO  GameController:184 - Moving piece 6 LEFT
+2021-05-27 19:37:08 INFO  GameController:258 - Move: (3,1) -> (3,0)
+2021-05-27 19:37:08 INFO  GameController:166 - Click on square (4,1)
+2021-05-27 19:37:08 INFO  GameController:166 - Click on square (4,2)
+2021-05-27 19:37:08 INFO  GameController:184 - Moving piece 5 RIGHT
+2021-05-27 19:37:08 INFO  GameController:258 - Move: (4,1) -> (4,2)
+2021-05-27 19:37:10 INFO  GameController:162 - Click on square (0,0)
+2021-05-27 19:37:10 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:37:10 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-27 19:37:10 INFO  GameController:258 - Move: (0,0) -> (1,0)
+2021-05-27 19:37:11 INFO  GameController:166 - Click on square (4,2)
+2021-05-27 19:37:11 INFO  GameController:166 - Click on square (4,1)
+2021-05-27 19:37:11 INFO  GameController:184 - Moving piece 5 LEFT
+2021-05-27 19:37:11 INFO  GameController:258 - Move: (4,2) -> (4,1)
+2021-05-27 19:37:12 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:37:12 INFO  GameController:162 - Click on square (2,0)
+2021-05-27 19:37:12 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-27 19:37:12 INFO  GameController:258 - Move: (1,0) -> (2,0)
+2021-05-27 19:37:14 INFO  GameController:359 - Game informationGameRecord(Createtime=2021-05-27T17:37:14.901991300Z, Winer=fsf, Step=9, Playgame=00:00:14, Playone=fsf, Playtwo=dasd)
+2021-05-27 19:37:14 INFO  JaxbUtil:41 - Write data to file
+2021-05-27 19:37:19 DEBUG GameController:334 - Quit is pressed
+2021-05-27 19:37:19 INFO  GameController:336 - The game has been stopped
+2021-05-27 19:37:19 INFO  GameController:338 - Loading high scores scene...
+2021-05-27 19:37:19 DEBUG SettlementController:52 - Loading Play record...
+2021-05-27 19:37:19 INFO  JaxbUtil:54 - Gets the data set in the file
+2021-05-27 19:37:34 DEBUG SettlementController:75 - Restart is pressed
+2021-05-27 19:37:34 INFO  SettlementController:76 - Loading launch scene...
+2021-05-27 19:37:37 INFO  StartController:55 - The player1 name is set to {526+}, loading game scene
+2021-05-27 19:37:37 INFO  StartController:56 - The player2 name is set to {0561}, loading game scene
+2021-05-27 19:37:38 INFO  GameController:162 - Click on square (0,0)
+2021-05-27 19:37:39 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:37:39 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-27 19:37:39 INFO  GameController:258 - Move: (0,0) -> (1,0)
+2021-05-27 19:37:40 INFO  GameController:166 - Click on square (2,0)
+2021-05-27 19:37:40 INFO  GameController:166 - Click on square (0,1)
+2021-05-27 19:37:40 INFO  GameController:166 - Click on square (1,1)
+2021-05-27 19:37:40 INFO  GameController:184 - Moving piece 1 DOWN
+2021-05-27 19:37:40 INFO  GameController:258 - Move: (0,1) -> (1,1)
+2021-05-27 19:37:40 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:37:41 INFO  GameController:162 - Click on square (2,0)
+2021-05-27 19:37:41 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-27 19:37:41 INFO  GameController:258 - Move: (1,0) -> (2,0)
+2021-05-27 19:37:41 INFO  GameController:166 - Click on square (1,1)
+2021-05-27 19:37:41 INFO  GameController:166 - Click on square (1,0)
+2021-05-27 19:37:41 INFO  GameController:184 - Moving piece 1 LEFT
+2021-05-27 19:37:41 INFO  GameController:258 - Move: (1,1) -> (1,0)
+2021-05-27 19:37:43 INFO  GameController:162 - Click on square (4,0)
+2021-05-27 19:37:43 INFO  GameController:162 - Click on square (3,0)
+2021-05-27 19:37:43 INFO  GameController:184 - Moving piece 4 UP
+2021-05-27 19:37:43 INFO  GameController:258 - Move: (4,0) -> (3,0)
+2021-05-27 19:37:43 INFO  GameController:166 - Click on square (1,0)
+2021-05-27 19:37:43 INFO  GameController:166 - Click on square (0,0)
+2021-05-27 19:37:43 INFO  GameController:184 - Moving piece 1 UP
+2021-05-27 19:37:43 INFO  GameController:258 - Move: (1,0) -> (0,0)
+2021-05-27 19:37:44 INFO  GameController:162 - Click on square (3,0)
+2021-05-27 19:37:44 INFO  GameController:162 - Click on square (3,1)
+2021-05-27 19:37:44 INFO  GameController:184 - Moving piece 4 RIGHT
+2021-05-27 19:37:44 INFO  GameController:258 - Move: (3,0) -> (3,1)
+2021-05-27 19:37:45 INFO  GameController:359 - Game informationGameRecord(Createtime=2021-05-27T17:37:45.399817900Z, Winer=526+, Step=7, Playgame=00:00:07, Playone=526+, Playtwo=0561)
+2021-05-27 19:37:45 INFO  JaxbUtil:41 - Write data to file
+2021-05-27 19:37:48 DEBUG GameController:318 - Reset is pressed
+2021-05-27 19:37:48 INFO  GameController:319 - Resetting game...
+2021-05-27 19:37:49 INFO  GameController:162 - Click on square (4,0)
+2021-05-27 19:37:49 INFO  GameController:162 - Click on square (3,0)
+2021-05-27 19:37:49 INFO  GameController:184 - Moving piece 4 UP
+2021-05-27 19:37:49 INFO  GameController:258 - Move: (4,0) -> (3,0)
+2021-05-27 19:37:50 INFO  GameController:166 - Click on square (0,1)
+2021-05-27 19:37:50 INFO  GameController:166 - Click on square (1,1)
+2021-05-27 19:37:50 INFO  GameController:184 - Moving piece 1 DOWN
+2021-05-27 19:37:50 INFO  GameController:258 - Move: (0,1) -> (1,1)
+2021-05-27 19:37:50 INFO  GameController:162 - Click on square (0,0)
+2021-05-27 19:37:51 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:37:51 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-27 19:37:51 INFO  GameController:258 - Move: (0,0) -> (1,0)
+2021-05-27 19:37:51 INFO  GameController:166 - Click on square (1,1)
+2021-05-27 19:37:51 INFO  GameController:166 - Click on square (0,1)
+2021-05-27 19:37:51 INFO  GameController:184 - Moving piece 1 UP
+2021-05-27 19:37:51 INFO  GameController:258 - Move: (1,1) -> (0,1)
+2021-05-27 19:37:52 INFO  GameController:162 - Click on square (3,0)
+2021-05-27 19:37:53 INFO  GameController:162 - Click on square (3,1)
+2021-05-27 19:37:53 INFO  GameController:184 - Moving piece 4 RIGHT
+2021-05-27 19:37:53 INFO  GameController:258 - Move: (3,0) -> (3,1)
+2021-05-27 19:37:53 INFO  GameController:166 - Click on square (0,1)
+2021-05-27 19:37:53 INFO  GameController:166 - Click on square (0,0)
+2021-05-27 19:37:53 INFO  GameController:184 - Moving piece 1 LEFT
+2021-05-27 19:37:53 INFO  GameController:258 - Move: (0,1) -> (0,0)
+2021-05-27 19:37:54 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:37:54 INFO  GameController:162 - Click on square (2,0)
+2021-05-27 19:37:54 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-27 19:37:54 INFO  GameController:258 - Move: (1,0) -> (2,0)
+2021-05-27 19:37:55 INFO  GameController:359 - Game informationGameRecord(Createtime=2021-05-27T17:37:55.303487300Z, Winer=526+, Step=7, Playgame=00:00:06, Playone=526+, Playtwo=0561)
+2021-05-27 19:37:55 INFO  JaxbUtil:41 - Write data to file
+2021-05-27 19:37:57 DEBUG GameController:318 - Reset is pressed
+2021-05-27 19:37:57 INFO  GameController:319 - Resetting game...
+2021-05-27 19:37:58 INFO  GameController:162 - Click on square (4,0)
+2021-05-27 19:37:58 INFO  GameController:162 - Click on square (3,0)
+2021-05-27 19:37:58 INFO  GameController:184 - Moving piece 4 UP
+2021-05-27 19:37:58 INFO  GameController:258 - Move: (4,0) -> (3,0)
+2021-05-27 19:38:00 INFO  GameController:166 - Click on square (4,1)
+2021-05-27 19:38:00 INFO  GameController:166 - Click on square (4,0)
+2021-05-27 19:38:00 INFO  GameController:184 - Moving piece 5 LEFT
+2021-05-27 19:38:00 INFO  GameController:258 - Move: (4,1) -> (4,0)
+2021-05-27 19:38:01 INFO  GameController:162 - Click on square (4,2)
+2021-05-27 19:38:05 INFO  GameController:162 - Click on square (3,2)
+2021-05-27 19:38:05 INFO  GameController:184 - Moving piece 6 UP
+2021-05-27 19:38:05 INFO  GameController:258 - Move: (4,2) -> (3,2)
+2021-05-27 19:38:06 INFO  GameController:166 - Click on square (0,1)
+2021-05-27 19:38:06 INFO  GameController:166 - Click on square (1,1)
+2021-05-27 19:38:06 INFO  GameController:184 - Moving piece 1 DOWN
+2021-05-27 19:38:06 INFO  GameController:258 - Move: (0,1) -> (1,1)
+2021-05-27 19:38:08 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:38:09 INFO  GameController:162 - Click on square (0,0)
+2021-05-27 19:38:09 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:38:09 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-27 19:38:09 INFO  GameController:258 - Move: (0,0) -> (1,0)
+2021-05-27 19:38:10 INFO  GameController:166 - Click on square (1,1)
+2021-05-27 19:38:10 INFO  GameController:166 - Click on square (0,1)
+2021-05-27 19:38:10 INFO  GameController:184 - Moving piece 1 UP
+2021-05-27 19:38:10 INFO  GameController:258 - Move: (1,1) -> (0,1)
+2021-05-27 19:38:11 INFO  GameController:162 - Click on square (1,0)
+2021-05-27 19:38:11 INFO  GameController:162 - Click on square (2,0)
+2021-05-27 19:38:11 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-27 19:38:11 INFO  GameController:258 - Move: (1,0) -> (2,0)
+2021-05-27 19:38:12 INFO  GameController:166 - Click on square (4,0)
+2021-05-27 19:38:12 INFO  GameController:166 - Click on square (4,1)
+2021-05-27 19:38:12 INFO  GameController:184 - Moving piece 5 RIGHT
+2021-05-27 19:38:12 INFO  GameController:258 - Move: (4,0) -> (4,1)
+2021-05-27 19:38:13 INFO  GameController:162 - Click on square (2,0)
+2021-05-27 19:38:13 INFO  GameController:162 - Click on square (2,1)
+2021-05-27 19:38:13 INFO  GameController:184 - Moving piece 0 RIGHT
+2021-05-27 19:38:13 INFO  GameController:258 - Move: (2,0) -> (2,1)
+2021-05-27 19:38:14 INFO  GameController:166 - Click on square (4,3)
+2021-05-27 19:38:14 INFO  GameController:166 - Click on square (4,2)
+2021-05-27 19:38:14 INFO  GameController:184 - Moving piece 7 LEFT
+2021-05-27 19:38:14 INFO  GameController:258 - Move: (4,3) -> (4,2)
+2021-05-27 19:38:15 INFO  GameController:162 - Click on square (3,2)
+2021-05-27 19:38:17 INFO  GameController:162 - Click on square (2,2)
+2021-05-27 19:38:17 INFO  GameController:184 - Moving piece 6 UP
+2021-05-27 19:38:17 INFO  GameController:258 - Move: (3,2) -> (2,2)
+2021-05-27 19:38:18 INFO  GameController:166 - Click on square (0,3)
+2021-05-27 19:38:18 INFO  GameController:166 - Click on square (1,3)
+2021-05-27 19:38:18 INFO  GameController:184 - Moving piece 3 DOWN
+2021-05-27 19:38:18 INFO  GameController:258 - Move: (0,3) -> (1,3)
+2021-05-27 19:38:19 INFO  GameController:162 - Click on square (2,2)
+2021-05-27 19:38:19 INFO  GameController:162 - Click on square (1,2)
+2021-05-27 19:38:19 INFO  GameController:184 - Moving piece 6 UP
+2021-05-27 19:38:19 INFO  GameController:258 - Move: (2,2) -> (1,2)
+2021-05-27 19:38:20 INFO  GameController:359 - Game informationGameRecord(Createtime=2021-05-27T17:38:20.652272700Z, Winer=526+, Step=13, Playgame=00:00:22, Playone=526+, Playtwo=0561)
+2021-05-27 19:38:20 INFO  JaxbUtil:41 - Write data to file
+2021-05-27 19:38:21 DEBUG GameController:334 - Quit is pressed
+2021-05-27 19:38:21 INFO  GameController:336 - The game has been stopped
+2021-05-27 19:38:21 INFO  GameController:338 - Loading high scores scene...
+2021-05-27 19:38:21 DEBUG SettlementController:52 - Loading Play record...
+2021-05-27 19:38:21 INFO  JaxbUtil:54 - Gets the data set in the file
+2021-05-27 19:41:47 INFO  PlayBoardGameApplication:23 - Starting application...

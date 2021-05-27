@@ -19,7 +19,7 @@ public class JaxbUtil {
     /**
      * Convert data format and write data to file,
      * @param gameRecord
-     *@throws JAXBException,FileNotFoundException
+     * @throws JAXBException,FileNotFoundException
      */
     public void BeanXml(GameRecord gameRecord) throws JAXBException, FileNotFoundException {
         GameList gameList = new GameList();
@@ -41,7 +41,7 @@ public class JaxbUtil {
         log.info("Write data to file");
     }
     /**
-     * Get game record collection,
+     * Get game record collection.
      * @return Game record collection
      * @throws IOException,JAXBException
      */

@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- *The data layer is used for data acquisition and processing.
+ * The data layer is used for data acquisition and processing.
  */
 public class GameRecordDao {
     /**

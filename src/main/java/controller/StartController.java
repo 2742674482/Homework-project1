@@ -15,7 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.io.IOException;
 
 /**
- *Controller for start page.
+ * Controller for start page.
  */
 @Slf4j
 public class StartController {
@@ -32,7 +32,7 @@ public class StartController {
     private Label errorLabel;
 
     /**
-     *Start button, click function.
+     * Start button, click function.
      * @param actionEvent Mouse click event source
      * @throws IOException Data exception thrown
      */

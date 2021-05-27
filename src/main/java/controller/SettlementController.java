@@ -67,7 +67,7 @@ public class SettlementController {
     }
 
     /**
-     *Page Jump.
+     * Page Jump.
      * @param actionEvent Mouse click event source
      * @throws IOException When the data is empty, or data overflow is an exception
      */
