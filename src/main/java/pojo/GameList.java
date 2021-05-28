@@ -10,13 +10,18 @@ import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * Convert game data into list。
+ */
 @Data
+@XmlRootElement(name = "Bean")
 @AllArgsConstructor
 @NoArgsConstructor
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlRootElement(name = "Bean")
+
 public class GameList {
+
+
     @XmlElement(name = "Record")
-    private List<GameRecord> gameRecords = new ArrayList<>();
+    private List<GameRecord> gameRecords;
 }

@@ -13,8 +13,8 @@ public class Victory {
 
     /**
      *Integrate the input data.
-     * @param checkerboard
-     * @param color
+     * @param checkerboard checkerboard
+     * @param color color
      * @return Win or not
      */
 
@@ -43,6 +43,13 @@ public class Victory {
         return false;
     }
 
+    /**
+     *
+     * @param board
+     * @param row
+     * @param col
+     * @return
+     */
     public static boolean winCol(int[][] board, final int row, final int col) {
         int rowCount = 1;
         /* * 向上查找 * col - i >= 0 是为了防止越界的条件 * board[row][col - i] == board[row][col] 由中心向外判断棋子是否相连的条件 */
@@ -66,6 +73,14 @@ public class Victory {
         //若是上下两个方向上相连的棋子相加大于等于3，返回true，不然返回false
         return rowCount >= 3 ? true : false;
     }
+
+    /**
+     *
+     * @param board
+     * @param row
+     * @param col
+     * @return
+     */
     public static boolean winRow(int[][] board, final int row, final int col) {
         int colCount = 1;
         //向左查找
@@ -87,6 +102,14 @@ public class Victory {
         }
         return colCount >= 3 ? true : false;
     }
+
+    /**
+     *
+     * @param board
+     * @param row
+     * @param col
+     * @return
+     */
     public static boolean winLeftLea(int[][] board, final int row, final int col) {
         int leftLeaCount = 1;
         //向左上查找
@@ -109,6 +132,14 @@ public class Victory {
         }
         return leftLeaCount >= 3 ? true : false;
     }
+
+    /**
+     *
+     * @param board
+     * @param row
+     * @param col
+     * @return
+     */
     public static boolean winRightLea(int[][] board, final int row, final int col) {
         int rightLeaCount = 1;
         //向左下查找
@@ -134,9 +165,9 @@ public class Victory {
 
     /**
      *find it win or lose.
-     * @param board
-     * @param row
-     * @param col
+     * @param board board
+     * @param row row
+     * @param col col
      * @return  win or lose
      */
     public static boolean winOrLoseCheck(

@@ -15,8 +15,8 @@ public class Piece {
 
     /**
      * piece init.
-     * @param type
-     * @param position
+     * @param type piece type
+     * @param position piece position
      */
     public Piece(PieceType type, Position position) {
         this.type = type;
@@ -25,7 +25,7 @@ public class Piece {
 
     /**
      * piece move to.
-     * @param direction
+     * @param direction piece direction
      */
     public void moveTo(Direction direction) {
         Position newPosition = position.get().moveTo(direction);

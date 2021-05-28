@@ -53,8 +53,8 @@ public enum PawnDirection implements Direction {
 
     /**
      *Direction control.
-     * @param rowChange
-     * @param colChange
+     * @param rowChange change of row
+     * @param colChange change of col
      * @return Return row and column data
      */
     public static PawnDirection of(int rowChange, int colChange) {

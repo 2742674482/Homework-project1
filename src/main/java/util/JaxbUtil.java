@@ -19,11 +19,12 @@ public class JaxbUtil {
     /**
      * Convert data format and write data to file,
      * @param gameRecord
-     * @throws JAXBException,FileNotFoundException
+     *@throws JAXBException,IOException
      */
-    public void BeanXml(GameRecord gameRecord) throws JAXBException, FileNotFoundException {
+    public void BeanXml(GameRecord gameRecord) throws JAXBException, IOException {
         GameList gameList = new GameList();
         JAXBContext jaxbContext =JAXBContext.newInstance(gameList.getClass());
+        createfile();
         FileInputStream fi = new FileInputStream("gamerecord.xml");
         //先读取文件中的数据
         Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
@@ -41,7 +42,7 @@ public class JaxbUtil {
         log.info("Write data to file");
     }
     /**
-     * Get game record collection.
+     * Get game record collection,
      * @return Game record collection
      * @throws IOException,JAXBException
      */
@@ -49,6 +50,7 @@ public class JaxbUtil {
         GameList gameList = new GameList();
         JAXBContext jaxbContext = JAXBContext.newInstance(gameList.getClass());
         Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
+        createfile();
         FileInputStream fi = new FileInputStream("gamerecord.xml");
         gameList = (GameList) unmarshaller.unmarshal(fi);
         log.info("Gets the data set in the file");
@@ -74,5 +76,10 @@ public class JaxbUtil {
             gameRecords.add(g.get(i));
         }
         return gameRecords;
+    }
+    public static void createfile() throws IOException {
+        File file=new File("gamerecord.xml");
+        if(!file.exists())
+            file.createNewFile();
     }
 }

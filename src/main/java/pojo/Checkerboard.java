@@ -29,7 +29,7 @@ public class Checkerboard {
 
     /**
      *Chessboard initialization.
-     * @param pieces
+     * @param pieces pieces
      */
     public Checkerboard(Piece... pieces) {
         checkPieces(pieces);
@@ -74,7 +74,7 @@ public class Checkerboard {
 
     /**
      * Get operation object.
-     * @param pieceNumber
+     * @param pieceNumber num of piece
      * @return Operation object
      */
     public ObjectProperty<Position> positionProperty(int pieceNumber) {
@@ -129,7 +129,7 @@ public class Checkerboard {
 
     /**
      *Set the range of chess pieces to move.
-     * @param position
+     * @param position position of piece
      * @return result
      */
     public static boolean isOnBoard(Position position) {

@@ -13,8 +13,8 @@ public class Position {
 
     /**
      *Class initialization load.
-     * @param row
-     * @param col
+     * @param row row
+     * @param col col
      */
     public Position(int row, int col){
         this.col = col;
@@ -22,8 +22,8 @@ public class Position {
     }
 
     /**
-     *Mobile method.
-     * @param direction
+     * move method.
+     * @param direction direction
      * @return row and col move to
      */
     public Position moveTo(Direction direction) {
@@ -31,7 +31,7 @@ public class Position {
     }
 
     /**
-     *Output printing.
+     * Output printing.
      * @return row and col to string
      */
     public String toString() {

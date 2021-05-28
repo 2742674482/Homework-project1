@@ -289,10 +289,10 @@ public class GameController {
         if (color.equals("RED")&&result != true) {
             status = 1;
             playerLabel.setText(player2Name);
-            Platform.runLater(() -> messageLabel.setText("Now it's "+player2Name+" who goes first"));
+            Platform.runLater(() -> messageLabel.setText("Now it's "+player2Name+" who goes"));
         }else if (color.equals("BLUE")&&result != true){
             status = 0;
-            Platform.runLater(() -> messageLabel.setText("Now it's "+player1Name+" who goes first"));
+            Platform.runLater(() -> messageLabel.setText("Now it's "+player1Name+" who goes"));
             playerLabel.setText(player1Name);
         }
 
