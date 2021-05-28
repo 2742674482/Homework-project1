@@ -310,7 +310,7 @@ public class GameController {
     }
 
     /**
-     *this is mouseaction event.
+     * this is mouse action event.
      * @param actionEvent  Get mouse click events
      */
     public void handleResetButton(ActionEvent actionEvent) {

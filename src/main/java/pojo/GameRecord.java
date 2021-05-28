@@ -33,11 +33,11 @@ public class GameRecord {
     public String Playgame;//游戏所用时长
 
     /**
-     * Playone.
+     * Play1.
      */
     public String Playone;//玩家/**
     /**
-     * Playtwo.
+     * Play2.
      */
     public String Playtwo;//玩家
 

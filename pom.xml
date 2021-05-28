@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>hu.unideb.inf</groupId>
-    <artifactId>homework-project1</artifactId>
+    <artifactId>Homework-project1</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
-    <description>Homework-project1</description>
+    <description>Board game about red and black</description>
     <developers>
         <developer>
             <name>Tan Haorui</name>
@@ -16,7 +16,7 @@
         </developer>
     </developers>
     <scm>
-        <developerConnection></developerConnection>
+        <developerConnection>scm:git:https://github.com/2742674482/Homework-project1</developerConnection>
     </scm>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

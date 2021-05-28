@@ -2,11 +2,11 @@ package view;
 
 import javafx.application.Application;
 /**
- * main funcation.
+ * main.
  */
 public class ApplicationMain {
     /**
-     * languh the game.
+     * start the game.
      * @param args
      */
     public static void main(String[] args) {

@@ -26,33 +26,32 @@ public class StartController {
     @FXML
     private TextField playtwo;
     /**
-     *Error message.
+     * Error message.
      */
     @FXML
     private Label errorLabel;
 
     /**
      * Start button, click function.
+     *
      * @param actionEvent Mouse click event source
      * @throws IOException Data exception thrown
      */
     public void start(ActionEvent actionEvent) throws IOException {
-        if (playone.getText().isEmpty()) {
+        if (playone.getText().isEmpty() || playtwo.getText().isEmpty()) {
             errorLabel.setText("Enter your name!");
-        }
-        if (playtwo.getText().isEmpty()) {
-            errorLabel.setText("Enter your name!");
-        }
+        } else {
 
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/game.fxml"));
-        Parent root = loader.load();
-        GameController target = loader.getController();
-        target.setPlayer1Name(playone.getText());
-        target.setPlayer2Name(playtwo.getText());
-        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        stage.setScene(new Scene(root));
-        stage.show();
-        log.info("The player1 name is set to {"+ playone.getText() +"}, loading game scene");
-        log.info("The player2 name is set to {"+ playtwo.getText() +"}, loading game scene");
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/game.fxml"));
+            Parent root = loader.load();
+            GameController target = loader.getController();
+            target.setPlayer1Name(playone.getText());
+            target.setPlayer2Name(playtwo.getText());
+            Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+            stage.setScene(new Scene(root));
+            stage.show();
+            log.info("The player1 name is set to {" + playone.getText() + "}, loading game scene");
+            log.info("The player2 name is set to {" + playtwo.getText() + "}, loading game scene");
+        }
     }
 }

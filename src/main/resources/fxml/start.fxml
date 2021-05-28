@@ -16,7 +16,6 @@
          </font>
       </Label>
       <Button fx:id="startButton" layoutX="278.0" layoutY="312.0" mnemonicParsing="false" onAction="#start" text="Start" />
-      <Label fx:id="errorLabel" layoutX="263.0" layoutY="193.0" textFill="#f50000" />
-      <Label fx:id="errorLabel" layoutX="263.0" layoutY="245.0" textFill="#f70505" />
+      <Label fx:id="errorLabel" layoutX="219.0" layoutY="200.0" prefHeight="16.0" prefWidth="169.0" textAlignment="CENTER" textFill="#e30e0e" />
    </children>
 </AnchorPane>
