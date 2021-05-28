@@ -44,11 +44,11 @@ public class Victory {
     }
 
     /**
-     *
+     * looking up and down find the win.
      * @param board
      * @param row
      * @param col
-     * @return
+     * @return true is win
      */
     public static boolean winCol(int[][] board, final int row, final int col) {
         int rowCount = 1;
@@ -75,11 +75,11 @@ public class Victory {
     }
 
     /**
-     *
+     * looking left and right find the win.
      * @param board
      * @param row
      * @param col
-     * @return
+     * @return true is win
      */
     public static boolean winRow(int[][] board, final int row, final int col) {
         int colCount = 1;
@@ -104,11 +104,11 @@ public class Victory {
     }
 
     /**
-     *
+     * looking up left and down right find the win.
      * @param board
      * @param row
      * @param col
-     * @return
+     * @return ture is win
      */
     public static boolean winLeftLea(int[][] board, final int row, final int col) {
         int leftLeaCount = 1;
@@ -134,11 +134,11 @@ public class Victory {
     }
 
     /**
-     *
+     * looking down left and up right find the win.
      * @param board
      * @param row
      * @param col
-     * @return
+     * @return true is win
      */
     public static boolean winRightLea(int[][] board, final int row, final int col) {
         int rightLeaCount = 1;

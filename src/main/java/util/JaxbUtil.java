@@ -12,12 +12,13 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * class of jaxb.
+ */
 @Slf4j
 public class JaxbUtil {
-
     /**
-     * Convert data format and write data to file,
+     * Convert data format and write data to file.
      * @param gameRecord
      *@throws JAXBException,IOException
      */
@@ -42,7 +43,7 @@ public class JaxbUtil {
         log.info("Write data to file");
     }
     /**
-     * Get game record collection,
+     * Get game record collection.
      * @return Game record collection
      * @throws IOException,JAXBException
      */
@@ -77,6 +78,11 @@ public class JaxbUtil {
         }
         return gameRecords;
     }
+
+    /**
+     * find the file is exit or not,if not,create a new file.
+     * @throws IOException
+     */
     public static void createfile() throws IOException {
         File file=new File("gamerecord.xml");
         if(!file.exists())

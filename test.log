@@ -6040,3 +6040,105 @@ GameRecord(Createtime=2021-05-20T18:31:34.016488600Z, player=215321532, step=6, 
 2021-05-28 16:11:34 INFO  GameController:336 - The game has been stopped
 2021-05-28 16:11:34 INFO  GameController:338 - Loading high scores scene...
 2021-05-28 16:11:34 DEBUG SettlementController:52 - Loading Play record...
+2021-05-28 16:29:58 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-28 16:30:04 INFO  StartController:53 - The player1 name is set to {x}, loading game scene
+2021-05-28 16:30:04 INFO  StartController:54 - The player2 name is set to {c}, loading game scene
+2021-05-28 16:30:05 DEBUG GameController:334 - Quit is pressed
+2021-05-28 16:30:05 INFO  GameController:336 - The game has been stopped
+2021-05-28 16:30:05 INFO  GameController:338 - Loading high scores scene...
+2021-05-28 16:30:05 DEBUG SettlementController:52 - Loading Play record...
+2021-05-28 16:30:06 INFO  GameController:162 - Click on square (4,0)
+2021-05-28 16:30:07 INFO  GameController:162 - Click on square (3,0)
+2021-05-28 16:30:07 INFO  GameController:184 - Moving piece 4 UP
+2021-05-28 16:30:07 INFO  GameController:258 - Move: (4,0) -> (3,0)
+2021-05-28 16:30:07 INFO  GameController:166 - Click on square (0,1)
+2021-05-28 16:30:07 INFO  GameController:166 - Click on square (1,1)
+2021-05-28 16:30:07 INFO  GameController:184 - Moving piece 1 DOWN
+2021-05-28 16:30:07 INFO  GameController:258 - Move: (0,1) -> (1,1)
+2021-05-28 16:30:08 INFO  GameController:162 - Click on square (3,0)
+2021-05-28 16:30:08 INFO  GameController:162 - Click on square (3,1)
+2021-05-28 16:30:08 INFO  GameController:184 - Moving piece 4 RIGHT
+2021-05-28 16:30:08 INFO  GameController:258 - Move: (3,0) -> (3,1)
+2021-05-28 16:30:09 INFO  GameController:166 - Click on square (1,1)
+2021-05-28 16:30:09 INFO  GameController:166 - Click on square (0,1)
+2021-05-28 16:30:09 INFO  GameController:184 - Moving piece 1 UP
+2021-05-28 16:30:09 INFO  GameController:258 - Move: (1,1) -> (0,1)
+2021-05-28 16:30:10 INFO  GameController:162 - Click on square (0,0)
+2021-05-28 16:30:10 INFO  GameController:162 - Click on square (1,0)
+2021-05-28 16:30:10 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-28 16:30:10 INFO  GameController:258 - Move: (0,0) -> (1,0)
+2021-05-28 16:30:10 INFO  GameController:166 - Click on square (0,1)
+2021-05-28 16:30:11 INFO  GameController:166 - Click on square (1,1)
+2021-05-28 16:30:11 INFO  GameController:184 - Moving piece 1 DOWN
+2021-05-28 16:30:11 INFO  GameController:258 - Move: (0,1) -> (1,1)
+2021-05-28 16:30:11 INFO  GameController:162 - Click on square (1,0)
+2021-05-28 16:30:11 INFO  GameController:162 - Click on square (2,0)
+2021-05-28 16:30:11 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-28 16:30:11 INFO  GameController:258 - Move: (1,0) -> (2,0)
+2021-05-28 16:30:12 INFO  GameController:359 - Game informationGameRecord(Createtime=2021-05-28T14:30:12.493870300Z, Winer=x, Step=7, Playgame=00:00:07, Playone=x, Playtwo=c)
+2021-05-28 16:30:12 INFO  GameController:286 - java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "org.glassfish.jaxb.runtime.v2.runtime.reflect.opt.Injector.defineClass" is null
+2021-05-28 16:30:16 DEBUG GameController:334 - Quit is pressed
+2021-05-28 16:30:16 INFO  GameController:336 - The game has been stopped
+2021-05-28 16:30:16 INFO  GameController:338 - Loading high scores scene...
+2021-05-28 16:30:16 DEBUG SettlementController:52 - Loading Play record...
+2021-05-28 17:38:34 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-28 17:38:39 INFO  StartController:53 - The player1 name is set to {da}, loading game scene
+2021-05-28 17:38:39 INFO  StartController:54 - The player2 name is set to {das}, loading game scene
+2021-05-28 17:38:39 INFO  GameController:162 - Click on square (4,2)
+2021-05-28 17:38:40 INFO  GameController:162 - Click on square (3,2)
+2021-05-28 17:38:40 INFO  GameController:184 - Moving piece 6 UP
+2021-05-28 17:38:40 INFO  GameController:258 - Move: (4,2) -> (3,2)
+2021-05-28 17:38:40 DEBUG GameController:334 - Quit is pressed
+2021-05-28 17:38:40 INFO  GameController:336 - The game has been stopped
+2021-05-28 17:38:40 INFO  GameController:338 - Loading high scores scene...
+2021-05-28 17:38:40 DEBUG SettlementController:52 - Loading Play record...
+2021-05-28 17:38:40 INFO  JaxbUtil:56 - Gets the data set in the file
+2021-05-28 17:43:29 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-28 17:43:32 INFO  StartController:53 - The player1 name is set to {dasd}, loading game scene
+2021-05-28 17:43:32 INFO  StartController:54 - The player2 name is set to {asd}, loading game scene
+2021-05-28 17:43:32 DEBUG GameController:334 - Quit is pressed
+2021-05-28 17:43:32 INFO  GameController:336 - The game has been stopped
+2021-05-28 17:43:32 INFO  GameController:338 - Loading high scores scene...
+2021-05-28 17:43:32 DEBUG SettlementController:52 - Loading Play record...
+2021-05-28 17:43:32 INFO  JaxbUtil:57 - Gets the data set in the file
+2021-05-28 17:43:40 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-28 17:43:45 INFO  StartController:53 - The player1 name is set to {asd}, loading game scene
+2021-05-28 17:43:45 INFO  StartController:54 - The player2 name is set to {da}, loading game scene
+2021-05-28 17:43:46 INFO  GameController:162 - Click on square (4,0)
+2021-05-28 17:43:46 INFO  GameController:162 - Click on square (3,0)
+2021-05-28 17:43:46 INFO  GameController:184 - Moving piece 4 UP
+2021-05-28 17:43:46 INFO  GameController:258 - Move: (4,0) -> (3,0)
+2021-05-28 17:43:47 INFO  GameController:166 - Click on square (0,1)
+2021-05-28 17:43:47 INFO  GameController:166 - Click on square (1,1)
+2021-05-28 17:43:47 INFO  GameController:184 - Moving piece 1 DOWN
+2021-05-28 17:43:47 INFO  GameController:258 - Move: (0,1) -> (1,1)
+2021-05-28 17:43:48 INFO  GameController:162 - Click on square (4,0)
+2021-05-28 17:43:49 INFO  GameController:162 - Click on square (3,0)
+2021-05-28 17:43:49 INFO  GameController:162 - Click on square (3,1)
+2021-05-28 17:43:49 INFO  GameController:184 - Moving piece 4 RIGHT
+2021-05-28 17:43:49 INFO  GameController:258 - Move: (3,0) -> (3,1)
+2021-05-28 17:43:50 INFO  GameController:166 - Click on square (1,1)
+2021-05-28 17:43:50 INFO  GameController:166 - Click on square (1,2)
+2021-05-28 17:43:50 INFO  GameController:184 - Moving piece 1 RIGHT
+2021-05-28 17:43:50 INFO  GameController:258 - Move: (1,1) -> (1,2)
+2021-05-28 17:43:51 INFO  GameController:162 - Click on square (0,0)
+2021-05-28 17:43:51 INFO  GameController:162 - Click on square (1,0)
+2021-05-28 17:43:51 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-28 17:43:51 INFO  GameController:258 - Move: (0,0) -> (1,0)
+2021-05-28 17:43:52 INFO  GameController:166 - Click on square (1,2)
+2021-05-28 17:43:52 INFO  GameController:166 - Click on square (1,1)
+2021-05-28 17:43:52 INFO  GameController:184 - Moving piece 1 LEFT
+2021-05-28 17:43:52 INFO  GameController:258 - Move: (1,2) -> (1,1)
+2021-05-28 17:43:52 INFO  GameController:162 - Click on square (1,0)
+2021-05-28 17:43:52 INFO  GameController:162 - Click on square (2,0)
+2021-05-28 17:43:52 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-28 17:43:52 INFO  GameController:258 - Move: (1,0) -> (2,0)
+2021-05-28 17:43:54 INFO  GameController:359 - Game informationGameRecord(Createtime=2021-05-28T15:43:54.227120100Z, Winer=asd, Step=7, Playgame=00:00:08, Playone=asd, Playtwo=da)
+2021-05-28 17:43:54 INFO  JaxbUtil:42 - Write data to file
+2021-05-28 17:43:56 DEBUG GameController:334 - Quit is pressed
+2021-05-28 17:43:56 INFO  GameController:336 - The game has been stopped
+2021-05-28 17:43:56 INFO  GameController:338 - Loading high scores scene...
+2021-05-28 17:43:56 DEBUG SettlementController:52 - Loading Play record...
+2021-05-28 17:43:56 INFO  JaxbUtil:56 - Gets the data set in the file
+2021-05-28 17:45:36 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-28 17:47:04 INFO  PlayBoardGameApplication:23 - Starting application...

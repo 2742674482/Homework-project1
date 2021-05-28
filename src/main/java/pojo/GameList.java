@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 import java.util.ArrayList;
 import java.util.List;
 /**
- * Convert game data into list。
+ * Convert game data into list.
  */
 @Data
 @XmlRootElement(name = "Bean")

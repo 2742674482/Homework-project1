@@ -18,28 +18,28 @@ public class GameRecord {
     /**
      * create time.
      */
-    public String Createtime;
+    private String Createtime;
     /**
      * player.
      */
-    public String Winer;//玩家
+    private String Winer;//玩家
     /**
      * step.
      */
-    public int Step;//步数
+    private int Step;//步数
     /**
      * the time of gameplay.
      */
-    public String Playgame;//游戏所用时长
+    private String Playgame;//游戏所用时长
 
     /**
      * Play1.
      */
-    public String Playone;//玩家/**
+    private String Playone;//玩家/**
     /**
      * Play2.
      */
-    public String Playtwo;//玩家
+    private String Playtwo;//玩家
 
 
 }
