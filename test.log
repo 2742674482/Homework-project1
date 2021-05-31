@@ -6142,3 +6142,59 @@ GameRecord(Createtime=2021-05-20T18:31:34.016488600Z, player=215321532, step=6, 
 2021-05-28 17:43:56 INFO  JaxbUtil:56 - Gets the data set in the file
 2021-05-28 17:45:36 INFO  PlayBoardGameApplication:23 - Starting application...
 2021-05-28 17:47:04 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-31 10:15:51 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-31 10:16:00 INFO  StartController:53 - The player1 name is set to {jff}, loading game scene
+2021-05-31 10:16:00 INFO  StartController:54 - The player2 name is set to {gdf}, loading game scene
+2021-05-31 10:16:02 INFO  GameController:162 - Click on square (4,0)
+2021-05-31 10:16:03 INFO  GameController:162 - Click on square (3,0)
+2021-05-31 10:16:03 INFO  GameController:184 - Moving piece 4 UP
+2021-05-31 10:16:03 INFO  GameController:258 - Move: (4,0) -> (3,0)
+2021-05-31 10:16:08 INFO  GameController:166 - Click on square (4,1)
+2021-05-31 10:16:08 INFO  GameController:166 - Click on square (3,1)
+2021-05-31 10:16:08 INFO  GameController:184 - Moving piece 5 UP
+2021-05-31 10:16:08 INFO  GameController:258 - Move: (4,1) -> (3,1)
+2021-05-31 10:16:10 INFO  GameController:162 - Click on square (3,0)
+2021-05-31 10:16:10 INFO  GameController:162 - Click on square (2,0)
+2021-05-31 10:16:10 INFO  GameController:184 - Moving piece 4 UP
+2021-05-31 10:16:10 INFO  GameController:258 - Move: (3,0) -> (2,0)
+2021-05-31 10:16:11 INFO  GameController:166 - Click on square (3,1)
+2021-05-31 10:16:11 INFO  GameController:166 - Click on square (4,1)
+2021-05-31 10:16:11 INFO  GameController:184 - Moving piece 5 DOWN
+2021-05-31 10:16:11 INFO  GameController:258 - Move: (3,1) -> (4,1)
+2021-05-31 10:16:12 INFO  GameController:162 - Click on square (4,2)
+2021-05-31 10:16:12 INFO  GameController:162 - Click on square (3,2)
+2021-05-31 10:16:12 INFO  GameController:184 - Moving piece 6 UP
+2021-05-31 10:16:12 INFO  GameController:258 - Move: (4,2) -> (3,2)
+2021-05-31 10:16:14 INFO  GameController:166 - Click on square (4,1)
+2021-05-31 10:16:14 INFO  GameController:166 - Click on square (4,0)
+2021-05-31 10:16:14 INFO  GameController:184 - Moving piece 5 LEFT
+2021-05-31 10:16:14 INFO  GameController:258 - Move: (4,1) -> (4,0)
+2021-05-31 10:16:15 INFO  GameController:162 - Click on square (2,0)
+2021-05-31 10:16:16 INFO  GameController:162 - Click on square (2,1)
+2021-05-31 10:16:16 INFO  GameController:184 - Moving piece 4 RIGHT
+2021-05-31 10:16:16 INFO  GameController:258 - Move: (2,0) -> (2,1)
+2021-05-31 10:16:16 INFO  GameController:166 - Click on square (4,0)
+2021-05-31 10:16:17 INFO  GameController:166 - Click on square (4,1)
+2021-05-31 10:16:17 INFO  GameController:184 - Moving piece 5 RIGHT
+2021-05-31 10:16:17 INFO  GameController:258 - Move: (4,0) -> (4,1)
+2021-05-31 10:16:18 INFO  GameController:162 - Click on square (0,0)
+2021-05-31 10:16:18 INFO  GameController:162 - Click on square (1,0)
+2021-05-31 10:16:18 INFO  GameController:184 - Moving piece 0 DOWN
+2021-05-31 10:16:18 INFO  GameController:258 - Move: (0,0) -> (1,0)
+2021-05-31 10:16:25 INFO  GameController:359 - Game informationGameRecord(Createtime=2021-05-31T08:16:25.343315500Z, Winer=jff, Step=9, Playgame=00:00:25, Playone=jff, Playtwo=gdf)
+2021-05-31 10:16:25 INFO  JaxbUtil:43 - Write data to file
+2021-05-31 10:16:48 DEBUG GameController:318 - Reset is pressed
+2021-05-31 10:16:48 INFO  GameController:319 - Resetting game...
+2021-05-31 10:16:52 DEBUG GameController:334 - Quit is pressed
+2021-05-31 10:16:52 INFO  GameController:336 - The game has been stopped
+2021-05-31 10:16:52 INFO  GameController:338 - Loading high scores scene...
+2021-05-31 10:16:52 DEBUG SettlementController:52 - Loading Play record...
+2021-05-31 10:16:52 INFO  JaxbUtil:57 - Gets the data set in the file
+2021-05-31 10:17:01 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-31 10:17:04 INFO  StartController:53 - The player1 name is set to {b}, loading game scene
+2021-05-31 10:17:04 INFO  StartController:54 - The player2 name is set to {mb}, loading game scene
+2021-05-31 10:17:05 DEBUG GameController:334 - Quit is pressed
+2021-05-31 10:17:05 INFO  GameController:336 - The game has been stopped
+2021-05-31 10:17:05 INFO  GameController:338 - Loading high scores scene...
+2021-05-31 10:17:05 DEBUG SettlementController:52 - Loading Play record...
+2021-05-31 10:17:05 INFO  JaxbUtil:56 - Gets the data set in the file

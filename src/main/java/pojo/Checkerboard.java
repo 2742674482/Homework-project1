@@ -138,8 +138,8 @@ public class Checkerboard {
     }
 
     /**
-     *Get mobile collection.
-     * @return Get mobile collection return
+     *Get moving collection.
+     * @return Get moving collection return
      */
     public List<Position> getPiecePositions() {
         List<Position> positions = new ArrayList<>(pieces.length);

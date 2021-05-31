@@ -48,4 +48,12 @@
         <Playone>asd</Playone>
         <Playtwo>da</Playtwo>
     </Record>
+    <Record>
+        <Createtime>2021-05-31T08:16:25.343315500Z</Createtime>
+        <Winer>jff</Winer>
+        <Step>9</Step>
+        <Playgame>00:00:25</Playgame>
+        <Playone>jff</Playone>
+        <Playtwo>gdf</Playtwo>
+    </Record>
 </Bean>
