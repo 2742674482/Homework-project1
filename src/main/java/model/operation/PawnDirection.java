@@ -1,4 +1,4 @@
-package pojo.operation;
+package model.operation;
 
 /**
  * pawn direction.

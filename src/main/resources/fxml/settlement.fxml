@@ -18,12 +18,12 @@
     <children>
         <TableView fx:id="recordTable" editable="true" layoutX="25.0" layoutY="74.0" prefHeight="550.0" prefWidth="650.0" style="-fx-background-color: cornsilk;">
             <columns>
-                <TableColumn fx:id="winer" prefWidth="100.0" text="Winer" />
+                <TableColumn fx:id="winner" prefWidth="100.0" text="Winner" />
                 <TableColumn fx:id="step" prefWidth="50.0" text="Steps" />
-                <TableColumn fx:id="playgame" prefWidth="100.0" text="Duration" />
-                <TableColumn fx:id="createtime" prefWidth="195.0" text="Date" />
-                <TableColumn fx:id="playone" prefWidth="100.0" text="Playerone" />
-                <TableColumn fx:id="playtwo" prefWidth="100.0" text="Playertwo" />
+                <TableColumn fx:id="playTime" prefWidth="100.0" text="Duration" />
+                <TableColumn fx:id="createTime" prefWidth="195.0" text="Date" />
+                <TableColumn fx:id="playerOne" prefWidth="100.0" text="Playerone" />
+                <TableColumn fx:id="playerTwo" prefWidth="100.0" text="Playertwo" />
             </columns>
         </TableView>
         <Label layoutX="272.0" layoutY="32.0" text="Play Record">

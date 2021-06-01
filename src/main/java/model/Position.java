@@ -1,7 +1,7 @@
-package pojo;
+package model;
 
 import lombok.Data;
-import pojo.operation.Direction;
+import model.operation.Direction;
 
 /**
  * class of position.

@@ -1,7 +1,7 @@
 package controller;
 
 import dao.GameRecordDao;
-import pojo.GameRecord;
+import model.GameRecord;
 import jakarta.xml.bind.JAXBException;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -31,21 +31,21 @@ public class SettlementController {
     private TableView<GameRecord> recordTable;
 
     @FXML
-    private TableColumn<GameRecord, String> winer;
+    private TableColumn<GameRecord, String> winner;
 
     @FXML
     private TableColumn<GameRecord, Integer> step;
 
     @FXML
-    private TableColumn<GameRecord, String> playgame;
+    private TableColumn<GameRecord, String> playTime;
 
     @FXML
-    private TableColumn<GameRecord, String> createtime;
+    private TableColumn<GameRecord, String> createTime;
 
     @FXML
-    private TableColumn<GameRecord, String> playone;
+    private TableColumn<GameRecord, String> playerOne;
     @FXML
-    private TableColumn<GameRecord, String> playtwo;
+    private TableColumn<GameRecord, String> playerTwo;
 
     @FXML
     private void initialize() throws IOException, JAXBException {
@@ -53,12 +53,12 @@ public class SettlementController {
         List<GameRecord> gameRecords = new  GameRecordDao().OutputGamaRecord();
 
 
-        winer.setCellValueFactory(new PropertyValueFactory<>("Winer"));
-        step.setCellValueFactory(new PropertyValueFactory<>("Step"));
-        playgame.setCellValueFactory(new PropertyValueFactory<>("Playgame"));
-        createtime.setCellValueFactory(new PropertyValueFactory<>("Createtime"));
-        playone.setCellValueFactory(new PropertyValueFactory<>("Playone"));
-        playtwo.setCellValueFactory(new PropertyValueFactory<>("Playtwo"));
+        winner.setCellValueFactory(new PropertyValueFactory<>("winner"));
+        step.setCellValueFactory(new PropertyValueFactory<>("step"));
+        playTime.setCellValueFactory(new PropertyValueFactory<>("playTime"));
+        createTime.setCellValueFactory(new PropertyValueFactory<>("dateStarted"));
+        playerOne.setCellValueFactory(new PropertyValueFactory<>("playerOne"));
+        playerTwo.setCellValueFactory(new PropertyValueFactory<>("playerTwo"));
 
         ObservableList<GameRecord> observableResult = FXCollections.observableArrayList();
         observableResult.addAll(gameRecords);

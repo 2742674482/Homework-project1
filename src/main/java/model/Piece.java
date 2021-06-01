@@ -1,9 +1,9 @@
-package pojo;
+package model;
 
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import lombok.Data;
-import pojo.operation.Direction;
+import model.operation.Direction;
 
 /**
  class of piece.

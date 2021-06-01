@@ -1,4 +1,4 @@
-package pojo;
+package model;
 
 /**
  * class of piece type.

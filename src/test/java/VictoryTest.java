@@ -1,5 +1,5 @@
 import org.junit.jupiter.api.Test;
-import pojo.Victory;
+import model.Victory;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

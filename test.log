@@ -1543,8 +1543,8 @@ GameRecord(Createtime=2021-05-20T18:31:34.016488600Z, player=215321532, step=6, 
 2021-05-21 04:58:05 INFO  GameController:249 - Move: (4,2) -> (4,1)
 2021-05-21 04:58:06 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T20:58:06.444644900Z, player=w, step=6, playgame=00:00:06)
 2021-05-21 04:58:06 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
-2021-05-21 04:58:06 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class pojo.GameRecord), not marked as ignorable (4 known properties: "player", "step", "playgame", "createtime"])
- at [Source: (StringReader); line: 1, column: 30] (through reference chain: pojo.GameRecord["Player"])
+2021-05-21 04:58:06 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class model.GameRecord), not marked as ignorable (4 known properties: "player", "step", "playgame", "createtime"])
+ at [Source: (StringReader); line: 1, column: 30] (through reference chain: model.GameRecord["Player"])
 2021-05-21 04:58:48 INFO  PlayBoardGameApplication:21 - Starting application...
 2021-05-21 04:58:53 INFO  StartController:45 - The player1 name is set to {ee}, loading game scene
 2021-05-21 04:58:53 INFO  StartController:46 - The player2 name is set to {ss}, loading game scene
@@ -1574,8 +1574,8 @@ GameRecord(Createtime=2021-05-20T18:31:34.016488600Z, player=215321532, step=6, 
 2021-05-21 04:58:58 INFO  GameController:249 - Move: (4,2) -> (4,1)
 2021-05-21 04:58:59 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T20:58:59.807638700Z, player=ee, step=6, playgame=00:00:06)
 2021-05-21 04:58:59 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
-2021-05-21 04:58:59 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class pojo.GameRecord), not marked as ignorable (4 known properties: "player", "step", "playgame", "createtime"])
- at [Source: (StringReader); line: 1, column: 30] (through reference chain: pojo.GameRecord["Player"])
+2021-05-21 04:58:59 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class model.GameRecord), not marked as ignorable (4 known properties: "player", "step", "playgame", "createtime"])
+ at [Source: (StringReader); line: 1, column: 30] (through reference chain: model.GameRecord["Player"])
 2021-05-21 04:59:52 INFO  PlayBoardGameApplication:21 - Starting application...
 2021-05-21 04:59:56 INFO  StartController:45 - The player1 name is set to {asdf}, loading game scene
 2021-05-21 04:59:56 INFO  StartController:46 - The player2 name is set to {asa}, loading game scene
@@ -1605,8 +1605,8 @@ GameRecord(Createtime=2021-05-20T18:31:34.016488600Z, player=215321532, step=6, 
 2021-05-21 05:00:00 INFO  GameController:249 - Move: (4,2) -> (4,1)
 2021-05-21 05:00:02 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T21:00:02.151594400Z, player=asdf, step=6, playgame=00:00:05)
 2021-05-21 05:00:02 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
-2021-05-21 05:00:02 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class pojo.GameRecord), not marked as ignorable (4 known properties: "player", "step", "playgame", "createtime"])
- at [Source: (StringReader); line: 1, column: 30] (through reference chain: pojo.GameRecord["Player"])
+2021-05-21 05:00:02 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class model.GameRecord), not marked as ignorable (4 known properties: "player", "step", "playgame", "createtime"])
+ at [Source: (StringReader); line: 1, column: 30] (through reference chain: model.GameRecord["Player"])
 2021-05-21 05:03:08 INFO  PlayBoardGameApplication:21 - Starting application...
 2021-05-21 05:03:13 INFO  StartController:45 - The player1 name is set to {wer}, loading game scene
 2021-05-21 05:03:13 INFO  StartController:46 - The player2 name is set to {aaa}, loading game scene
@@ -1665,8 +1665,8 @@ GameRecord(Createtime=2021-05-20T18:31:34.016488600Z, player=215321532, step=6, 
 2021-05-21 05:04:42 INFO  GameController:249 - Move: (4,2) -> (4,1)
 2021-05-21 05:04:43 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T21:04:43.266444700Z, player=qwe, step=6, playgame=00:00:05)
 2021-05-21 05:04:43 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
-2021-05-21 05:04:43 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class pojo.GameRecord), not marked as ignorable (5 known properties: "Createtime", "step", "playgame", "player", "createtime"])
- at [Source: (StringReader); line: 1, column: 30] (through reference chain: pojo.GameRecord["Player"])
+2021-05-21 05:04:43 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class model.GameRecord), not marked as ignorable (5 known properties: "Createtime", "step", "playgame", "player", "createtime"])
+ at [Source: (StringReader); line: 1, column: 30] (through reference chain: model.GameRecord["Player"])
 2021-05-21 05:06:31 INFO  PlayBoardGameApplication:21 - Starting application...
 2021-05-21 05:06:34 INFO  StartController:45 - The player1 name is set to {ew}, loading game scene
 2021-05-21 05:06:34 INFO  StartController:46 - The player2 name is set to {as}, loading game scene
@@ -1696,8 +1696,8 @@ GameRecord(Createtime=2021-05-20T18:31:34.016488600Z, player=215321532, step=6, 
 2021-05-21 05:06:40 INFO  GameController:249 - Move: (4,2) -> (4,1)
 2021-05-21 05:06:41 INFO  GameController:326 - Game informationGameRecord(Createtime=2021-05-20T21:06:41.402826900Z, player=ew, step=6, playgame=00:00:06)
 2021-05-21 05:06:41 DEBUG XmlUtil:34 - FilePath:/F:/外包/homework-template-project-master/target/classes/xml/GameRecord.xml
-2021-05-21 05:06:41 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class pojo.GameRecord), not marked as ignorable (5 known properties: "Createtime", "step", "playgame", "player", "createtime"])
- at [Source: (StringReader); line: 1, column: 30] (through reference chain: pojo.GameRecord["Player"])
+2021-05-21 05:06:41 INFO  GameController:277 - com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "Player" (class model.GameRecord), not marked as ignorable (5 known properties: "Createtime", "step", "playgame", "player", "createtime"])
+ at [Source: (StringReader); line: 1, column: 30] (through reference chain: model.GameRecord["Player"])
 2021-05-21 05:07:40 INFO  PlayBoardGameApplication:21 - Starting application...
 2021-05-21 05:07:44 INFO  StartController:45 - The player1 name is set to {wre}, loading game scene
 2021-05-21 05:07:44 INFO  StartController:46 - The player2 name is set to {dsa}, loading game scene
@@ -6198,3 +6198,155 @@ GameRecord(Createtime=2021-05-20T18:31:34.016488600Z, player=215321532, step=6, 
 2021-05-31 10:17:05 INFO  GameController:338 - Loading high scores scene...
 2021-05-31 10:17:05 DEBUG SettlementController:52 - Loading Play record...
 2021-05-31 10:17:05 INFO  JaxbUtil:56 - Gets the data set in the file
+2021-05-31 13:51:53 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-05-31 13:51:56 INFO  StartController:53 - The player1 name is set to {bxb}, loading game scene
+2021-05-31 13:51:56 INFO  StartController:54 - The player2 name is set to {xg}, loading game scene
+2021-05-31 13:51:56 INFO  GameController:162 - Click on square (4,0)
+2021-05-31 13:51:58 INFO  GameController:162 - Click on square (3,0)
+2021-05-31 13:51:58 INFO  GameController:184 - Moving piece 4 UP
+2021-05-31 13:51:58 INFO  GameController:258 - Move: (4,0) -> (3,0)
+2021-05-31 13:52:02 INFO  GameController:166 - Click on square (4,1)
+2021-05-31 13:52:02 INFO  GameController:166 - Click on square (3,1)
+2021-05-31 13:52:02 INFO  GameController:184 - Moving piece 5 UP
+2021-05-31 13:52:02 INFO  GameController:258 - Move: (4,1) -> (3,1)
+2021-06-01 14:42:52 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-06-01 14:42:57 INFO  StartController:53 - The player1 name is set to {ad}, loading game scene
+2021-06-01 14:42:57 INFO  StartController:54 - The player2 name is set to {da}, loading game scene
+2021-06-01 14:42:59 INFO  GameController:159 - Click on square (4,0)
+2021-06-01 14:43:00 INFO  GameController:159 - Click on square (3,0)
+2021-06-01 14:43:00 INFO  GameController:177 - Moving piece 4 UP
+2021-06-01 14:43:00 INFO  GameController:251 - Move: (4,0) -> (3,0)
+2021-06-01 14:43:01 INFO  GameController:159 - Click on square (4,1)
+2021-06-01 14:43:01 INFO  GameController:159 - Click on square (3,1)
+2021-06-01 14:43:01 INFO  GameController:177 - Moving piece 5 UP
+2021-06-01 14:43:01 INFO  GameController:251 - Move: (4,1) -> (3,1)
+2021-06-01 14:43:02 INFO  GameController:159 - Click on square (3,1)
+2021-06-01 14:43:03 INFO  GameController:159 - Click on square (3,0)
+2021-06-01 14:43:04 INFO  GameController:159 - Click on square (2,0)
+2021-06-01 14:43:04 INFO  GameController:177 - Moving piece 4 UP
+2021-06-01 14:43:04 INFO  GameController:251 - Move: (3,0) -> (2,0)
+2021-06-01 14:43:04 INFO  GameController:159 - Click on square (3,1)
+2021-06-01 14:43:05 INFO  GameController:159 - Click on square (2,1)
+2021-06-01 14:43:05 INFO  GameController:177 - Moving piece 5 UP
+2021-06-01 14:43:05 INFO  GameController:251 - Move: (3,1) -> (2,1)
+2021-06-01 14:43:06 INFO  GameController:159 - Click on square (0,0)
+2021-06-01 14:43:06 INFO  GameController:159 - Click on square (1,0)
+2021-06-01 14:43:06 INFO  GameController:177 - Moving piece 0 DOWN
+2021-06-01 14:43:06 INFO  GameController:251 - Move: (0,0) -> (1,0)
+2021-06-01 14:43:07 INFO  GameController:159 - Click on square (2,1)
+2021-06-01 14:43:07 INFO  GameController:159 - Click on square (1,1)
+2021-06-01 14:43:07 INFO  GameController:177 - Moving piece 5 UP
+2021-06-01 14:43:07 INFO  GameController:251 - Move: (2,1) -> (1,1)
+2021-06-01 14:43:07 INFO  GameController:159 - Click on square (4,2)
+2021-06-01 14:43:08 INFO  GameController:159 - Click on square (4,1)
+2021-06-01 14:43:08 INFO  GameController:177 - Moving piece 6 LEFT
+2021-06-01 14:43:08 INFO  GameController:251 - Move: (4,2) -> (4,1)
+2021-06-01 14:43:08 INFO  GameController:159 - Click on square (1,1)
+2021-06-01 14:43:08 INFO  GameController:159 - Click on square (1,2)
+2021-06-01 14:43:08 INFO  GameController:177 - Moving piece 5 RIGHT
+2021-06-01 14:43:08 INFO  GameController:251 - Move: (1,1) -> (1,2)
+2021-06-01 14:43:09 INFO  GameController:159 - Click on square (4,1)
+2021-06-01 14:43:09 INFO  GameController:159 - Click on square (4,0)
+2021-06-01 14:43:09 INFO  GameController:177 - Moving piece 6 LEFT
+2021-06-01 14:43:09 INFO  GameController:251 - Move: (4,1) -> (4,0)
+2021-06-01 14:43:10 INFO  GameController:159 - Click on square (1,2)
+2021-06-01 14:43:10 INFO  GameController:159 - Click on square (1,1)
+2021-06-01 14:43:10 INFO  GameController:177 - Moving piece 5 LEFT
+2021-06-01 14:43:10 INFO  GameController:251 - Move: (1,2) -> (1,1)
+2021-06-01 14:43:11 INFO  GameController:159 - Click on square (4,0)
+2021-06-01 14:43:11 INFO  GameController:159 - Click on square (3,0)
+2021-06-01 14:43:11 INFO  GameController:177 - Moving piece 6 UP
+2021-06-01 14:43:11 INFO  GameController:251 - Move: (4,0) -> (3,0)
+2021-06-01 14:43:12 INFO  GameController:353 - Game informationGameRecord(dateStarted=2021-06-01T12:43:12.353386100Z, winner=ad, step=11, playTime=00:00:14, playerOne=ad, playerTwo=da)
+2021-06-01 14:43:12 INFO  JaxbUtil:57 - Write data to file:[GameRecord(dateStarted=null, winner=null, step=0, playTime=null, playerOne=null, playerTwo=null), GameRecord(dateStarted=null, winner=null, step=0, playTime=null, playerOne=null, playerTwo=null), GameRecord(dateStarted=null, winner=null, step=0, playTime=null, playerOne=null, playerTwo=null), GameRecord(dateStarted=null, winner=null, step=0, playTime=null, playerOne=null, playerTwo=null), GameRecord(dateStarted=null, winner=null, step=0, playTime=null, playerOne=null, playerTwo=null), GameRecord(dateStarted=null, winner=null, step=0, playTime=null, playerOne=null, playerTwo=null), GameRecord(dateStarted=null, winner=null, step=0, playTime=null, playerOne=null, playerTwo=null), GameRecord(dateStarted=2021-06-01T12:43:12.353386100Z, winner=ad, step=11, playTime=00:00:14, playerOne=ad, playerTwo=da)]
+2021-06-01 14:43:13 DEBUG GameController:328 - Quit is pressed
+2021-06-01 14:43:13 INFO  GameController:330 - The game has been stopped
+2021-06-01 14:43:13 INFO  GameController:332 - Loading high scores scene...
+2021-06-01 14:43:13 DEBUG SettlementController:52 - Loading Play record...
+2021-06-01 14:43:13 INFO  JaxbUtil:75 - Gets the data set in the file[GameRecord(dateStarted=null, winner=null, step=0, playTime=null, playerOne=null, playerTwo=null), GameRecord(dateStarted=null, winner=null, step=0, playTime=null, playerOne=null, playerTwo=null), GameRecord(dateStarted=null, winner=null, step=0, playTime=null, playerOne=null, playerTwo=null), GameRecord(dateStarted=null, winner=null, step=0, playTime=null, playerOne=null, playerTwo=null), GameRecord(dateStarted=null, winner=null, step=0, playTime=null, playerOne=null, playerTwo=null), GameRecord(dateStarted=null, winner=null, step=0, playTime=null, playerOne=null, playerTwo=null), GameRecord(dateStarted=null, winner=null, step=0, playTime=null, playerOne=null, playerTwo=null), GameRecord(dateStarted=2021-06-01T12:43:12.353386100Z, winner=ad, step=11, playTime=00:00:14, playerOne=ad, playerTwo=da)]
+2021-06-01 14:43:35 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-06-01 14:43:38 INFO  StartController:53 - The player1 name is set to {d}, loading game scene
+2021-06-01 14:43:38 INFO  StartController:54 - The player2 name is set to {a}, loading game scene
+2021-06-01 14:43:39 DEBUG GameController:328 - Quit is pressed
+2021-06-01 14:43:39 INFO  GameController:330 - The game has been stopped
+2021-06-01 14:43:39 INFO  GameController:332 - Loading high scores scene...
+2021-06-01 14:43:39 DEBUG SettlementController:52 - Loading Play record...
+2021-06-01 14:43:39 INFO  JaxbUtil:126 - File created successfully
+2021-06-01 14:45:13 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-06-01 14:45:16 INFO  StartController:53 - The player1 name is set to {rw}, loading game scene
+2021-06-01 14:45:16 INFO  StartController:54 - The player2 name is set to {da}, loading game scene
+2021-06-01 14:45:17 DEBUG GameController:328 - Quit is pressed
+2021-06-01 14:45:17 INFO  GameController:330 - The game has been stopped
+2021-06-01 14:45:17 INFO  GameController:332 - Loading high scores scene...
+2021-06-01 14:45:17 DEBUG SettlementController:52 - Loading Play record...
+2021-06-01 14:45:37 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-06-01 14:45:39 INFO  StartController:53 - The player1 name is set to {ca}, loading game scene
+2021-06-01 14:45:39 INFO  StartController:54 - The player2 name is set to {da}, loading game scene
+2021-06-01 14:45:40 INFO  GameController:159 - Click on square (4,0)
+2021-06-01 14:45:40 INFO  GameController:159 - Click on square (3,0)
+2021-06-01 14:45:40 INFO  GameController:177 - Moving piece 4 UP
+2021-06-01 14:45:40 INFO  GameController:251 - Move: (4,0) -> (3,0)
+2021-06-01 14:45:41 INFO  GameController:159 - Click on square (4,1)
+2021-06-01 14:45:41 INFO  GameController:159 - Click on square (3,1)
+2021-06-01 14:45:41 INFO  GameController:177 - Moving piece 5 UP
+2021-06-01 14:45:41 INFO  GameController:251 - Move: (4,1) -> (3,1)
+2021-06-01 14:45:41 INFO  GameController:159 - Click on square (4,2)
+2021-06-01 14:45:42 INFO  GameController:159 - Click on square (4,1)
+2021-06-01 14:45:42 INFO  GameController:177 - Moving piece 6 LEFT
+2021-06-01 14:45:42 INFO  GameController:251 - Move: (4,2) -> (4,1)
+2021-06-01 14:45:42 INFO  GameController:159 - Click on square (3,1)
+2021-06-01 14:45:43 INFO  GameController:159 - Click on square (3,2)
+2021-06-01 14:45:43 INFO  GameController:177 - Moving piece 5 RIGHT
+2021-06-01 14:45:43 INFO  GameController:251 - Move: (3,1) -> (3,2)
+2021-06-01 14:45:45 INFO  GameController:159 - Click on square (0,0)
+2021-06-01 14:45:45 INFO  GameController:159 - Click on square (1,0)
+2021-06-01 14:45:45 INFO  GameController:177 - Moving piece 0 DOWN
+2021-06-01 14:45:45 INFO  GameController:251 - Move: (0,0) -> (1,0)
+2021-06-01 14:45:45 INFO  GameController:159 - Click on square (0,1)
+2021-06-01 14:45:46 INFO  GameController:159 - Click on square (1,1)
+2021-06-01 14:45:46 INFO  GameController:177 - Moving piece 1 DOWN
+2021-06-01 14:45:46 INFO  GameController:251 - Move: (0,1) -> (1,1)
+2021-06-01 14:45:46 INFO  GameController:159 - Click on square (4,1)
+2021-06-01 14:45:47 INFO  GameController:159 - Click on square (4,0)
+2021-06-01 14:45:47 INFO  GameController:177 - Moving piece 6 LEFT
+2021-06-01 14:45:47 INFO  GameController:251 - Move: (4,1) -> (4,0)
+2021-06-01 14:45:47 INFO  GameController:159 - Click on square (1,1)
+2021-06-01 14:45:47 INFO  GameController:159 - Click on square (1,2)
+2021-06-01 14:45:47 INFO  GameController:177 - Moving piece 1 RIGHT
+2021-06-01 14:45:47 INFO  GameController:251 - Move: (1,1) -> (1,2)
+2021-06-01 14:45:48 INFO  GameController:159 - Click on square (1,0)
+2021-06-01 14:45:48 INFO  GameController:159 - Click on square (2,0)
+2021-06-01 14:45:48 INFO  GameController:177 - Moving piece 0 DOWN
+2021-06-01 14:45:48 INFO  GameController:251 - Move: (1,0) -> (2,0)
+2021-06-01 14:45:49 INFO  GameController:353 - Game informationGameRecord(dateStarted=2021-06-01T12:45:49.534938600Z, winner=ca, step=9, playTime=00:00:09, playerOne=ca, playerTwo=da)
+2021-06-01 14:45:49 INFO  JaxbUtil:126 - File created successfully
+2021-06-01 14:45:49 INFO  JaxbUtil:57 - Write data to file:[GameRecord(dateStarted=2021-06-01T12:45:49.534938600Z, winner=ca, step=9, playTime=00:00:09, playerOne=ca, playerTwo=da)]
+2021-06-01 14:45:52 INFO  GameController:159 - Click on square (3,2)
+2021-06-01 14:45:52 INFO  GameController:159 - Click on square (3,1)
+2021-06-01 14:45:53 INFO  GameController:159 - Click on square (3,2)
+2021-06-01 14:45:53 INFO  GameController:159 - Click on square (4,3)
+2021-06-01 14:46:14 DEBUG GameController:328 - Quit is pressed
+2021-06-01 14:46:14 INFO  GameController:330 - The game has been stopped
+2021-06-01 14:46:14 INFO  GameController:332 - Loading high scores scene...
+2021-06-01 14:46:14 DEBUG SettlementController:52 - Loading Play record...
+2021-06-01 14:46:14 INFO  JaxbUtil:75 - Gets the data set in the file[GameRecord(dateStarted=2021-06-01T12:45:49.534938600Z, winner=ca, step=9, playTime=00:00:09, playerOne=ca, playerTwo=da)]
+2021-06-01 14:46:45 INFO  PlayBoardGameApplication:23 - Starting application...
+2021-06-01 14:46:47 INFO  StartController:53 - The player1 name is set to {vs}, loading game scene
+2021-06-01 14:46:47 INFO  StartController:54 - The player2 name is set to {da}, loading game scene
+2021-06-01 14:46:50 INFO  GameController:159 - Click on square (4,0)
+2021-06-01 14:46:50 INFO  GameController:159 - Click on square (3,0)
+2021-06-01 14:46:50 INFO  GameController:177 - Moving piece 4 UP
+2021-06-01 14:46:50 INFO  GameController:251 - Move: (4,0) -> (3,0)
+2021-06-01 14:46:50 INFO  GameController:159 - Click on square (4,1)
+2021-06-01 14:46:51 INFO  GameController:159 - Click on square (3,1)
+2021-06-01 14:46:51 INFO  GameController:177 - Moving piece 5 UP
+2021-06-01 14:46:51 INFO  GameController:251 - Move: (4,1) -> (3,1)
+2021-06-01 14:46:51 INFO  GameController:159 - Click on square (4,2)
+2021-06-01 14:46:51 INFO  GameController:159 - Click on square (4,1)
+2021-06-01 14:46:51 INFO  GameController:177 - Moving piece 6 LEFT
+2021-06-01 14:46:51 INFO  GameController:251 - Move: (4,2) -> (4,1)
+2021-06-01 14:46:54 DEBUG GameController:328 - Quit is pressed
+2021-06-01 14:46:54 INFO  GameController:330 - The game has been stopped
+2021-06-01 14:46:54 INFO  GameController:332 - Loading high scores scene...
+2021-06-01 14:46:54 DEBUG SettlementController:52 - Loading Play record...
+2021-06-01 14:46:54 INFO  JaxbUtil:75 - Gets the data set in the file[GameRecord(dateStarted=2021-06-01T12:45:49.534938600Z, winner=ca, step=9, playTime=00:00:09, playerOne=ca, playerTwo=da)]

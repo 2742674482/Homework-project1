@@ -1,11 +1,11 @@
 package controller;
 
 import dao.GameRecordDao;
-import pojo.Checkerboard;
-import pojo.GameRecord;
-import pojo.Position;
-import pojo.operation.PawnDirection;
-import pojo.Victory;
+import model.Checkerboard;
+import model.GameRecord;
+import model.Position;
+import model.operation.PawnDirection;
+import model.Victory;
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
@@ -68,8 +68,6 @@ public class GameController {
     private Position selected;
 
     private Instant startTime;
-
-    private int status = 0;
 
     private Checkerboard model;
 
@@ -157,15 +155,10 @@ public class GameController {
                 color = String.valueOf(model.getPieceType(i));
             }
         }
-        if ((color.equals("RED")||color.equals(""))&&status==0) {
-            var position = new Position(row, col);
-            log.info("Click on square {}", position);
-            handleClickOnSquare(position);
-        } else if ((color.equals("BLUE")||color.equals(""))&&status==1) {
-            var position = new Position(row, col);
-            log.info("Click on square {}", position);
-            handleClickOnSquare(position);
-        }
+        var position = new Position(row, col);
+        log.info("Click on square {}", position);
+        handleClickOnSquare(position);
+
 
     }
 
@@ -271,7 +264,7 @@ public class GameController {
         }
         boolean result = new  Victory().victory(model,color);
         if (result == true) {
-            status = 2;
+            model.setStatus(2);
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.titleProperty().set("Win");
             alert.headerTextProperty().set("Congratulations on "+playerLabel.getText()+" victory");
@@ -287,11 +280,11 @@ public class GameController {
             }
         }
         if (color.equals("RED")&&result != true) {
-            status = 1;
+            model.setStatus(1);
             playerLabel.setText(player2Name);
             Platform.runLater(() -> messageLabel.setText("Now it's "+player2Name+" who goes"));
         }else if (color.equals("BLUE")&&result != true){
-            status = 0;
+            model.setStatus(0);
             Platform.runLater(() -> messageLabel.setText("Now it's "+player1Name+" who goes"));
             playerLabel.setText(player1Name);
         }
@@ -314,12 +307,13 @@ public class GameController {
      * @param actionEvent  Get mouse click events
      */
     public void handleResetButton(ActionEvent actionEvent) {
-        status = 0;
+        model.setStatus(0);
         log.debug("{} is pressed", ((Button) actionEvent.getSource()).getText());
         log.info("Resetting game...");
         stopWatchTimeline.stop();
         board.getChildren().clear();
         steps = 0;
+        selectionPhase = SelectionPhase.SELECT_FROM;
         stepsLabel.setText(String.valueOf(steps));
         initialize();
     }
@@ -350,12 +344,12 @@ public class GameController {
      */
     public GameRecord createGameResult() throws Exception {
         GameRecord result = new GameRecord();
-        result.setCreatetime(String.valueOf(Instant.now()));
-        result.setWiner(playerLabel.getText());
+        result.setDateStarted(String.valueOf(Instant.now()));
+        result.setWinner(playerLabel.getText());
         result.setStep(steps);
-        result.setPlaygame(stopWatchLabel.getText());
-        result.setPlayone(player1Name);
-        result.setPlaytwo(player2Name);
+        result.setPlayTime(stopWatchLabel.getText());
+        result.setPlayerOne(player1Name);
+        result.setPlayerTwo(player2Name);
         log.info("Game information" + result.toString());
         return result;
     }

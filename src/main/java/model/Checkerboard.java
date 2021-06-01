@@ -1,7 +1,8 @@
-package pojo;
+package model;
+
 
 import javafx.beans.property.ObjectProperty;
-import pojo.operation.PawnDirection;
+import model.operation.PawnDirection;
 
 import java.util.*;
 
@@ -12,6 +13,8 @@ public class Checkerboard {
 
 
     private final Piece[] pieces;
+    //状态控制
+    private int status = 0;
 
     /**
      *Chessboard initialization.
@@ -95,6 +98,10 @@ public class Checkerboard {
         if (! isOnBoard(newPosition)) {
             return false;
         }
+        String color = String.valueOf(pieces[pieceNumber].getType());
+        if ((status == 1 && "RED".equals(color))||(status == 0 && "BLUE".equals(color))||status == 2) {
+            return false;
+        }
         for (var piece : pieces) {
             if (piece.getPosition().equals(newPosition)) {
                 return false;
@@ -144,7 +151,13 @@ public class Checkerboard {
     public List<Position> getPiecePositions() {
         List<Position> positions = new ArrayList<>(pieces.length);
         for (var piece : pieces) {
-            positions.add(piece.getPosition());
+            String color = String.valueOf(piece.getType());
+            if (status == 0 && color.equals("RED")) {
+                positions.add(piece.getPosition());
+            }else if (status == 1 && color.equals("BLUE")) {
+                positions.add(piece.getPosition());
+            }
+
         }
         return positions;
     }
@@ -164,6 +177,22 @@ public class Checkerboard {
     }
 
     /**
+     *
+     * @return
+     */
+    public int getStatus() {
+        return status;
+    }
+
+    /**
+     *
+     * @param status
+     */
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
+    /**
      *All data are printed out.
      * @return character string
      */
@@ -174,6 +203,5 @@ public class Checkerboard {
         }
         return joiner.toString();
     }
-
 
 }

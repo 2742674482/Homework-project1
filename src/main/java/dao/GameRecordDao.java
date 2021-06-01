@@ -1,6 +1,6 @@
 package dao;
 
-import pojo.GameRecord;
+import model.GameRecord;
 import util.JaxbUtil;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import jakarta.xml.bind.JAXBException;
