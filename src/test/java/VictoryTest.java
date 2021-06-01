@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class VictoryTest {
     @Test
-    void winColtest(){
+    void winColTest(){
         assertTrue(Victory.winCol(new int[][]{
                 {0,0,0,0},
                 {1,1,1,0},
@@ -17,7 +17,7 @@ public class VictoryTest {
     }
 
     @Test
-    void winRowtest(){
+    void winRowTest(){
         assertTrue(Victory.winRow(new int[][]{
                 {1,0,0,0},
                 {1,0,0,0},
@@ -28,7 +28,7 @@ public class VictoryTest {
     }
 
     @Test
-    void winLeftLeatest(){
+    void winLeftLeaTest(){
         assertTrue(Victory.winLeftLea(new int[][]{
                 {0,0,0,0},
                 {0,1,0,1},
@@ -39,7 +39,7 @@ public class VictoryTest {
     }
 
     @Test
-    void winRightLeatest(){
+    void winRightLeaTest(){
         assertTrue(Victory.winRightLea(new int[][]{
                 {0,0,1,0},
                 {0,1,0,0},

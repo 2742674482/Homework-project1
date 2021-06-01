@@ -1,7 +1,7 @@
 package model.operation;
 
 /**
- * pawn direction.
+ * implement Direction then refactor the getRowChange and getColChange.
  */
 public enum PawnDirection implements Direction {
 
@@ -52,10 +52,10 @@ public enum PawnDirection implements Direction {
     }
 
     /**
-     *Direction control.
+     * Direction find if its exist.
      * @param rowChange change of row
      * @param colChange change of col
-     * @return Return row and column data
+     * @return {@code direction} if its true ,or throw IllegalArgumentException
      */
     public static PawnDirection of(int rowChange, int colChange) {
         for (var direction : values()) {

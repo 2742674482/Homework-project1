@@ -7,7 +7,7 @@ import model.operation.PawnDirection;
 import java.util.*;
 
 /**
- *Chessboard generation class.
+ * generation a model to control all data in this game.
  */
 public class Checkerboard {
 
@@ -17,7 +17,7 @@ public class Checkerboard {
     private int status = 0;
 
     /**
-     *Chessboard initialization.
+     *initialization all pieces data.
      */
     public Checkerboard() {
         this(new Piece( PieceType.RED, new Position(0, 0)),
@@ -31,14 +31,18 @@ public class Checkerboard {
     }
 
     /**
-     *Chessboard initialization.
-     * @param pieces pieces
+     * Chessboard initialization.
+     * @param pieces
      */
     public Checkerboard(Piece... pieces) {
         checkPieces(pieces);
         this.pieces = pieces;
     }
 
+    /**
+     * find if the position of pieces over the board.If it did ,throw IllegalArgumentException.
+     * @param pieces
+     */
     private void checkPieces(Piece[] pieces) {
         var seen = new HashSet<Position>();
         for (var piece : pieces) {
@@ -51,25 +55,25 @@ public class Checkerboard {
 
     /**
      * Get the number of pieces.
-     * @return number of pieces
+     * @return {@code pieces.length}
      */
     public int getPieceCount() {
         return pieces.length;
     }
 
     /**
-     *Get the color of the pieces.
+     * Get the color of the pieces.
      * @param pieceNumber number of pieceNumber
-     * @return number of pieceNumber
+     * @return the type of piece
      */
     public PieceType getPieceType(int pieceNumber) {
         return pieces[pieceNumber].getType();
     }
 
     /**
-     *Get the position of the pieces.
+     * Get the position of the pieces.
      * @param pieceNumber number of pieceNumber
-     * @return number of pieceNumber
+     * @return the position o piece
      */
     public Position getPiecePosition(int pieceNumber) {
         return pieces[pieceNumber].getPosition();
@@ -88,7 +92,7 @@ public class Checkerboard {
      * Judge whether the movement of chess pieces is effective.
      * @param pieceNumber piece Number
      * @param direction Direction of movement
-     * @return Can it move
+     * @return boolean
      */
     public boolean isValidMove(int pieceNumber, PawnDirection direction) {
         if (pieceNumber < 0 || pieceNumber >= pieces.length) {
@@ -137,7 +141,7 @@ public class Checkerboard {
     /**
      *Set the range of chess pieces to move.
      * @param position position of piece
-     * @return result
+     * @return boolean
      */
     public static boolean isOnBoard(Position position) {
         return 0 <= position.getRow() && position.getRow() < 5
@@ -146,7 +150,7 @@ public class Checkerboard {
 
     /**
      *Get moving collection.
-     * @return Get moving collection return
+     * @return {@code positions}
      */
     public List<Position> getPiecePositions() {
         List<Position> positions = new ArrayList<>(pieces.length);
@@ -165,7 +169,7 @@ public class Checkerboard {
     /**
      *Get all the directions you can move.
      * @param position Direction object
-     * @return data
+     * @return int
      */
     public OptionalInt getPieceNumber(Position position) {
         for (int i = 0; i < pieces.length; i++) {
@@ -177,15 +181,15 @@ public class Checkerboard {
     }
 
     /**
-     *
-     * @return
+     * Get checkerboard the status.
+     * @return int
      */
     public int getStatus() {
         return status;
     }
 
     /**
-     *
+     *Set checkerboard the status.
      * @param status
      */
     public void setStatus(int status) {

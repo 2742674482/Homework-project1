@@ -6,7 +6,7 @@ import lombok.Data;
 import model.operation.Direction;
 
 /**
- class of piece.
+ * save the position and color of piece.
  */
 @Data
 public class Piece {
@@ -24,7 +24,7 @@ public class Piece {
     }
 
     /**
-     * piece move to.
+     * piece move to another position.
      * @param direction piece direction
      */
     public void moveTo(Direction direction) {
@@ -34,7 +34,7 @@ public class Piece {
 
     /**
      * get the position.
-     * @return get the position
+     * @return the position of piece
      */
     public Position getPosition() {
         return position.get();

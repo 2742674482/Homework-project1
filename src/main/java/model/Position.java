@@ -4,7 +4,7 @@ import lombok.Data;
 import model.operation.Direction;
 
 /**
- * class of position.
+ * let the row and col of piece coalesce to a position class.
  */
 @Data
 public class Position {
@@ -22,9 +22,9 @@ public class Position {
     }
 
     /**
-     * move method.
+     * let the current row and col to calculate with PawnDirection.
      * @param direction direction
-     * @return row and col move to
+     * @return Position
      */
     public Position moveTo(Direction direction) {
         return new Position(row + direction.getRowChange(), col + direction.getColChange());

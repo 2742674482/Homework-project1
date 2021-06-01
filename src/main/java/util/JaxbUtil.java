@@ -22,23 +22,23 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * class of jaxb.
+ * Convert entity class objects into xml data format, and convert xml into entity class objects.
  */
 @Slf4j
 public class JaxbUtil {
     /**
      * Convert data format and write data to file.
      *
-     * @param gameRecord
+     * @param gameRecord record the game data
      * @throws JAXBException,IOException
      */
     public void BeanXml(GameRecord gameRecord) throws JAXBException, IOException {
         GameList gameList = new GameList();
         JAXBContext jaxbContext = JAXBContext.newInstance(gameList.getClass());
-        createfile();
+        createFile();
         System.out.println(gameRecord.toString());
         List<GameRecord> gameRecords = new ArrayList<>();
-        FileInputStream fi = new FileInputStream("gamerecord.xml");
+        FileInputStream fi = new FileInputStream("gameRecord.xml");
         //先读取文件中的数据
         Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
         gameList = (GameList) unmarshaller.unmarshal(fi);
@@ -53,12 +53,12 @@ public class JaxbUtil {
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
         marshaller.setProperty(Marshaller.JAXB_ENCODING, "UTF-8");
         //再次将所有的数据写入到文件中
-        marshaller.marshal(gameList, new FileOutputStream("gamerecord.xml"));
+        marshaller.marshal(gameList, new FileOutputStream("gameRecord.xml"));
         log.info("Write data to file:" + gameList.getGameRecords().toString());
     }
 
     /**
-     * Get game record collection.
+     * Obtain the data from the xml file and convert it into an object.
      *
      * @return Game record collection
      * @throws IOException,JAXBException
@@ -67,8 +67,8 @@ public class JaxbUtil {
         GameList gameList = new GameList();
         JAXBContext jaxbContext = JAXBContext.newInstance(gameList.getClass());
         Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
-        createfile();
-        FileInputStream fi = new FileInputStream("gamerecord.xml");
+        createFile();
+        FileInputStream fi = new FileInputStream("gameRecord.xml");
         gameList = (GameList) unmarshaller.unmarshal(fi);
         List<GameRecord> gameRecords = new ArrayList<>();
         if (gameList.getGameRecords() != null) {
@@ -100,12 +100,12 @@ public class JaxbUtil {
     }
 
     /**
-     * find the file is exit or not,if not,create a new file.
+     * find the file is exit or not,if not,create a new xml file.
      *
      * @throws IOException
      */
-    public static void createfile(){
-        File file = new File("gamerecord.xml");
+    public static void createFile(){
+        File file = new File("gameRecord.xml");
         if (!file.exists())
             try {
                 // 创建解析器工厂
@@ -122,7 +122,7 @@ public class JaxbUtil {
                 // 输出内容是否使用换行
                 tf.setOutputProperty(OutputKeys.INDENT, "yes");
                 // 创建xml文件并写入内容
-                tf.transform(new DOMSource(document), new StreamResult(new File("gamerecord.xml")));
+                tf.transform(new DOMSource(document), new StreamResult(new File("gameRecord.xml")));
                 log.info("File created successfully");
             } catch (Exception e) {
                 log.error(String.valueOf(e));

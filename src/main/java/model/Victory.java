@@ -7,22 +7,22 @@ import java.util.List;
  * class of how to victory.
  */
 public class Victory {
-    int[][] chead = new int[5][4];
+    int[][] board = new int[5][4];
 
     List<Position> positions = new  ArrayList<Position>();
 
     /**
-     *Integrate the input data.
+     * Convert Checkerboard object into the corresponding two-dimensional array
      * @param checkerboard checkerboard
      * @param color color
-     * @return Win or not
+     * @return boolean
      */
 
 
     public boolean victory(Checkerboard checkerboard, String color){
-        for (int i = 0; i < chead.length; i++) {
-            for (int j = 0; j < chead[0].length; j++) {
-                chead[i][j] = 0;
+        for (int i = 0; i < board.length; i++) {
+            for (int j = 0; j < board[0].length; j++) {
+                board[i][j] = 0;
             }
         }
 
@@ -31,11 +31,11 @@ public class Victory {
             if (color.equals(colornow)) {
                 Position position = checkerboard.getPiecePosition(i);
                 positions.add(position);
-                chead[position.getRow()][position.getCol()] = 1;
+                board[position.getRow()][position.getCol()] = 1;
             }
         }
         for (int i = 0; i < positions.size(); i++) {
-            if (winOrLoseCheck(chead,positions.get(i).getRow(),positions.get(i).getCol())==true) {
+            if (winOrLoseCheck(board,positions.get(i).getRow(),positions.get(i).getCol())==true) {
                 return true;
             }
         }
@@ -48,7 +48,7 @@ public class Victory {
      * @param board
      * @param row
      * @param col
-     * @return true is win
+     * @return boolean
      */
     public static boolean winCol(int[][] board, final int row, final int col) {
         int rowCount = 1;
@@ -79,7 +79,7 @@ public class Victory {
      * @param board
      * @param row
      * @param col
-     * @return true is win
+     * @return boolean
      */
     public static boolean winRow(int[][] board, final int row, final int col) {
         int colCount = 1;
@@ -108,7 +108,7 @@ public class Victory {
      * @param board
      * @param row
      * @param col
-     * @return ture is win
+     * @return boolean
      */
     public static boolean winLeftLea(int[][] board, final int row, final int col) {
         int leftLeaCount = 1;
@@ -138,7 +138,7 @@ public class Victory {
      * @param board
      * @param row
      * @param col
-     * @return true is win
+     * @return boolean
      */
     public static boolean winRightLea(int[][] board, final int row, final int col) {
         int rightLeaCount = 1;
@@ -164,11 +164,11 @@ public class Victory {
     }
 
     /**
-     *find it win or lose.
+     *find if it win in all direction.
      * @param board board
      * @param row row
      * @param col col
-     * @return  win or lose
+     * @return  boolean
      */
     public static boolean winOrLoseCheck(
             /**
