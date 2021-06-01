@@ -12,7 +12,7 @@ public class Victory {
     List<Position> positions = new  ArrayList<Position>();
 
     /**
-     * Convert Checkerboard object into the corresponding two-dimensional array
+     * Convert Checkerboard object into the corresponding two-dimensional array.
      * @param checkerboard checkerboard
      * @param color color
      * @return boolean
