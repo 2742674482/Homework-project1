@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class CheckBoardTest {
+public class CheckerBoardTest {
     private static Checkerboard testModel;
 
 
