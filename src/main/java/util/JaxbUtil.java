@@ -36,7 +36,6 @@ public class JaxbUtil {
         GameList gameList = new GameList();
         JAXBContext jaxbContext = JAXBContext.newInstance(gameList.getClass());
         createFile();
-        System.out.println(gameRecord.toString());
         List<GameRecord> gameRecords = new ArrayList<>();
         FileInputStream fi = new FileInputStream("gameRecord.xml");
         //先读取文件中的数据
